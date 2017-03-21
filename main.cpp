@@ -5,8 +5,8 @@
 #include "Graph.hpp"
 
 int main() {
-/*
-   Graph myMap;
+
+/*   Graph myMap;
 
    myMap.addCity("city1",234.234,3.524);
    myMap.addCity("city2",5786.36,746.746);

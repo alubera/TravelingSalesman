@@ -17,8 +17,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <unordered_map>
-#include <tuple>
+#include <unordered_set>
 #include <iostream>
 #include "Node.hpp"
 
@@ -32,9 +31,8 @@ class Graph {
       double const calcDist(std::string,std::string);
 
    private:
-      // using strings as keys for easy lookup for distance calculations
-      // tuple will hold long and lat coordinates
-      std::unordered_map<std::string, std::tuple<double,double> > cities;
+      std::unordered_set<Node,NodeHasher> cities;    // set to hold all city info
+   
 };
 
 Graph::Graph() {};
@@ -94,15 +92,16 @@ Graph::Graph(const std::string &filename) {
 
 void Graph::addCity(std::string city, double lat, double lon) {
    // just insert new city into graph with given params
-   cities[city] = std::make_tuple(lat,lon);
+   Node temp(city,lat,lon);
+   cities.insert(temp);
 }
 
 void const Graph::printCities() {
    // go through all cities printing out relevant info
    for (const auto& city: cities) {
-      std::cout << city.first;
-      std::cout << "\tLat: " << std::get<0>(city.second);
-      std::cout << "\tLon: " << std::get<1>(city.second);
+      std::cout << city.getName();
+      std::cout << "\tLat: " << city.getLat();
+      std::cout << "\tLon: " << city.getLon();
       std::cout << std::endl;
    }
 }
