@@ -8,9 +8,6 @@
 #ifndef GRAPH_HPP
 #define GRAPH_HPP
 
-#include <boost/property_tree/ptree.hpp>
-#include <boost/property_tree/json_parser.hpp>
-#include <boost/foreach.hpp>
 #include <cctype>
 #include <cassert>
 #include <exception>
@@ -20,7 +17,6 @@
 #include <unordered_map>
 #include <tuple>
 #include <iostream>
-#include "Node.hpp"
 
 class Graph {
  
@@ -28,6 +24,7 @@ class Graph {
       Graph();
       Graph(const std::string &);
       void addCity(std::string,double,double);
+      std::tuple<double,double> getCity(std::string);
       void const printCities();
       double const calcDist(std::string,std::string);
 
@@ -95,6 +92,14 @@ Graph::Graph(const std::string &filename) {
 void Graph::addCity(std::string city, double lat, double lon) {
    // just insert new city into graph with given params
    cities[city] = std::make_tuple(lat,lon);
+}
+
+std::tuple<double,double> Graph::getCity(std::string name) {
+   // returns tuple (lat,lon)
+   // throw assert if city is not in graph
+   auto got = cities.find(name);
+   assert(got != cities.end());
+   return got->second;
 }
 
 void const Graph::printCities() {
