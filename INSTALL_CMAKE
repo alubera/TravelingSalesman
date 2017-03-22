@@ -1,0 +1,9 @@
+TravelingSalesman is configured to be built with CMake.
+
+The cmake build method intends to be run out-of-source.
+
+1. Make build directory. If in TravelingSalesman/, mkdir build && cd build.
+2. Run CMake for the project. cmake ..
+3. make
+
+The executable main.out will be in the bin directory. 
