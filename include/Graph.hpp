@@ -10,6 +10,7 @@
 
 #include <cctype>
 #include <cassert>
+#include <cmath>
 #include <exception>
 #include <fstream>
 #include <sstream>
@@ -113,7 +114,25 @@ void const Graph::printCities() {
 }
 
 double const Graph::calcDist(std::string city1, std::string city2) {
-   // John will handle this one
+
+   auto got1 = cities.find(city1);
+   auto got2 = cities.find(city2);
+   assert(got1 != cities.end() && got2 != cities.end());
+
+   const double EARTH_RADIUS = 6371.0;
+   auto lat1 = std::get<0>(got1->second);
+   auto lon1 = std::get<1>(got1->second);
+   auto lat2 = std::get<0>(got2->second);
+   auto lon2 = std::get<1>(got2->second);
+
+   double dLat = (lat1 - lat2) * M_PI / 180;
+   double dLon = (lon1 - lon2) * M_PI / 180;
+
+   double hav_dist = ((1.0 - cos(dLat)) / 2.0) + cos(lat1 * M_PI / 180) * cos(lat2 * M_PI / 180)
+   * ((1.0 - cos(dLon)) / 2.0);
+
+   return 2.0 * EARTH_RADIUS * asin(sqrt(hav_dist));
+
 }
 
 #endif
