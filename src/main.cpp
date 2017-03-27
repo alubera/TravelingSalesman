@@ -14,7 +14,7 @@ int main() {
 */
 
    // non-default constructor reads in file
-   Graph myMap("../data/cities.json");
+   Graph myMap("../../data/cities.json");
 
    // try out city get function
    //std::cout << std::get<0>(myMap.getCity("Detroit")) << std::endl;
