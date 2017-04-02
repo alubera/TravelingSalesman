@@ -41,6 +41,11 @@ Graph::Graph() {};
 Graph::Graph(const std::string &filename) {
 
    std::ifstream fp(filename);
+
+   if (!fp) {
+     std::cout << "file not opened" << std::endl;
+   }
+
    std::string line, key, value;
    std::string city;
    double lon, lat;
@@ -114,7 +119,8 @@ void const Graph::printCities() {
 }
 
 double const Graph::calcDist(std::string city1, std::string city2) {
-
+   // computes the haversine distance between two cities
+   // throw assert if either cities is not in graph
    auto got1 = cities.find(city1);
    auto got2 = cities.find(city2);
    assert(got1 != cities.end() && got2 != cities.end());
