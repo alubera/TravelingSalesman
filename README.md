@@ -4,15 +4,18 @@
 This is a project for ACMS 60212 - Advanced Scientic Computing - by John Huber, Andrew Lubera, and Andrew Good. Our project seeks to implement the Traveling Salesman Problem (TSP) in C++ and broadly explore parallel algorithms and heuristics that can be used to best approximate the solution to the problem. 
 
 ## Building
-CMake was used to build and link the necessary Boost libraries. If you are on the CRC, CMake 3.6.3 is already installed. Thus, to build, do the following in the root directory: 
+CMake was used to build and link the necessary Boost libraries. 
+
+### CRC
+If you are on the CRC, CMake 3.6.3 is already installed. Thus, to build, do the following in the root directory: 
 ```
 mkdir build
 cd build 
 cmake ..
 make
 ```
-
-If you are compiling on a local machine, it will be necessary for you to install CMake first. Then, follow the above steps. 
+### OSX
+If you are compiling on a local machine, it will be necessary for you to install CMake first. 
 
 ## Running
 After you build the project, you will still be in the build/ directory. To run the executable, do the following:
