@@ -15,7 +15,12 @@ cmake ..
 make
 ```
 ### OSX
-If you are compiling on a local machine, it will be necessary for you to install CMake first. 
+If you are compiling on a local machine using OSX, it will be necessary for you to install CMake first. It is easiest to use homebrew to install CMake. Do the following:
+```
+brew install cmake
+```
+### Windows
+If you are using a windows machine, you will need to visit https://cmake.org/download/ where there are precompiled binaries for download. 
 
 ## Running
 After you build the project, you will still be in the build/ directory. To run the executable, do the following:
