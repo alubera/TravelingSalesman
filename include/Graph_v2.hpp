@@ -8,8 +8,6 @@
 #ifndef GRAPH_HPP
 #define GRAPH_HPP
 
-#include <boost/config.hpp>
-#include <boost/graph/adjacency_matrix.hpp>
 #include <cctype>
 #include <cassert>
 #include <cmath>
@@ -20,12 +18,6 @@
 #include <unordered_map>
 #include <tuple>
 #include <iostream>
-
-using namespace boost;
-
-typedef property<edge_weight_t, double> Weight;
-typedef adjacency_matrix<undirectedS,Weight> UGraph;
-typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
 
 class Graph {
  
@@ -40,20 +32,13 @@ class Graph {
    private:
       // using strings as keys for easy lookup for distance calculations
       // tuple will hold long and lat coordinates
-      //std::unordered_map<std::string, std::tuple<double,double> > cities;
-      UGraph ug;
+      std::unordered_map<std::string, std::tuple<double,double> > cities;
 };
 
-Graph::Graph() : ug(size) {};
+Graph::Graph() {};
 
 // non-default constructor will take a file name and read it
-Graph::Graph(const std::string &filename) : ug(size) {
-
-   //typename graph_traits<UGraph>::vertex_descriptor u,v;
-   //u = vertex(0,ug);
-   //v = vertex(1,ug);
-   //add_edge(u,v,Weight(10),ug);
-   add_edge(0,1,Weight(10),ug);
+Graph::Graph(const std::string &filename) {
 
    std::ifstream fp(filename);
 
