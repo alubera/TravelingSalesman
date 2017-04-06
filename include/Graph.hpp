@@ -24,7 +24,7 @@
 using namespace boost;
 
 typedef property<edge_weight_t, double> Weight;
-typedef adjacency_matrix<undirectedS,Weight> UGraph;
+typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
 //typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
 
 class Graph {
@@ -55,7 +55,7 @@ Graph::Graph(const std::vector<Node> &cities)
 
    u = vertex(0,ug);
    v = vertex(1,ug);*/
-   //add_edge(u,v,Weight(10),ug);
+   add_edge(0,1,Weight(10),ug);
 }
 /*
 std::tuple<double,double> Graph::getCity(std::string name) {
