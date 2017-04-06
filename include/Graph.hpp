@@ -32,14 +32,17 @@ class Graph {
    public:
       Graph(const std::vector<Node> &);
 /*      std::tuple<double,double> getCity(std::string);
-      void const printCities();
-      double const calcDist(std::string,std::string);
-*/
+      void const printCities();*/
+
    private:
       // boost graph (see typedef for adjacency matrix) will hold all distances
       UGraph ug;
       // implement a data structure so city names and ID's are known?
       const std::vector<Node> cityNames;
+      // function will calculate distances for all edges in graph
+      void calcAllEdges();
+      // function calculates dist between two iterators from cityNames vector
+      double const calcDist(std::vector<Node>::iterator,std::vector<Node>::iterator);
 };
 
 // non-default constructor will take a file name and read it
@@ -55,8 +58,26 @@ Graph::Graph(const std::vector<Node> &cities)
 
    u = vertex(0,ug);
    v = vertex(1,ug);*/
-   add_edge(0,1,Weight(10),ug);
+   //add_edge(0,1,Weight(10),ug);
+   calcAllEdges();
 }
+
+void Graph::calcAllEdges() {
+   // add all edges between all cities in adj matrix
+   // TODO: maybe calculate these distances in parallel?
+   auto start = cityNames.begin();
+   for (auto it = start; it != cityNames.end(); ++it) {
+      // since graph is undirected it only needs to be upper triangular
+      // thus, skip all previously calculated cities in each inner loop
+      for (auto jt = it+1; jt != cityNames.end(); ++jt) {
+         // add edge between it and jt's indices (corresponding to those cities)
+         // calculate distance between those two cities as weight
+         double dist = calcDist(it,jt);
+         add_edge(it-start,jt-start,Weight(10),ug);
+      }
+   }
+}
+
 /*
 std::tuple<double,double> Graph::getCity(std::string name) {
    // returns tuple (lat,lon)
@@ -75,19 +96,19 @@ void const Graph::printCities() {
       std::cout << std::endl;
    }
 }
-
-double const Graph::calcDist(std::string city1, std::string city2) {
+*/
+double const Graph::calcDist(std::vector<Node>::iterator it1, std::vector<Node>::iterator it2) {
    // computes the haversine distance between two cities
-   // throw assert if either cities is not in graph
-   auto got1 = cities.find(city1);
-   auto got2 = cities.find(city2);
-   assert(got1 != cities.end() && got2 != cities.end());
-
    const double EARTH_RADIUS(6371.0);
-   auto lat1(std::get<0>(got1->second) * M_PI / 180);
+/*   auto lat1(std::get<0>(got1->second) * M_PI / 180);
    auto lon1(std::get<1>(got1->second) * M_PI / 180);
    auto lat2(std::get<0>(got2->second) * M_PI / 180);
    auto lon2(std::get<1>(got2->second) * M_PI / 180);
+*/
+   auto lat1(it1->getLat() * M_PI / 180);
+   auto lon1(it1->getLon() * M_PI / 180);
+   auto lat2(it2->getLat() * M_PI / 180);
+   auto lon2(it2->getLon() * M_PI / 180);
 
    double dLat(lat1 - lat2);
    double dLon(lon1 - lon2);
@@ -98,5 +119,5 @@ double const Graph::calcDist(std::string city1, std::string city2) {
    return 2.0 * EARTH_RADIUS * asin(sqrt(hav_dist));
 
 }
-*/
+
 #endif
