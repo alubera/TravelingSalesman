@@ -49,8 +49,6 @@ std::vector<Node> Reader::getCities() {
    // this parsing is kinda janky...but it gets the job done
    while (getline(fp,line)) {
 
-      std::cout << line << std::endl;
-
       // do all of this for each line in the JSON file
       key.clear();
       value.clear();
@@ -94,10 +92,6 @@ std::vector<Node> Reader::getCities() {
       }
    }
 
-/*   for (auto it = cities.begin(); it != cities.end(); ++it) {
-      std::cout << it-cities.begin() << '\t' << it->getName() << '\t' << it->getState() << '\t' << it->getLat() << '\t' << it->getLon() << std::endl;
-   }
-*/
    return cities;
 }
 

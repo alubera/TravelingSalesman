@@ -25,7 +25,7 @@ using namespace boost;
 
 typedef property<edge_weight_t, double> Weight;
 typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
-//typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
+typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
 
 class Graph {
 
@@ -42,29 +42,25 @@ class Graph {
       // function will calculate distances for all edges in graph
       void calcAllEdges();
       // function calculates dist between two iterators from cityNames vector
-      double const calcDist(std::vector<Node>::iterator,std::vector<Node>::iterator);
+      template <typename T> double const calcDist(T,T);
 };
 
 // non-default constructor will take a file name and read it
 Graph::Graph(const std::vector<Node> &cities) 
          : ug(cities.size()),
             cityNames(cities) {
-/*
-   typename graph_traits<UGraph>::vertex_descriptor u,v;
-   typedef typename UGraph::edge_property_type Weight;
-   typename property_map<UGraph,edge_weight_t>::type weight = get(edge_weight,ug);
-   typename graph_traits<UGraph>::edge_descriptor e1, e2;
-   bool found;
 
-   u = vertex(0,ug);
-   v = vertex(1,ug);*/
-   //add_edge(0,1,Weight(10),ug);
    calcAllEdges();
+
+   // just trying to test some things out here
+   // it looks like graph has been fully created
+   std::cout << num_edges(ug) << std::endl;
+   auto got1 = edge(0,1,ug);
+   auto got2 = edge(1,0,ug);
 }
 
 void Graph::calcAllEdges() {
    // add all edges between all cities in adj matrix
-   // TODO: maybe calculate these distances in parallel?
    auto start = cityNames.begin();
    for (auto it = start; it != cityNames.end(); ++it) {
       // since graph is undirected it only needs to be upper triangular
@@ -97,7 +93,10 @@ void const Graph::printCities() {
    }
 }
 */
-double const Graph::calcDist(std::vector<Node>::iterator it1, std::vector<Node>::iterator it2) {
+
+// template function so that it can be used with auto iterators
+template <typename T>
+double const Graph::calcDist(T it1, T it2) {
    // computes the haversine distance between two cities
    const double EARTH_RADIUS(6371.0);
 /*   auto lat1(std::get<0>(got1->second) * M_PI / 180);
