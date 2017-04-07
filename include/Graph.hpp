@@ -73,7 +73,7 @@ void Graph::calcAllEdges() {
          // add edge between it and jt's indices (corresponding to those cities)
          // calculate distance between those two cities as weight
          double dist = calcDist(it,jt);
-         add_edge(it-start,jt-start,Weight(10),ug);
+         add_edge(it-start,jt-start,Weight(dist),ug);
       }
    }
 }
