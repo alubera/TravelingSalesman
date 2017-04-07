@@ -1,5 +1,6 @@
 #define BOOST_TEST_DYN_LINK 
 #define BOOST_TEST_MODULE myTest
+
 #include <boost/test/included/unit_test.hpp>
 
 #include "../include/Graph.hpp"
@@ -19,19 +20,22 @@ bool withinRange(double dist_pred, double dist_true)
 	return !(dist_pred < lower_bound) && !(upper_bound < dist_pred); 
 }
 
-BOOST_AUTO_TEST_SUITE(distance_check)
+BOOST_AUTO_TEST_SUITE(graph_initialization)
 
 // check that the calcDist function in the Graph class is working 
-BOOST_AUTO_TEST_CASE(distance_calculator)
+BOOST_AUTO_TEST_CASE(graph_initialization)
 {
    	Reader myReader("../../data/cities.json");
    	auto res = myReader.getCities();
-
    	Graph myGraph(res);
 
-	// BOOST_CHECK(withinRange(myMap.calcDist("New York", "Boston"), 301.6));
-	// BOOST_CHECK(withinRange(myMap.calcDist("Portland", "Tucson"), 3748.81));
-	// BOOST_CHECK(withinRange(myMap.calcDist("Tulsa", "Tampa"), 1562.9));
+   	const int NUM_EDGES(499500);
+   	const int NUM_CITIES(1000);
+
+   	auto cities = myGraph.getCityNames();
+
+   	BOOST_CHECK(myGraph.getNumEdges() == NUM_EDGES);
+   	BOOST_CHECK(cities.size() == NUM_CITIES);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
