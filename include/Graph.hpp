@@ -99,11 +99,6 @@ template <typename T>
 double const Graph::calcDist(T it1, T it2) {
    // computes the haversine distance between two cities
    const double EARTH_RADIUS(6371.0);
-/*   auto lat1(std::get<0>(got1->second) * M_PI / 180);
-   auto lon1(std::get<1>(got1->second) * M_PI / 180);
-   auto lat2(std::get<0>(got2->second) * M_PI / 180);
-   auto lon2(std::get<1>(got2->second) * M_PI / 180);
-*/
    auto lat1(it1->getLat() * M_PI / 180);
    auto lon1(it1->getLon() * M_PI / 180);
    auto lat2(it2->getLat() * M_PI / 180);
