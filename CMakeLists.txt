@@ -12,6 +12,7 @@ include_directories (include)
 
 set(TRAVELINGSALESMAN_HEADERS
 		include/Graph.hpp
+		include/Node.hpp
 		include/Reader.hpp
 		)
 
