@@ -9,17 +9,19 @@
 #ifndef GRAPH_HPP
 #define GRAPH_HPP
 
-#include "Node.hpp"
-#include <boost/config.hpp>
-#include <boost/graph/adjacency_matrix.hpp>
-#include <cctype>
 #include <cassert>
+#include <cctype>
 #include <cmath>
 #include <exception>
+#include <iostream>
 #include <string>
 #include <tuple>
-#include <iostream>
 #include <vector>
+
+#include <boost/config.hpp>
+#include <boost/graph/adjacency_matrix.hpp>
+
+#include "Node.hpp"
 
 using namespace boost;
 
@@ -51,12 +53,6 @@ Graph::Graph(const std::vector<Node> &cities)
             cityNames(cities) {
 
    calcAllEdges();
-
-   // just trying to test some things out here
-   // it looks like graph has been fully created
-   std::cout << num_edges(ug) << std::endl;
-   auto got1 = edge(0,1,ug);
-   auto got2 = edge(1,0,ug);
 }
 
 void Graph::calcAllEdges() {

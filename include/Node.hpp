@@ -7,8 +7,9 @@
 #ifndef NODE_H
 #define NODE_H
 
-#include <boost/functional/hash.hpp>
 #include <tuple>
+
+#include <boost/functional/hash.hpp>
 
 class Node {
 

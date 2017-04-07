@@ -8,14 +8,15 @@
 #ifndef READER_HPP
 #define READER_HPP
 
-#include "Node.hpp"
-#include <cctype>
 #include <cassert>
+#include <cctype>
 #include <fstream>
+#include <iostream>
 #include <sstream>
 #include <string>
-#include <iostream>
 #include <vector>
+
+#include "Node.hpp"
 
 class Reader {
  
@@ -44,7 +45,7 @@ std::vector<Node> Reader::getCities() {
    std::string line, key, value;
    std::string city, state;
    double lon, lat;
-   int i = 0;
+   int i(0);
 
    // this parsing is kinda janky...but it gets the job done
    while (getline(fp,line)) {
