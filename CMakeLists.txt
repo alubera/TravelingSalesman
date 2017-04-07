@@ -2,6 +2,7 @@ cmake_minimum_required (VERSION 3.2)
 project(TravelingSalesman)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "-g -I$BOOST_ROOT/include -Wno-unused-local-typedefs")
 
 
 # configure a header file to pass some of the CMake settings
@@ -11,11 +12,13 @@ include_directories (include)
 
 set(TRAVELINGSALESMAN_HEADERS
 		include/Graph.hpp
+		include/Reader.hpp
 		)
 
 set(TRAVELINGSALESMAN_SOURCES
 		src/main.cpp
 		)
+
 
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)

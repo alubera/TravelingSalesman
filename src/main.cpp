@@ -34,7 +34,7 @@ int main() {
    *///////////////////////////////////// 
 
 
-   Reader myReader("../data/cities.json");
+   Reader myReader("../../data/cities.json");
    auto res = myReader.getCities();
 
    Graph myGraph(res);
