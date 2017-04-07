@@ -33,16 +33,24 @@ class Graph {
 
    public:
       Graph(const std::vector<Node> &);
-/*      std::tuple<double,double> getCity(std::string);
-      void const printCities();*/
+
+      // function to return the number of edges in the graph
+      int getNumEdges();
+
+      // function to return city names
+      std::vector<Node> getCityNames();
+
 
    private:
       // boost graph (see typedef for adjacency matrix) will hold all distances
       UGraph ug;
+
       // implement a data structure so city names and ID's are known?
       const std::vector<Node> cityNames;
+
       // function will calculate distances for all edges in graph
       void calcAllEdges();
+
       // function calculates dist between two iterators from cityNames vector
       template <typename T> double const calcDist(T,T);
 };
@@ -70,25 +78,15 @@ void Graph::calcAllEdges() {
    }
 }
 
-/*
-std::tuple<double,double> Graph::getCity(std::string name) {
-   // returns tuple (lat,lon)
-   // throw assert if city is not in graph
-   auto got = cities.find(name);
-   assert(got != cities.end());
-   return got->second;
+int Graph::getNumEdges(){
+   return num_edges(ug);
 }
 
-void const Graph::printCities() {
-   // go through all cities printing out relevant info
-   for (const auto& city: cities) {
-      std::cout << city.first;
-      std::cout << "\tLat: " << std::get<0>(city.second);
-      std::cout << "\tLon: " << std::get<1>(city.second);
-      std::cout << std::endl;
-   }
+std::vector<Node> Graph::getCityNames()
+{
+   return cityNames;
 }
-*/
+
 
 // template function so that it can be used with auto iterators
 template <typename T>
