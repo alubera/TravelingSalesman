@@ -33,6 +33,8 @@ Node NearestNeighbors::find_closest_city(Node current_city){
 
      double distance(10000.0); //initialize with arbitrarily large value
      Node closest_city;
+
+     //access distances without recalculating??
 /*
      for (auto i:available_cities){
           if (CalcDist(current_city, i) < distance){
@@ -45,7 +47,7 @@ Node NearestNeighbors::find_closest_city(Node current_city){
 }
 
 
-
+//function to run nearest neighbors algorithm
 void NearestNeighbors::calc_nearest_neighbors(){
 
      //find random city to start from
