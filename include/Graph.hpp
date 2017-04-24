@@ -18,6 +18,7 @@
 #include <tuple>
 #include <vector>
 
+#include <boost/functional/hash.hpp>
 #include <boost/config.hpp>
 #include <boost/graph/adjacency_matrix.hpp>
 
@@ -33,26 +34,22 @@ class Graph {
 
    public:
       Graph(const std::vector<Node> &);
-
       // function to return the number of edges in the graph
       int getNumEdges();
-
       // function to return city names
       std::vector<Node> getCityNames();
-
+      // return reference to graph for traversal algos
+      UGraph& getGraphRef() {return ug;}
 
    private:
       // boost graph (see typedef for adjacency matrix) will hold all distances
       UGraph ug;
-
       // implement a data structure so city names and ID's are known?
       const std::vector<Node> cityNames;
-
       // function will calculate distances for all edges in graph
       void calcAllEdges();
-
       // function calculates dist between two iterators from cityNames vector
-      template <typename T> double const calcDist(T,T);
+      template <typename T> double calcDist(T,T) const;
 };
 
 // non-default constructor will take a file name and read it
@@ -90,7 +87,7 @@ std::vector<Node> Graph::getCityNames()
 
 // template function so that it can be used with auto iterators
 template <typename T>
-double const Graph::calcDist(T it1, T it2) {
+double Graph::calcDist(T it1, T it2) const {
    // computes the haversine distance between two cities
    const double EARTH_RADIUS(6371.0);
    auto lat1(it1->getLat() * M_PI / 180);

@@ -3,6 +3,7 @@
 #include <iostream>
 #include "../include/Graph.hpp"
 #include "../include/Reader.hpp"
+#include "../include/Traversals.hpp"
 
 int main() {
 
@@ -34,8 +35,11 @@ int main() {
    *///////////////////////////////////// 
 
 
-   Reader myReader("../../data/cities.json");
+   Reader myReader("../data/cities.json");
    auto res = myReader.getCities();
 
    Graph myGraph(res);
+
+   // try out bfs
+   bfs_example(myGraph.getGraphRef());
 }
