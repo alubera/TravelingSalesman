@@ -37,7 +37,7 @@ class Graph {
       // function to return the number of edges in the graph
       int getNumEdges();
       // function to return city names
-      std::vector<Node> getCityNames();
+      const std::vector<std::string>& getCityNames();
       // return reference to graph for traversal algos
       UGraph& getGraphRef() {return ug;}
 
@@ -45,28 +45,33 @@ class Graph {
       // boost graph (see typedef for adjacency matrix) will hold all distances
       UGraph ug;
       // implement a data structure so city names and ID's are known?
-      const std::vector<Node> cityNames;
+      const std::vector<Node> cityNodes;
+      // vector of city names should be more useful than nodes
+      std::vector<std::string> cityNames;
       // function will calculate distances for all edges in graph
       void calcAllEdges();
-      // function calculates dist between two iterators from cityNames vector
+      // function calculates dist between two iterators from cityNodes vector
       template <typename T> double calcDist(T,T) const;
 };
 
 // non-default constructor will take a file name and read it
 Graph::Graph(const std::vector<Node> &cities) 
          : ug(cities.size()),
-            cityNames(cities) {
+            cityNodes(cities) {
 
    calcAllEdges();
+   for (auto node : cityNodes) {
+      cityNames.push_back(node.getName()+", "+node.getState());
+   }
 }
 
 void Graph::calcAllEdges() {
    // add all edges between all cities in adj matrix
-   auto start = cityNames.begin();
-   for (auto it = start; it != cityNames.end(); ++it) {
+   auto start = cityNodes.begin();
+   for (auto it = start; it != cityNodes.end(); ++it) {
       // since graph is undirected it only needs to be upper triangular
       // thus, skip all previously calculated cities in each inner loop
-      for (auto jt = it+1; jt != cityNames.end(); ++jt) {
+      for (auto jt = it+1; jt != cityNodes.end(); ++jt) {
          // add edge between it and jt's indices (corresponding to those cities)
          // calculate distance between those two cities as weight
          double dist = calcDist(it,jt);
@@ -79,7 +84,7 @@ int Graph::getNumEdges(){
    return num_edges(ug);
 }
 
-std::vector<Node> Graph::getCityNames()
+const std::vector<std::string>& Graph::getCityNames()
 {
    return cityNames;
 }
