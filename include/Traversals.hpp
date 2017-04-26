@@ -10,13 +10,6 @@
 #include "Graph.hpp"
 #include "bfs_time_visitor.hpp"
 
-using namespace boost;
-
-typedef graph_traits<UGraph>::vertex_descriptor Vertex;
-typedef graph_traits<UGraph>::vertices_size_type Size;
-typedef std::vector<Vertex>::iterator Piter;
-typedef std::vector<Size>::iterator Iiter;
-
 void bfs_example(Graph myGraph) {
 
    UGraph& ug = myGraph.getGraphRef();
@@ -43,7 +36,5 @@ void bfs_example(Graph myGraph) {
       std::cout << names[*it] << std::endl;
    }
 }
-
-
 
 #endif

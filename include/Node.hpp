@@ -8,8 +8,7 @@
 #define NODE_H
 
 #include <tuple>
-
-#include <boost/functional/hash.hpp>
+#include "boost_types.h"
 
 class Node {
 
@@ -19,7 +18,7 @@ class Node {
       std::string getState() const;
       double getLat() const;
       double getLon() const;
-      std::tuple<std::string,std::string,double,double> getAll() const;
+      //std::tuple<std::string,std::string,double,double> getAll() const;
       bool operator==(const Node &) const;
 
    private:
@@ -52,11 +51,11 @@ double Node::getLat() const {
 double Node::getLon() const {
    return lon;
 }
-
+/*
 std::tuple<std::string,std::string,double,double> Node::getAll() const {
    return make_tuple(cityName,stateName,lat,lon);
 }
-
+*/
 // overload equality operator for use in unordered_set
 bool Node::operator==(const Node &other) const {
    return (cityName == other.cityName

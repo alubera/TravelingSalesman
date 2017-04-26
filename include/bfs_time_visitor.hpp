@@ -3,8 +3,6 @@
 #define BFS_TIME_VISITOR_HPP
 
 #include "Graph.hpp"
-#include <boost/graph/visitors.hpp>
-#include <boost/graph/breadth_first_search.hpp>
 
 template <typename TimeMap>
 class bfs_time_visitor : public default_bfs_visitor {

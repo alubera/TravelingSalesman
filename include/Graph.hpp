@@ -18,17 +18,7 @@
 #include <tuple>
 #include <vector>
 
-#include <boost/functional/hash.hpp>
-#include <boost/config.hpp>
-#include <boost/graph/adjacency_matrix.hpp>
-
 #include "Node.hpp"
-
-using namespace boost;
-
-typedef property<edge_weight_t, double> Weight;
-typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
-typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
 
 class Graph {
 
