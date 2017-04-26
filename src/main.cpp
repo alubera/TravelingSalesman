@@ -41,5 +41,5 @@ int main() {
    Graph myGraph(res);
 
    // try out bfs
-   bfs_example(myGraph.getGraphRef());
+   bfs_example(myGraph);
 }
