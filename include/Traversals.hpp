@@ -10,7 +10,9 @@
 #include "Graph.hpp"
 #include "bfs_time_visitor.hpp"
 
-void bfs_example(Graph myGraph) {
+#include <fstream>
+
+void bfs_example(Graph myGraph, std::ofstream& myFile) {
 
    UGraph& ug = myGraph.getGraphRef();
 
@@ -30,11 +32,49 @@ void bfs_example(Graph myGraph) {
    // get city names from Graph
    const auto& names = myGraph.getCityNames();
 
+   // get city lats and lons from Graph
+   const auto& lats = myGraph.getCityLats();
+   const auto& lons = myGraph.getCityLons();
+
+
+
    // print city names in order
    std::cout << "order of discovery:\n";
    for (auto it = discover_order.begin(); it != discover_order.end(); ++it) {
       std::cout << names[*it] << std::endl;
+      std::cout << lats[*it] << " " << lons[*it] << std::endl;
    }
+
+   for (auto it = discover_order.begin(); it != discover_order.end(); ++it) {
+      myFile << lats[*it] << " " << lons[*it] << '\n';
+   }
+   // write lat lon to text file 
+
+}
+
+void mst_example(Graph myGraph)
+{
+   UGraph& ug = myGraph.getGraphRef();
+
+   int graphSize = num_vertices(ug);
+
+   std::vector < Vertex >
+    p(graphSize);
+
+   prim_minimum_spanning_tree(ug, &p[0]);
+
+   for(auto ii = 0; ii < p.size(); ++ii)
+   {
+      if(p[ii] != ii)
+      {
+         std::cout << "parent[" << ii << "] = " << p[ii] << std::endl;
+      }
+      else
+      {
+         std::cout << "parent[" << ii << "] = no parent" << std::endl;
+      }
+   }
+
 }
 
 #endif
