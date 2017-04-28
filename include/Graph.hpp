@@ -28,6 +28,10 @@ class Graph {
       int getNumEdges();
       // function to return city names
       const std::vector<std::string>& getCityNames();
+      // function to return city lons
+      const std::vector<double>& getCityLons();
+      //function to return city lats
+      const std::vector<double>& getCityLats();
       // return reference to graph for traversal algos
       UGraph& getGraphRef() {return ug;}
 
@@ -38,6 +42,10 @@ class Graph {
       const std::vector<Node> cityNodes;
       // vector of city names should be more useful than nodes
       std::vector<std::string> cityNames;
+      // vector of city lons 
+      std::vector<double> cityLons;
+      // vector of city lats
+      std::vector<double> cityLats;
       // function will calculate distances for all edges in graph
       void calcAllEdges();
       // function calculates dist between two iterators from cityNodes vector
@@ -52,6 +60,8 @@ Graph::Graph(const std::vector<Node> &cities)
    calcAllEdges();
    for (auto node : cityNodes) {
       cityNames.push_back(node.getName()+", "+node.getState());
+      cityLats.push_back(node.getLat());
+      cityLons.push_back(node.getLon());
    }
 }
 
@@ -79,6 +89,15 @@ const std::vector<std::string>& Graph::getCityNames()
    return cityNames;
 }
 
+const std::vector<double>& Graph::getCityLons()
+{
+   return cityLons;
+}
+
+const std::vector<double>& Graph::getCityLats()
+{
+   return cityLats;
+}
 
 // template function so that it can be used with auto iterators
 template <typename T>
