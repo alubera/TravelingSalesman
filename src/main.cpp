@@ -1,6 +1,7 @@
 // DUMMY DRIVER TO TEST CLASSES
 
 #include <iostream>
+#include <fstream>
 #include "../include/Graph.hpp"
 #include "../include/Reader.hpp"
 #include "../include/Traversals.hpp"
@@ -41,5 +42,10 @@ int main() {
    Graph myGraph(res);
 
    // try out bfs
-   bfs_example(myGraph);
+   std::ofstream myFile;
+   myFile.open("../../output/bfs/bfs.txt");
+   bfs_example(myGraph, myFile);
+
+   // try out mst
+   //mst_example(myGraph);
 }
