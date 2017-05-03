@@ -36,15 +36,18 @@ int main() {
    *///////////////////////////////////// 
 
 
-   Reader myReader("../../data/cities.json");
+   Reader myReader("../data/cities.json");
    auto res = myReader.getCities();
 
    Graph myGraph(res);
 
+   // toy function to play with edge iterators
+   Traversals::edge_iterators(myGraph);
+
    // try out bfs
-   std::ofstream myFile;
-   myFile.open("../../output/bfs/bfs.txt");
-   bfs_example(myGraph, myFile);
+   //std::ofstream myFile;
+   //myFile.open("../../output/bfs/bfs.txt");
+   //bfs_example(myGraph, myFile);
 
    // try out mst
    //mst_example(myGraph);
