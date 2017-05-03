@@ -15,7 +15,6 @@
 #include <exception>
 #include <iostream>
 #include <string>
-#include <tuple>
 #include <vector>
 
 #include "Node.hpp"
@@ -23,16 +22,49 @@
 class Graph {
 
    public:
-      Graph(const std::vector<Node> &);
-      // function to return the number of edges in the graph
+      /**
+      *  Constructor. Must take vector of nodes to create underlying graph
+      *  @param cities is a vector of nodes that will be used to make the graph
+      *  @see Node
+      */
+      Graph(const std::vector<Node> &cities);
+
+      /**
+      *  function to return the number of edges in the graph
+      *  @return number of edges in graph
+      */
       int getNumEdges();
-      // function to return city names
+
+      /**
+      *  function to return city names
+      *  @return vector of city names in graph
+      */
       const std::vector<std::string>& getCityNames();
-      // function to return city lons
+
+      /**
+      *  function to return city lons (used in visualization)
+      *  @return vector of city longitudes
+      */
       const std::vector<double>& getCityLons();
-      //function to return city lats
+
+      /**
+      *  function to return city lats (used in visualization)
+      *  @return vector of city latitudes
+      */
       const std::vector<double>& getCityLats();
-      // return reference to graph for traversal algos
+
+      /**
+      *  function to return weight of an edge
+      *  @param ei is an out edge iterator
+      *  @return the edge weight of passed iterator
+      */
+      double getEdgeWeight(UGraph::out_edge_iterator ei) const;
+
+      /**
+      *  Return reference to graph. This is used in traversal algorithms where
+      *  direct reference to Boost graph is needed
+      *  @return a reference to the underlying Boost graph
+      */
       UGraph& getGraphRef() {return ug;}
 
    private:
@@ -46,6 +78,9 @@ class Graph {
       std::vector<double> cityLons;
       // vector of city lats
       std::vector<double> cityLats;
+      // property map used for accessing edge weights
+      WeightMap weights;
+
       // function will calculate distances for all edges in graph
       void calcAllEdges();
       // function calculates dist between two iterators from cityNodes vector
@@ -63,6 +98,7 @@ Graph::Graph(const std::vector<Node> &cities)
       cityLats.push_back(node.getLat());
       cityLons.push_back(node.getLon());
    }
+   weights = get(edge_weight_t(),ug);
 }
 
 void Graph::calcAllEdges() {
@@ -97,6 +133,10 @@ const std::vector<double>& Graph::getCityLons()
 const std::vector<double>& Graph::getCityLats()
 {
    return cityLats;
+}
+
+double Graph::getEdgeWeight(UGraph::out_edge_iterator ei) const {
+   return get(weights,*ei);
 }
 
 // template function so that it can be used with auto iterators

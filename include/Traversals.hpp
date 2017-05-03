@@ -7,10 +7,16 @@
 #ifndef TRAVERSE_HPP
 #define TRAVERSE_HPP
 
+#include <fstream>
+#include <algorithm>
+#include <iterator>
+#include <iostream>
+
 #include "Graph.hpp"
 #include "bfs_time_visitor.hpp"
 
-#include <fstream>
+// use namespace to clarify functions
+namespace Traversals {
 
 void bfs_example(Graph myGraph, std::ofstream& myFile) {
 
@@ -76,5 +82,35 @@ void mst_example(Graph myGraph)
    }
 
 }
+
+void edge_iterators(Graph myGraph) {
+   EdgeIterator ei, ei_end;
+
+   UGraph& ug = myGraph.getGraphRef();
+/*
+   UGraph::adjacency_iterator vit, vend;
+   std::tie(vit,vend) = boost::adjacent_vertices(0,ug);
+   std::copy(vit,vend,std::ostream_iterator<Vertex>{std::cout,"\n"});
+*/
+
+   int startingCity = 0;
+   Vertex v = vertex(startingCity,ug);
+
+   UGraph::out_edge_iterator eit, eend;
+   std::tie(eit,eend) = out_edges(startingCity,ug);
+
+   for (eit; eit != eend; ++eit) {
+      std::cout << myGraph.getEdgeWeight(eit) << std::endl;
+   }
+
+/*   std::for_each(eit,eend,
+      [&ug](Edge it)
+         {std::cout << get(weights,ug) << '\n';});
+*/
+}
+
+} // end namespace
+
+
 
 #endif
