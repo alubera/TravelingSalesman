@@ -79,7 +79,7 @@ class Graph {
       // vector of city lats
       std::vector<double> cityLats;
       // property map used for accessing edge weights
-      WeightMap weights;
+      //WeightMap weights;
 
       // function will calculate distances for all edges in graph
       void calcAllEdges();
@@ -98,7 +98,7 @@ Graph::Graph(const std::vector<Node> &cities)
       cityLats.push_back(node.getLat());
       cityLons.push_back(node.getLon());
    }
-   weights = get(edge_weight_t(),ug);
+   //weights = get(edge_weight,ug);
 }
 
 void Graph::calcAllEdges() {
@@ -116,26 +116,24 @@ void Graph::calcAllEdges() {
    }
 }
 
-int Graph::getNumEdges(){
+int Graph::getNumEdges() {
    return num_edges(ug);
 }
 
-const std::vector<std::string>& Graph::getCityNames()
-{
+const std::vector<std::string>& Graph::getCityNames() {
    return cityNames;
 }
 
-const std::vector<double>& Graph::getCityLons()
-{
+const std::vector<double>& Graph::getCityLons() {
    return cityLons;
 }
 
-const std::vector<double>& Graph::getCityLats()
-{
+const std::vector<double>& Graph::getCityLats() {
    return cityLats;
 }
 
 double Graph::getEdgeWeight(UGraph::out_edge_iterator ei) const {
+   WeightMap weights = get(edge_weight,ug);
    return get(weights,*ei);
 }
 

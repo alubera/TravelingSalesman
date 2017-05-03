@@ -17,7 +17,7 @@ using namespace boost;
 
 typedef property<edge_weight_t, double> Weight;
 typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
-typedef property_map<UGraph,edge_weight_t>::const_type WeightMap;
+typedef property_map<UGraph,edge_weight_t>::type WeightMap;
 typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
 typedef graph_traits<UGraph>::vertex_descriptor Vertex;
 typedef graph_traits<UGraph>::edge_descriptor Edge;
