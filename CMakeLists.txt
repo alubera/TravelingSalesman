@@ -28,12 +28,12 @@ add_executable(main.out ${TRAVELINGSALESMAN_HEADERS}
 						${TRAVELINGSALESMAN_SOURCES}
 						)
 
-SET (BOOST_ROOT "/afs/crc.nd.edu/x86_64_linux/scilib/boost/boost_1_54_0")
-SET (BOOST_MIN_VERSION "1.54.0")
+SET (BOOST_ROOT "/afs/crc.nd.edu/x86_64_linux/scilib/boost/boost_1_61_0")
+SET (BOOST_MIN_VERSION "1.61.0")
 SET (Boost_NO_BOOST_CMAKE ON)
 FIND_PACKAGE(Boost ${BOOST_MIN_VERSION} REQUIRED)
 if (NOT Boost_FOUND)
-  message(FATAL_ERROR "Fatal error: Boost (version >= 1.55) required.")
+  message(FATAL_ERROR "Fatal error: Boost (version >= 1.61) required.")
 else()
   message(STATUS "Setting up BOOST")
   message(STATUS " Includes - ${Boost_INCLUDE_DIRS}")
