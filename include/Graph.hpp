@@ -93,7 +93,7 @@ Graph::Graph(const std::vector<Node> &cities)
             cityNodes(cities) {
 
    calcAllEdges();
-   for (auto node : cityNodes) {
+   for (const auto& node : cityNodes) {
       cityNames.push_back(node.getName()+", "+node.getState());
       cityLats.push_back(node.getLat());
       cityLons.push_back(node.getLon());
@@ -133,19 +133,22 @@ const std::vector<double>& Graph::getCityLats() {
 }
 
 double Graph::getEdgeWeight(UGraph::out_edge_iterator ei) const {
-   WeightMap weights = get(edge_weight,ug);
-   return get(weights,*ei);
+   //auto weights = get(edge_weight,ug);
+   return get(get(edge_weight,ug),*ei);
 }
 
 // template function so that it can be used with auto iterators
 template <typename T>
 double Graph::calcDist(T it1, T it2) const {
+
    // computes the haversine distance between two cities
-   const double EARTH_RADIUS(6371.0);
-   auto lat1(it1->getLat() * M_PI / 180);
-   auto lon1(it1->getLon() * M_PI / 180);
-   auto lat2(it2->getLat() * M_PI / 180);
-   auto lon2(it2->getLon() * M_PI / 180);
+   constexpr double EARTH_RADIUS = 6371.0;
+   constexpr double PI = M_PI;
+
+   auto lat1(it1->getLat() * PI / 180);
+   auto lon1(it1->getLon() * PI / 180);
+   auto lat2(it2->getLat() * PI / 180);
+   auto lon2(it2->getLon() * PI / 180);
 
    double dLat(lat1 - lat2);
    double dLon(lon1 - lon2);

@@ -58,29 +58,22 @@ void bfs_example(Graph myGraph, std::ofstream& myFile) {
 
 }
 
-void mst_example(Graph myGraph)
-{
+void mst_example(Graph myGraph) {
    UGraph& ug = myGraph.getGraphRef();
 
    int graphSize = num_vertices(ug);
 
-   std::vector < Vertex >
-    p(graphSize);
+   std::vector<Vertex> p(graphSize);
 
    prim_minimum_spanning_tree(ug, &p[0]);
 
-   for(auto ii = 0; ii < p.size(); ++ii)
-   {
-      if(p[ii] != ii)
-      {
+   for(auto ii = 0; ii < p.size(); ++ii) {
+      if(p[ii] != ii) {
          std::cout << "parent[" << ii << "] = " << p[ii] << std::endl;
-      }
-      else
-      {
+      } else {
          std::cout << "parent[" << ii << "] = no parent" << std::endl;
       }
    }
-
 }
 
 void edge_iterators(Graph myGraph) {
@@ -100,7 +93,7 @@ void edge_iterators(Graph myGraph) {
    std::tie(eit,eend) = out_edges(startingCity,ug);
 
    for (eit; eit != eend; ++eit) {
-      std::cout << myGraph.getEdgeWeight(eit) << std::endl;
+      std::cout << target(*eit,ug) << " --> " << myGraph.getEdgeWeight(eit) << std::endl;
    }
 
 /*   std::for_each(eit,eend,

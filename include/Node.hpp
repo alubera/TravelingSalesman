@@ -29,12 +29,11 @@ class Node {
 
 };
 
-Node::Node(std::string newCity, std::string newState, double newLat, double newLon) {
-   cityName = newCity;
-   stateName = newState;
-   lat = newLat;
-   lon = newLon;
-}
+Node::Node(std::string newCity, std::string newState, double newLat, double newLon) 
+      : cityName(newCity),
+         stateName(newState),
+         lat(newLat),
+         lon(newLon) {}
 
 std::string Node::getName() const {
    return cityName;
