@@ -14,6 +14,7 @@ cd build
 cmake ..
 make
 ```
+Note: if cmake is not picking up the right version of gcc, use the flag -DCMAKE_CXX_COMPILER=/opt/crc/gcc/4.9.2/gcc-4.4.7/bin/g++
 ### OSX
 If you are compiling on a local machine using OSX, it will be necessary for you to install CMake first. It is easiest to use homebrew to install CMake. Do the following:
 ```
