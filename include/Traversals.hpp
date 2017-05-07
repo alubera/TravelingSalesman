@@ -59,7 +59,9 @@ void bfs_example(Graph myGraph, std::ofstream& myFile) {
 }
 
 void mst_example(Graph myGraph) {
+
    UGraph& ug = myGraph.getGraphRef();
+   auto cities = myGraph.getCityNames();
 
    int graphSize = num_vertices(ug);
 
@@ -74,12 +76,18 @@ void mst_example(Graph myGraph) {
          std::cout << "parent[" << ii << "] = no parent" << std::endl;
       }
    }
+/*      if(p[ii] != ii) {
+         std::cout << "parent[" << ii << "] = " << p[ii] << std::endl;
+      } else {
+         std::cout << "parent[" << ii << "] = no parent" << std::endl;
+      }
+   }*/
 }
 
 void edge_iterators(Graph myGraph) {
-   EdgeIterator ei, ei_end;
 
    UGraph& ug = myGraph.getGraphRef();
+   auto cities = myGraph.getCityNames();
 /*
    UGraph::adjacency_iterator vit, vend;
    std::tie(vit,vend) = boost::adjacent_vertices(0,ug);
@@ -93,7 +101,7 @@ void edge_iterators(Graph myGraph) {
    std::tie(eit,eend) = out_edges(startingCity,ug);
 
    for (eit; eit != eend; ++eit) {
-      std::cout << target(*eit,ug) << " --> " << myGraph.getEdgeWeight(eit) << std::endl;
+      std::cout << cities[target(*eit,ug)] << " --> " << myGraph.getEdgeWeight(eit) << std::endl;
    }
 
 /*   std::for_each(eit,eend,
