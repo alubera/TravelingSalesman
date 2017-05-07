@@ -13,12 +13,39 @@
 class Node {
 
    public:
+      /**
+      * Constructor. Must take the name of the city and state and its respective coordinates
+      * @param newCity is the name of the city
+      * @param newState is the name of the state
+      * @param newLat is the latitude
+      * @param newLon is the longitude 
+      */
       Node(std::string,std::string,double,double);
+      /**
+      * Function that returns the name of a node
+      * @returns the name of the city of the node
+      */
       std::string getName() const;
+      /**
+      * Function that returns the name of the state
+      * @returns the name of the state of the node
+      */
       std::string getState() const;
+      /**
+      * Function that returns the latitude
+      * @returns latitude of node
+      */
       double getLat() const;
+      /**
+      * Function that returns the longitude
+      * @returns longitude of node
+      */
       double getLon() const;
-      //std::tuple<std::string,std::string,double,double> getAll() const;
+      /**
+      * Overridden boolean operator
+      * @param other is the Node that is the point of comparison
+      * @returns boolean value whether the two nodes are the same
+      */
       bool operator==(const Node &) const;
 
    private:

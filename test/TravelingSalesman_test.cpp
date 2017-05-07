@@ -20,15 +20,25 @@ bool withinRange(double dist_pred, double dist_true)
 	return !(dist_pred < lower_bound) && !(upper_bound < dist_pred); 
 }
 
-BOOST_AUTO_TEST_SUITE(graph_initialization)
+
+// struct to create an instance of the graph
+struct TestFixture{
+   Reader myReader{"../../data/cities.json"};
+   std::vector<Node> res = myReader.getCities();
+   Graph myGraph;
+
+   TestFixture()
+   : myGraph(res)
+   {}
+
+   ~TestFixture() = default;
+};
+
+BOOST_FIXTURE_TEST_SUITE(TestGraph, TestFixture)
 
 // check that the calcDist function in the Graph class is working 
 BOOST_AUTO_TEST_CASE(graph_initialization)
 {
-   	Reader myReader("../../data/cities.json");
-   	auto res = myReader.getCities();
-   	Graph myGraph(res);
-
    	const int NUM_EDGES(499500);
    	const int NUM_CITIES(1000);
 
@@ -37,5 +47,6 @@ BOOST_AUTO_TEST_CASE(graph_initialization)
    	BOOST_CHECK(myGraph.getNumEdges() == NUM_EDGES);
    	BOOST_CHECK(cities.size() == NUM_CITIES);
 }
+
 
 BOOST_AUTO_TEST_SUITE_END()
