@@ -68,22 +68,39 @@ class Graph {
       UGraph& getGraphRef() {return ug;}
 
    private:
-      // boost graph (see typedef for adjacency matrix) will hold all distances
+      /**
+      * boost graph variable that will hold all distances
+      */
       UGraph ug;
-      // implement a data structure so city names and ID's are known?
+      /**
+      * vector that contains all the nodes in the graph 
+      */
       const std::vector<Node> cityNodes;
-      // vector of city names should be more useful than nodes
+      /**
+      * vector that contains names of all cities in the graph
+      */
       std::vector<std::string> cityNames;
-      // vector of city lons 
+      /**
+      * vector that contains longitudes of all cities in the graph
+      */
       std::vector<double> cityLons;
-      // vector of city lats
+      /**
+      * vector that contains latitudes of all cities in the graph
+      */
       std::vector<double> cityLats;
       // property map used for accessing edge weights
       //WeightMap weights;
 
-      // function will calculate distances for all edges in graph
+      /**
+      * function to compute the distance for all edges in the graph
+      */
       void calcAllEdges();
-      // function calculates dist between two iterators from cityNodes vector
+      
+      /**
+      * function to calculate the haversine distance between two nodes
+      * @param T it1, it2 are iterators that iterate through the nodes in the graph
+      * @return the distance between two nodes
+      */
       template <typename T> double calcDist(T,T) const;
 };
 
