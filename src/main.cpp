@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 #include "../include/Graph.hpp"
 #include "../include/Reader.hpp"
 #include "../include/Traversals.hpp"
@@ -36,7 +37,15 @@ int main() {
    *///////////////////////////////////// 
 
 
-   Reader myReader("../../data/cities.json");
+   // TODO: try to figure out this env var thing
+/*
+   std::string gitPath;
+   gitPath = getenv("GIT_DIR");
+  
+   std::cout << gitPath << std::endl;
+ */
+
+   Reader myReader(gitPath+"data/cities.json");
    auto res = myReader.getCities();
 
    Graph myGraph(res);

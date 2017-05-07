@@ -4,6 +4,12 @@ project(TravelingSalesman)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-g -I$BOOST_ROOT/include -Wno-unused-local-typedefs")
 
+# trying to set an env var so that data can be found without rel path
+#execute_process(COMMAND git rev-parse --show-toplevel OUTPUT_VARIABLE GIT_HOME)
+#set(ENV{GIT_HOME} GIT_HOME)
+#if(ENV{GIT_HOME})
+#message(STATUS ${GIT_HOME})
+#endif()
 
 # configure a header file to pass some of the CMake settings
 # to the source code
