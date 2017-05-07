@@ -16,8 +16,8 @@ install:
       export PATH=${DEPS_DIR}/cmake/bin:${PATH}
     fi
     
-# Go to root directory
-- cd ..
+  # Go to root directory
+  - cd ..
 # Build steps
 script:
 - mkdir build
