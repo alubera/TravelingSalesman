@@ -71,9 +71,9 @@ void mst_example(Graph myGraph) {
 
    for(auto ii = 0; ii < p.size(); ++ii) {
       if(p[ii] != ii) {
-         std::cout << "parent[" << ii << "] = " << p[ii] << std::endl;
+         std::cout << "parent of " << cities[ii] << " ==> " << cities[p[ii]] << std::endl;
       } else {
-         std::cout << "parent[" << ii << "] = no parent" << std::endl;
+         std::cout << "parent of " << cities[ii] << " ==> no parent" << std::endl;
       }
    }
 /*      if(p[ii] != ii) {
@@ -83,6 +83,25 @@ void mst_example(Graph myGraph) {
       }
    }*/
 }
+
+void compute_mst(UGraph& ug, MultiGraph& mst) {
+
+   int graphSize = num_vertices(ug);
+   std::vector<Vertex> p(graphSize);
+
+   prim_minimum_spanning_tree(ug, &p[0]);
+
+   for (auto ii = 0; ii < p.size(); ++ii) {
+      if (p[ii] != ii) {
+         std::cout << "parent of " << ii << " ==> " << p[ii] << std::endl;
+         Vertex u = vertex(ii,mst);
+         Vertex v = vertex(p[ii],mst);
+         add_edge(u,v,mst);
+      }
+   }
+}
+
+
 
 void edge_iterators(Graph myGraph) {
 

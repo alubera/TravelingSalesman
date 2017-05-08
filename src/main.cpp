@@ -6,6 +6,7 @@
 #include "../include/Graph.hpp"
 #include "../include/Reader.hpp"
 #include "../include/Traversals.hpp"
+#include "../include/TwoApprox.hpp"
 
 int main() {
 
@@ -45,7 +46,7 @@ int main() {
    std::cout << gitPath << std::endl;
  */
 
-   Reader myReader(gitPath+"data/cities.json");
+   Reader myReader("../../data/cities.json");
    auto res = myReader.getCities();
 
    Graph myGraph(res);
@@ -54,7 +55,8 @@ int main() {
    //Traversals::edge_iterators(myGraph);
 
    // check out mst
-   Traversals::mst_example(myGraph);
+   std::vector<Vertex> path;
+   two_approx(myGraph,path);
 
    // try out bfs
    //std::ofstream myFile;
