@@ -20,7 +20,7 @@ class NearestNeighbors{
     public:
         void calc_nearest_neighbors(Graph);
         std::vector<Vertex> get_visited_cities();
-        void edge_iterators(Graph);
+        void edge_iterators(Graph, int);
 
     private:
         std::set<Vertex> visited_cities; //ordered set for path created by nearest neighbors algorithm
