@@ -25,5 +25,6 @@ typedef graph_traits<UGraph>::vertices_size_type Size;
 typedef std::vector<Vertex>::iterator Piter;
 typedef std::vector<Size>::iterator Iiter;
 
+typedef adjacency_list<listS,vecS,undirectedS> MultiGraph;
 
 #endif

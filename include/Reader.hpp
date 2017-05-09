@@ -45,10 +45,11 @@ std::vector<Node> Reader::getCities() {
    std::string line, key, value;
    std::string city, state;
    double lon, lat;
-   int i(0);
+   int i(0), count(0);
 
    // this parsing is kinda janky...but it gets the job done
-   while (getline(fp,line)) {
+   // count var can manipulate how many cities are read in from data
+   while (getline(fp,line) && count < 1000) {
 
       // do all of this for each line in the JSON file
       key.clear();
@@ -89,6 +90,7 @@ std::vector<Node> Reader::getCities() {
       if (i%4 == 0) {
          Node temp(city,state,lat,lon);
          cities.push_back(temp);
+         ++count;
          i = 0;
       }
    }

@@ -2,9 +2,11 @@
 
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 #include "../include/Graph.hpp"
 #include "../include/Reader.hpp"
 #include "../include/Traversals.hpp"
+#include "../include/TwoApprox.hpp"
 
 int main() {
 
@@ -36,6 +38,14 @@ int main() {
    *///////////////////////////////////// 
 
 
+   // TODO: try to figure out this env var thing
+/*
+   std::string gitPath;
+   gitPath = getenv("GIT_DIR");
+  
+   std::cout << gitPath << std::endl;
+ */
+
    Reader myReader("../../data/cities.json");
    auto res = myReader.getCities();
 
@@ -45,7 +55,8 @@ int main() {
    //Traversals::edge_iterators(myGraph);
 
    // check out mst
-   Traversals::mst_example(myGraph);
+   std::vector<std::string> path;
+   two_approx(myGraph,path);
 
    // try out bfs
    //std::ofstream myFile;
