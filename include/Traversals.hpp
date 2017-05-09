@@ -96,7 +96,6 @@ void compute_mst(UGraph& ug, MultiGraph& mst) {
 
    for (auto ii = 0; ii < p.size(); ++ii) {
       if (p[ii] != ii) {
-         std::cout << "parent of " << ii << " ==> " << p[ii] << std::endl;
          Vertex u = vertex(ii,mst);
          Vertex v = vertex(p[ii],mst);
          add_edge(u,v,mst);

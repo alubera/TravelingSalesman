@@ -36,6 +36,12 @@ class Graph {
       int getNumEdges();
 
       /**
+      *  function to return city nodes
+      *  @return vector of city names in graph
+      */
+      const std::vector<Node>& getCityNodes();
+
+      /**
       *  function to return city names
       *  @return vector of city names in graph
       */
@@ -135,6 +141,10 @@ void Graph::calcAllEdges() {
 
 int Graph::getNumEdges() {
    return num_edges(ug);
+}
+
+const std::vector<Node>& Graph::getCityNodes() {
+   return cityNodes;
 }
 
 const std::vector<std::string>& Graph::getCityNames() {
