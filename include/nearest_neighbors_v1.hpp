@@ -19,7 +19,7 @@ class NearestNeighbors{
 
     public:
         void calc_nearest_neighbors(Graph);
-        std::vector<Vertex> get_visited_cities();
+        std::set<Vertex> get_visited_cities();
         void edge_iterators(Graph, int);
 
     private:
