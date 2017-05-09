@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include "../include/Graph.hpp"
 #include "../include/Reader.hpp"
+#include "../include/Writer.hpp"
 #include "../include/Traversals.hpp"
 #include "../include/TwoApprox.hpp"
 
@@ -54,9 +55,12 @@ int main() {
    // toy function to play with edge iterators
    //Traversals::edge_iterators(myGraph);
 
-   // check out mst
-   std::vector<std::string> path;
-   two_approx(myGraph,path);
+   // check out mst heuristic
+   Writer myWriter("../../output/dmst.txt");
+   std::list<Node> path;
+   std::list<double> weights;
+   two_approx(myGraph,path,weights);
+   myWriter.writePath(path,weights);
 
    // try out bfs
    //std::ofstream myFile;

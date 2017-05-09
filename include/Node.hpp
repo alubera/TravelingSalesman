@@ -21,26 +21,31 @@ class Node {
       * @param newLon is the longitude 
       */
       Node(std::string,std::string,double,double);
+
       /**
       * Function that returns the name of a node
       * @returns the name of the city of the node
       */
       std::string getName() const;
+
       /**
       * Function that returns the name of the state
       * @returns the name of the state of the node
       */
       std::string getState() const;
+
       /**
       * Function that returns the latitude
       * @returns latitude of node
       */
       double getLat() const;
+
       /**
       * Function that returns the longitude
       * @returns longitude of node
       */
       double getLon() const;
+
       /**
       * Overridden boolean operator
       * @param other is the Node that is the point of comparison
