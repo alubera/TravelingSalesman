@@ -83,16 +83,14 @@ void mst_example(Graph myGraph) {
       }
    }*/
 }
-
+/*
 void edge_iterators(Graph myGraph) {
 
    UGraph& ug = myGraph.getGraphRef();
    auto cities = myGraph.getCityNames();
-/*
    UGraph::adjacency_iterator vit, vend;
    std::tie(vit,vend) = boost::adjacent_vertices(0,ug);
    std::copy(vit,vend,std::ostream_iterator<Vertex>{std::cout,"\n"});
-*/
 
    int startingCity = 0;
    Vertex v = vertex(startingCity,ug);
@@ -104,11 +102,10 @@ void edge_iterators(Graph myGraph) {
       std::cout << cities[target(*eit,ug)] << " --> " << myGraph.getEdgeWeight(eit) << std::endl;
    }
 
-/*   std::for_each(eit,eend,
+   std::for_each(eit,eend,
       [&ug](Edge it)
          {std::cout << get(weights,ug) << '\n';});
-*/
-}
+}*/
 
 } // end namespace
 

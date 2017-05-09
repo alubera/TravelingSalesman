@@ -55,10 +55,10 @@ class Graph {
 
       /**
       *  function to return weight of an edge
-      *  @param ei is an out edge iterator
+      *  @param ei is an edge descriptor
       *  @return the edge weight of passed iterator
       */
-      double getEdgeWeight(UGraph::out_edge_iterator ei) const;
+      double getEdgeWeight(const UGraph::edge_descriptor& e) const;
 
       /**
       *  Return reference to graph. This is used in traversal algorithms where
@@ -149,9 +149,8 @@ const std::vector<double>& Graph::getCityLats() {
    return cityLats;
 }
 
-double Graph::getEdgeWeight(UGraph::out_edge_iterator ei) const {
-   //auto weights = get(edge_weight,ug);
-   return get(get(edge_weight,ug),*ei);
+double Graph::getEdgeWeight(const UGraph::edge_descriptor& e) const {
+   return get(get(edge_weight,ug),e);
 }
 
 // template function so that it can be used with auto iterators
