@@ -141,10 +141,11 @@ EdgeT check_edge(const VertexT& u, const VertexT& v, const GraphT& g) {
 // function will compute a Eulerian Tour in graph g
 // a Eulerian Tour is a path that visits every edge exactly once
 // it is assumed that every edge will have an even degree, so the tour will be a circuit
-template <typename GraphT, typename EdgeT = typename graph_traits<GraphT>::edge_descriptor>
-void compute_euler(const GraphT& g, std::vector<EdgeT>& path) {
+// this function is also special because vertices already in the path will be skipped
+template <typename GraphT, typename VertexT = typename graph_traits<GraphT>::vertex_descriptor>
+void compute_euler(const GraphT& g, std::vector<VertexT>& path) {
 
-   typedef typename graph_traits<GraphT>::vertex_descriptor VertexT;
+   typedef typename graph_traits<GraphT>::edge_descriptor EdgeT;
 
    // TODO: try every vertex as start
    VertexT start_vertex = vertex(0,g);
@@ -152,10 +153,9 @@ void compute_euler(const GraphT& g, std::vector<EdgeT>& path) {
    std::set<EdgeT> visited_edges;
    std::set<VertexT> used_vs;
    std::vector<VertexT> tmp;
-   std::vector<VertexT> order;
 
    tmp.push_back(start_vertex);
-   while (!tmp.empty()) {
+   while (!tmp.empty() && (used_vs.size() < num_vertices(g))) {
       VertexT v = tmp.back();
       typename graph_traits<GraphT>::out_edge_iterator ei, ei_end;
       bool has_avail_edge = false;
@@ -164,10 +164,7 @@ void compute_euler(const GraphT& g, std::vector<EdgeT>& path) {
          // if current edge is unmarked
          if (visited_edges.find(*ei) == visited_edges.end()) {
             has_avail_edge = true;
-            //EdgeT e = *ei;
             visited_edges.insert(*ei);
-            //EdgeT opposite_edge = edge(target(e,g),source(e,g),g).first;
-            //visited_edges.insert(opposite_edge);
             if (v == target(*ei,g)) {
                tmp.push_back(source(*ei,g));
             } else {
@@ -180,20 +177,14 @@ void compute_euler(const GraphT& g, std::vector<EdgeT>& path) {
          // skip vertices that have already been used in path
          // this is called shortcutting
          if (used_vs.find(v) == used_vs.end()) {
-            // add edge when there are two vertices to connect
-            if (!order.empty()) {
-               path.push_back(check_edge(order.back(),v,g));
-               order.pop_back();
-            }
-            std::cout << v << std::endl;
+            path.push_back(v);
             used_vs.insert(v);
-            order.push_back(v);
          }
          tmp.pop_back();   // move on to next vertex that was visited
       }
    }
-   // add last edge (should go back to first vertex)
-   //path.push_back(check_edge(order.back(),start_vertex,g));
+   // push start vertex to complete circuit
+   path.push_back(start_vertex);
 }
 
 

@@ -9,7 +9,7 @@
 
 #include "Traversals.hpp"
 
-void two_approx(Graph myGraph, std::vector<Vertex>& path) {
+void two_approx(Graph myGraph, std::vector<std::string>& path) {
 
    UGraph& ug = myGraph.getGraphRef();
    auto cities = myGraph.getCityNames();
@@ -25,13 +25,14 @@ void two_approx(Graph myGraph, std::vector<Vertex>& path) {
    std::cout << num_edges(mst) << std::endl;
 
    // compute Eulerian Tour of double mst
-   typedef typename graph_traits<MultiGraph>::edge_descriptor EdgeT;
-   std::vector<EdgeT> edge_path;
-   Traversals::compute_euler<MultiGraph>(mst,edge_path);
+   typedef typename graph_traits<MultiGraph>::vertex_descriptor VertexT;
+   std::vector<VertexT> v_path;
+   Traversals::compute_euler<MultiGraph>(mst,v_path);
 
-   for (auto it = edge_path.begin(); it != edge_path.end(); ++it) {
-      std::cout << cities.at(source(*it,mst)) << " ==> " << cities.at(target(*it,mst)) << std::endl;
-   }
+   for (auto it = v_path.begin(); it != v_path.end(); ++it) {
+      std::cout << cities.at(*it);
+      if (it+1 != v_path.end()) std::cout << "\t==>\n";
+   } std::cout << std::endl;
 
    // playing around
 /*

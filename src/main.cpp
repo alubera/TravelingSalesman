@@ -55,7 +55,7 @@ int main() {
    //Traversals::edge_iterators(myGraph);
 
    // check out mst
-   std::vector<Vertex> path;
+   std::vector<std::string> path;
    two_approx(myGraph,path);
 
    // try out bfs
