@@ -1,1001 +1,1001 @@
-New York, New York	40.7128	-74.0059	0
-Valley Stream, New York	40.6643	-73.7085	6.18111
-Hempstead, New York	40.7062	-73.6187	5.11158
-Freeport, New York	40.6576	-73.5832	7.25662
-Hoboken, New Jersey	40.744	-74.0324	7.84871
-West New York, New Jersey	40.7879	-74.0143	5.5793
-Jersey City, New Jersey	40.7282	-74.0776	13.7186
-Kearny, New Jersey	40.7684	-74.1454	13.0731
-Passaic, New Jersey	40.8568	-74.1285	31.6854
-Hackensack, New Jersey	40.8859	-74.0435	9.84485
-Yonkers, New York	40.9312	-73.8987	15.2255
-Mount Vernon, New York	40.9126	-73.8371	13.8731
-New Rochelle, New York	40.9115	-73.7824	48.019
-White Plains, New York	41.034	-73.7629	9.03607
-Stamford, Connecticut	41.0534	-73.5387	3.72476
-Norwalk, Connecticut	41.1177	-73.4082	17.6134
-Danbury, Connecticut	41.3948	-73.454	16.9397
-Bridgeport, Connecticut	41.1865	-73.1952	16.2723
-Milford, Connecticut	41.2307	-73.064	12.7974
-Shelton, Connecticut	41.3165	-73.0932	2.52209
-Waterbury, Connecticut	41.5582	-73.0515	3.36608
-Bristol, Connecticut	41.6718	-72.9493	21.773
-New Britain, Connecticut	41.6612	-72.7795	3.11324
-Meriden, Connecticut	41.5382	-72.807	31.8801
-Middletown, Connecticut	41.5623	-72.6506	24.5658
-Norwich, Connecticut	41.5243	-72.0759	157.393
-Warwick, Rhode Island	41.7001	-71.4162	9.13074
-Cranston, Rhode Island	41.7798	-71.4373	26.24
-Providence, Rhode Island	41.824	-71.4128	7.36145
-East Providence, Rhode Island	41.8137	-71.3701	66.9532
-Pawtucket, Rhode Island	41.8787	-71.3826	7.0065
-Woonsocket, Rhode Island	42.0029	-71.5148	4.53466
-Attleboro, Massachusetts	41.9445	-71.2856	19.7274
-Taunton, Massachusetts	41.9001	-71.0898	198.02
-Brockton, Massachusetts	42.0834	-71.0184	5.45783
-Weymouth Town, Massachusetts	42.2181	-70.941	14.0805
-Quincy, Massachusetts	42.2529	-71.0023	47.5189
-Boston, Massachusetts	42.3601	-71.0589	22.364
-Chelsea, Massachusetts	42.3918	-71.0328	357.07
-Everett, Massachusetts	42.4084	-71.0537	115.026
-Malden, Massachusetts	42.4251	-71.0662	20.1384
-Medford, Massachusetts	42.4184	-71.1062	13.3595
-Woburn, Massachusetts	42.4793	-71.1523	5.47067
-Lowell, Massachusetts	42.6334	-71.3162	18.5201
-Methuen, Massachusetts	42.7262	-71.1909	8.25258
-Lawrence, Massachusetts	42.707	-71.1631	69.9204
-Haverhill, Massachusetts	42.7762	-71.0773	78.1306
-Nashua, New Hampshire	42.7654	-71.4676	79.5691
-Manchester, New Hampshire	42.9956	-71.4548	74.5317
-Concord, New Hampshire	43.2081	-71.5376	107.46
-Portland, Maine	43.6615	-70.2553	137.5
-Somerville, Massachusetts	42.3876	-71.0995	17.5542
-Cambridge, Massachusetts	42.3736	-71.1097	11.7301
-Newton, Massachusetts	42.337	-71.2092	10.6349
-Waltham, Massachusetts	42.3765	-71.2356	35.5731
-Marlborough, Massachusetts	42.3459	-71.5523	20.8464
-Leominster, Massachusetts	42.5251	-71.7598	146.741
-Fitchburg, Massachusetts	42.5834	-71.8023	88.0017
-Worcester, Massachusetts	42.2626	-71.8023	78.4643
-Revere, Massachusetts	42.4084	-71.012	144.548
-Lynn, Massachusetts	42.4668	-70.9495	214.422
-Peabody, Massachusetts	42.5279	-70.9287	61.248
-Salem, Massachusetts	42.5195	-70.8967	11.0471
-Beverly, Massachusetts	42.5584	-70.88	9.29346
-Fall River, Massachusetts	41.7015	-71.155	19.0022
-New Bedford, Massachusetts	41.6362	-70.9342	27.2673
-Barnstable Town, Massachusetts	41.7003	-70.3002	187.638
-Hartford, Connecticut	41.7637	-72.6851	69.3616
-Springfield, Massachusetts	42.1015	-72.5898	7.57754
-Chicopee, Massachusetts	42.1487	-72.6079	8.13596
-Holyoke, Massachusetts	42.2043	-72.6162	14.5768
-Westfield, Massachusetts	42.1251	-72.7495	20.8151
-Pittsfield, Massachusetts	42.4501	-73.2454	11.0129
-Albany, New York	42.6526	-73.7562	3.34343
-Troy, New York	42.7284	-73.6918	10.2091
-Schenectady, New York	42.8142	-73.9396	11.742
-Burlington, Vermont	44.4759	-73.2121	71.7669
-West Haven, Connecticut	41.2705	-72.947	68.6198
-New Haven, Connecticut	41.3083	-72.9279	10.0866
-Clifton, New Jersey	40.8584	-74.1638	15.2751
-Paterson, New Jersey	40.9168	-74.1718	91.421
-Newark, New Jersey	40.7357	-74.1724	4.33964
-East Orange, New Jersey	40.7673	-74.2049	13.3005
-Bayonne, New Jersey	40.6687	-74.1143	30.4699
-Elizabeth, New Jersey	40.664	-74.2107	3.90451
-Linden, New Jersey	40.622	-74.2446	5.38677
-Plainfield, New Jersey	40.6337	-74.4074	7.91194
-Perth Amboy, New Jersey	40.5068	-74.2654	5.94761
-Sayreville, New Jersey	40.4594	-74.3608	16.1104
-New Brunswick, New Jersey	40.4862	-74.4518	13.8567
-Trenton, New Jersey	40.2171	-74.7429	47.4029
-Bethlehem, Pennsylvania	40.6259	-75.3705	19.4263
-Allentown, Pennsylvania	40.6084	-75.4902	171.106
-Wilkes-Barre, Pennsylvania	41.2459	-75.8813	9.70499
-Scranton, Pennsylvania	41.409	-75.6624	3.44956
-Binghamton, New York	42.0987	-75.918	8.99938
-Syracuse, New York	43.0481	-76.1474	7.07897
-Utica, New York	43.1009	-75.2327	24.0079
-Rochester, New York	43.161	-77.6109	16.0312
-Buffalo, New York	42.8864	-78.8784	7.97395
-Niagara Falls, New York	43.0962	-79.0377	18.2571
-Erie, Pennsylvania	42.1292	-80.0851	8.12932
-Mentor, Ohio	41.6662	-81.3396	80.6673
-Euclid, Ohio	41.5931	-81.5268	29.0121
-Cleveland Heights, Ohio	41.5201	-81.5562	123.515
-Cleveland, Ohio	41.4993	-81.6944	114.18
-Lakewood, Ohio	41.482	-81.7982	93.2967
-Parma, Ohio	41.4048	-81.7229	6.19095
-Strongsville, Ohio	41.3145	-81.8357	6.7922
-Cuyahoga Falls, Ohio	41.1339	-81.4846	8.8612
-Warren, Ohio	41.2376	-80.8184	7.77403
-Youngstown, Ohio	41.0998	-80.6495	103.557
-Pittsburgh, Pennsylvania	40.4406	-79.9959	77.2925
-Akron, Ohio	41.0814	-81.519	1.71494
-Canton, Ohio	40.7989	-81.3784	308.542
-Elyria, Ohio	41.3684	-82.1076	698.468
-Mansfield, Ohio	40.7584	-82.5154	5.51192
-Newark, Ohio	40.0581	-82.4013	220.411
-Lancaster, Ohio	39.7137	-82.5993	7.45573
-Huntington, West Virginia	38.4192	-82.4452	21.0875
-Charleston, West Virginia	38.3498	-81.6326	272.814
-Columbus, Ohio	39.9612	-82.9988	4.31198
-Grove City, Ohio	39.8815	-83.093	5.63991
-Springfield, Ohio	39.9242	-83.8088	32.7047
-Huber Heights, Ohio	39.8439	-84.1247	9.7482
-Dayton, Ohio	39.7589	-84.1916	69.5735
-Kettering, Ohio	39.6895	-84.1688	6.93935
-Beavercreek, Ohio	39.7092	-84.0633	55.9174
-Middletown, Ohio	39.5151	-84.3983	32.3537
-Hamilton, Ohio	39.3995	-84.5613	28.6037
-Fairfield, Ohio	39.3455	-84.5603	222.682
-Cincinnati, Ohio	39.1031	-84.512	26.8297
-Covington, Kentucky	39.0837	-84.5086	50.153
-Lima, Ohio	40.7426	-84.1052	89.3116
-Findlay, Ohio	41.0442	-83.6499	13.7741
-Toledo, Ohio	41.6639	-83.5552	48.5217
-Taylor, Michigan	42.2409	-83.2697	111.017
-Lincoln Park, Michigan	42.2506	-83.1785	130.006
-Dearborn, Michigan	42.3223	-83.1763	74.8431
-Dearborn Heights, Michigan	42.337	-83.2733	14.4054
-Livonia, Michigan	42.3684	-83.3527	19.1411
-Farmington Hills, Michigan	42.499	-83.3677	15.2261
-Novi, Michigan	42.4806	-83.4755	66.9971
-Southfield, Michigan	42.4734	-83.2219	100.031
-Royal Oak, Michigan	42.4895	-83.1446	14.3265
-Warren, Michigan	42.5145	-83.0147	18.1572
-Roseville, Michigan	42.4973	-82.9371	178.298
-St. Clair Shores, Michigan	42.4974	-82.8964	3.28593
-Sterling Heights, Michigan	42.5803	-83.0302	486.482
-Troy, Michigan	42.6064	-83.1498	73.7017
-Rochester Hills, Michigan	42.6584	-83.1499	127.953
-Pontiac, Michigan	42.6389	-83.291	20.1578
-Flint, Michigan	43.0125	-83.6875	84.4879
-East Lansing, Michigan	42.737	-84.4839	17.0792
-Lansing, Michigan	42.7325	-84.5555	88.3289
-Battle Creek, Michigan	42.3212	-85.1797	136.717
-Kalamazoo, Michigan	42.2917	-85.5872	79.2422
-Portage, Michigan	42.2012	-85.58	90.5256
-Elkhart, Indiana	41.682	-85.9767	16.0094
-Mishawaka, Indiana	41.662	-86.1586	10.5538
-South Bend, Indiana	41.6764	-86.252	13.7018
-Gary, Indiana	41.5934	-87.3464	61.878
-Hammond, Indiana	41.5834	-87.5	75.6918
-Calumet City, Illinois	41.6156	-87.5295	104.111
-Oak Lawn, Illinois	41.72	-87.748	111.603
-Orland Park, Illinois	41.6303	-87.8539	17.6131
-Tinley Park, Illinois	41.5731	-87.7933	8.41026
-Cicero, Illinois	41.8456	-87.7539	28.3645
-Berwyn, Illinois	41.8506	-87.7937	14.794
-Oak Park, Illinois	41.885	-87.7845	11.3756
-Elmhurst, Illinois	41.8995	-87.9403	5.76141
-Addison, Illinois	41.9317	-87.989	6.30137
-Lombard, Illinois	41.88	-88.0078	10.2081
-Downers Grove, Illinois	41.8089	-88.0112	11.6748
-Bolingbrook, Illinois	41.6986	-88.0684	15.2004
-Romeoville, Illinois	41.6475	-88.0895	48.8339
-Plainfield, Illinois	41.6322	-88.212	8.45983
-Joliet, Illinois	41.525	-88.0817	7.08477
-Naperville, Illinois	41.7508	-88.1535	11.8975
-Aurora, Illinois	41.7606	-88.3201	55.176
-DeKalb, Illinois	41.9295	-88.7504	103.849
-Rockford, Illinois	42.2711	-89.094	269.886
-Beloit, Wisconsin	42.5083	-89.0318	148.069
-Janesville, Wisconsin	42.6828	-89.0187	111.1
-Madison, Wisconsin	43.0731	-89.4012	14.4914
-Wheaton, Illinois	41.8661	-88.107	23.7777
-Carol Stream, Illinois	41.9125	-88.1348	79.8473
-Hanover Park, Illinois	41.9995	-88.1451	66.5261
-Bartlett, Illinois	41.995	-88.1856	97.6093
-Streamwood, Illinois	42.0256	-88.1784	40.3059
-Hoffman Estates, Illinois	42.063	-88.1227	10.9216
-Palatine, Illinois	42.1103	-88.0342	5.92603
-Arlington Heights, Illinois	42.0884	-87.9806	75.0544
-Wheeling, Illinois	42.1392	-87.929	12.7789
-Buffalo Grove, Illinois	42.1663	-87.9631	142.673
-Waukegan, Illinois	42.3636	-87.8448	302.344
-Kenosha, Wisconsin	42.5847	-87.8212	379.395
-Racine, Wisconsin	42.7261	-87.7829	14.2012
-Greenfield, Wisconsin	42.9614	-88.0126	337.832
-New Berlin, Wisconsin	42.9764	-88.1084	51.9252
-Waukesha, Wisconsin	43.0117	-88.2315	78.3257
-West Allis, Wisconsin	43.0167	-88.007	16.1801
-Wauwatosa, Wisconsin	43.0495	-88.0076	83.6254
-Brookfield, Wisconsin	43.0606	-88.1065	790.685
-Milwaukee, Wisconsin	43.0389	-87.9065	166.138
-Sheboygan, Wisconsin	43.7508	-87.7145	198.487
-Fond du Lac, Wisconsin	43.773	-88.4471	165.582
-Oshkosh, Wisconsin	44.0247	-88.5426	67.4794
-Appleton, Wisconsin	44.2619	-88.4154	17.2054
-Wausau, Wisconsin	44.9591	-89.6301	261.358
-Eau Claire, Wisconsin	44.8113	-91.4985	13.2234
-La Crosse, Wisconsin	43.8014	-91.2396	16.9112
-Rochester, Minnesota	44.0121	-92.4802	6.37043
-Lakeville, Minnesota	44.6497	-93.2427	5.34158
-Apple Valley, Minnesota	44.7319	-93.2177	4.28852
-Burnsville, Minnesota	44.7677	-93.2777	14.3269
-Bloomington, Minnesota	44.8408	-93.2983	12.1881
-Edina, Minnesota	44.8897	-93.3499	58.3297
-St. Louis Park, Minnesota	44.9597	-93.3702	168.173
-Minnetonka, Minnesota	44.9212	-93.4687	14.2605
-Eden Prairie, Minnesota	44.8547	-93.4708	16.859
-Shakopee, Minnesota	44.7974	-93.5273	255.354
-Mankato, Minnesota	44.1636	-93.9994	216.145
-Plymouth, Minnesota	45.0105	-93.4555	34.3624
-Maple Grove, Minnesota	45.0725	-93.4558	202.621
-St. Cloud, Minnesota	45.5579	-94.1632	14.0247
-Moorhead, Minnesota	46.8738	-96.7678	150.477
-Fargo, North Dakota	46.8772	-96.7898	10.6174
-Grand Forks, North Dakota	47.9253	-97.0329	5.88721
-Bismarck, North Dakota	46.8083	-100.784	12.9143
-Minot, North Dakota	48.233	-101.292	6.69773
-Brooklyn Park, Minnesota	45.0941	-93.3563	5.2972
-Coon Rapids, Minnesota	45.1732	-93.303	14.7231
-Blaine, Minnesota	45.1608	-93.2349	5.21334
-Duluth, Minnesota	46.7867	-92.1005	197.634
-Minneapolis, Minnesota	44.9778	-93.265	68.0763
-St. Paul, Minnesota	44.9537	-93.09	12.2585
-Maplewood, Minnesota	44.953	-92.9952	5.03977
-Woodbury, Minnesota	44.9239	-92.9594	20.9227
-Eagan, Minnesota	44.8041	-93.1669	3.11732
-Green Bay, Wisconsin	44.5192	-88.0198	15.1272
-Mount Prospect, Illinois	42.0664	-87.9373	12.7634
-Des Plaines, Illinois	42.0334	-87.8834	21.6724
-Park Ridge, Illinois	42.0111	-87.8406	10.1355
-Glenview, Illinois	42.0698	-87.7878	7.37129
-Skokie, Illinois	42.0324	-87.7416	7.43426
-Evanston, Illinois	42.0451	-87.6877	11.3837
-Schaumburg, Illinois	42.0334	-88.0834	9.41149
-Elgin, Illinois	42.0354	-88.2826	9.63409
-Carpentersville, Illinois	42.1211	-88.2579	19.4759
-Crystal Lake, Illinois	42.2411	-88.3162	6.00163
-Chicago, Illinois	41.8781	-87.6298	38.5997
-Kentwood, Michigan	42.8695	-85.6447	35.0152
-Wyoming, Michigan	42.9134	-85.7053	29.8772
-Grand Rapids, Michigan	42.9634	-85.6681	38.9385
-Muskegon, Michigan	43.2342	-86.2484	109.653
-Saginaw, Michigan	43.4195	-83.9508	44.2868
-Midland, Michigan	43.6156	-84.2472	6.53859
-Westland, Michigan	42.3242	-83.4002	8.0305
-Ann Arbor, Michigan	42.2808	-83.743	5.70707
-Detroit, Michigan	42.3314	-83.0458	4.03542
-Fort Wayne, Indiana	41.0793	-85.1394	3.66472
-Muncie, Indiana	40.1934	-85.3864	3.49516
-Anderson, Indiana	40.1053	-85.6803	3.11456
-Noblesville, Indiana	40.0456	-86.0086	6.41385
-Kokomo, Indiana	40.4864	-86.1336	5.49192
-Lafayette, Indiana	40.4167	-86.8753	5.10181
-Fishers, Indiana	39.9568	-86.0134	12.982
-Lawrence, Indiana	39.8387	-86.0253	6.08035
-Indianapolis, Indiana	39.7684	-86.1581	3.80602
-Greenwood, Indiana	39.6137	-86.1067	13.6958
-Columbus, Indiana	39.2014	-85.9214	10.4223
-Jeffersonville, Indiana	38.2776	-85.7372	6.1643
-Lexington-Fayette, Kentucky	38.0406	-84.5037	4.41676
-Louisville, Kentucky	38.2527	-85.7585	8.44192
-Owensboro, Kentucky	37.7719	-87.1112	13.077
-Bowling Green, Kentucky	36.9685	-86.4808	38.537
-Hendersonville, Tennessee	36.3048	-86.62	10.7197
-Nashville-Davidson, Tennessee	36.1627	-86.7816	10.8091
-Brentwood, Tennessee	36.0331	-86.7828	113.947
-Smyrna, Tennessee	35.9828	-86.5186	81.5459
-Murfreesboro, Tennessee	35.8456	-86.3903	74.906
-Huntsville, Alabama	34.7304	-86.5861	20.2992
-Madison, Alabama	34.6993	-86.7483	170.473
-Decatur, Alabama	34.6059	-86.9833	16.0079
-Florence, Alabama	34.7998	-87.6773	186.442
-Jackson, Tennessee	35.6145	-88.8139	6.6654
-Collierville, Tennessee	35.042	-89.6645	0.747962
-Germantown, Tennessee	35.0868	-89.8101	48.1039
-Bartlett, Tennessee	35.2045	-89.874	7.7436
-Memphis, Tennessee	35.1495	-90.049	7.97558
-Southaven, Mississippi	34.989	-90.0126	29.6713
-Jonesboro, Arkansas	35.8423	-90.7043	33.5825
-Conway, Arkansas	35.0887	-92.4421	24.5529
-North Little Rock, Arkansas	34.7695	-92.2671	97.0119
-Little Rock, Arkansas	34.7465	-92.2896	32.1918
-Pine Bluff, Arkansas	34.2284	-92.0032	10.3047
-Birmingham, Alabama	33.5207	-86.8025	16.4713
-Hoover, Alabama	33.4054	-86.8114	104.666
-Tuscaloosa, Alabama	33.2098	-87.5692	10.5539
-Meridian, Mississippi	32.3643	-88.7037	17.9509
-Hattiesburg, Mississippi	31.3271	-89.2903	41.8114
-Gulfport, Mississippi	30.3674	-89.0928	10.2212
-Biloxi, Mississippi	30.396	-88.8853	3.91154
-Mobile, Alabama	30.6954	-88.0399	4.04251
-Pensacola, Florida	30.4213	-87.2169	7.24284
-New Orleans, Louisiana	29.9511	-90.0715	5.25663
-Kenner, Louisiana	29.9941	-90.2417	5.69082
-Baton Rouge, Louisiana	30.4583	-91.1403	6.87884
-Lafayette, Louisiana	30.2241	-92.0198	2.64782
-Alexandria, Louisiana	31.3113	-92.4451	7.49906
-Monroe, Louisiana	32.5093	-92.1193	7.47359
-Lake Charles, Louisiana	30.2266	-93.2174	5.45797
-Port Arthur, Texas	29.885	-93.9399	13.9612
-Beaumont, Texas	30.0802	-94.1266	13.8365
-Baytown, Texas	29.7355	-94.9774	4.98734
-Pasadena, Texas	29.6911	-95.2091	18.706
-Pearland, Texas	29.5636	-95.286	7.89499
-Friendswood, Texas	29.5294	-95.201	14.9972
-League City, Texas	29.5075	-95.0949	6.40518
-Texas City, Texas	29.3838	-94.9027	4.4584
-Galveston, Texas	29.3013	-94.7977	135.466
-Houston, Texas	29.7604	-95.3698	5.67548
-Conroe, Texas	30.3119	-95.4561	4.58129
-Huntsville, Texas	30.7235	-95.5508	4.98621
-College Station, Texas	30.628	-96.3344	11.0821
-Bryan, Texas	30.6744	-96.37	5.09236
-Temple, Texas	31.0982	-97.3428	7.72335
-Waco, Texas	31.5493	-97.1467	24.6937
-Burleson, Texas	32.5421	-97.3208	11.6451
-Mansfield, Texas	32.5632	-97.1417	10.6302
-Cedar Hill, Texas	32.5885	-96.9561	12.1459
-Duncanville, Texas	32.6518	-96.9083	12.9946
-DeSoto, Texas	32.5897	-96.8571	46.0366
-Lancaster, Texas	32.5921	-96.7561	34.9612
-Grand Prairie, Texas	32.746	-96.9978	169.629
-Irving, Texas	32.814	-96.9489	188.503
-Dallas, Texas	32.7767	-96.797	87.8083
-Arlington, Texas	32.7357	-97.1081	6.99222
-Hurst, Texas	32.8235	-97.1706	13.323
-Bedford, Texas	32.844	-97.1431	4.61351
-Euless, Texas	32.8371	-97.082	7.63169
-Grapevine, Texas	32.9343	-97.0781	16.745
-Coppell, Texas	32.9546	-97.015	30.9038
-Flower Mound, Texas	33.0146	-97.097	19.8435
-Lewisville, Texas	33.0462	-96.9942	46.9245
-The Colony, Texas	33.0806	-96.8928	11.689
-Carrollton, Texas	32.9756	-96.89	6.93134
-Frisco, Texas	33.1507	-96.8236	3850.74
-Allen, Texas	33.1032	-96.6706	10.656
-McKinney, Texas	33.1972	-96.6398	8.75508
-Sherman, Texas	33.6357	-96.6089	7.47689
-Plano, Texas	33.0198	-96.6989	16.6144
-Richardson, Texas	32.9483	-96.7299	15.081
-Garland, Texas	32.9126	-96.6389	11.2643
-Rowlett, Texas	32.9029	-96.5639	133.3
-Rockwall, Texas	32.9312	-96.4597	5.27396
-Wylie, Texas	33.0151	-96.5389	185.501
-Tyler, Texas	32.3513	-95.3011	43.6802
-Longview, Texas	32.5007	-94.7405	6.56077
-Shreveport, Louisiana	32.5252	-93.7502	11.4143
-Texarkana, Texas	33.4251	-94.0477	19.043
-Bossier City, Louisiana	32.516	-93.7321	12.9105
-Mesquite, Texas	32.7668	-96.5992	22.8281
-Denton, Texas	33.2148	-97.1331	80.6605
-Wichita Falls, Texas	33.9137	-98.4934	2312.83
-Lawton, Oklahoma	34.6036	-98.3959	22.2544
-Norman, Oklahoma	35.2226	-97.4395	1094.69
-Moore, Oklahoma	35.3395	-97.4867	19.6307
-Oklahoma City, Oklahoma	35.4676	-97.5164	18.865
-Midwest City, Oklahoma	35.4495	-97.3967	3.22656
-Edmond, Oklahoma	35.6528	-97.4781	12.364
-Stillwater, Oklahoma	36.1156	-97.0584	8.68765
-Enid, Oklahoma	36.3956	-97.8784	12.4874
-Wichita, Kansas	37.6889	-97.3361	18.1968
-Hutchinson, Kansas	38.0608	-97.9298	67.0215
-Salina, Kansas	38.8403	-97.6114	5.71305
-Manhattan, Kansas	39.1836	-96.5717	25.7382
-Topeka, Kansas	39.0558	-95.689	36.4838
-Lawrence, Kansas	38.9717	-95.2353	228.196
-Olathe, Kansas	38.8814	-94.8191	961.318
-Lenexa, Kansas	38.9536	-94.7336	500.285
-Overland Park, Kansas	38.9822	-94.6708	15.4251
-Shawnee, Kansas	39.0228	-94.7152	185.99
-Kansas City, Kansas	39.1141	-94.6275	13.9004
-St. Joseph, Missouri	39.7675	-94.8467	22.4973
-Bellevue, Nebraska	41.1544	-95.9146	26.7182
-Council Bluffs, Iowa	41.2619	-95.8608	118.149
-Omaha, Nebraska	41.2524	-95.998	29.6148
-Sioux City, Iowa	42.5	-96.4003	12.0621
-Sioux Falls, South Dakota	43.5446	-96.7311	9.60651
-Lincoln, Nebraska	40.8258	-96.6852	267.553
-Grand Island, Nebraska	40.9264	-98.342	136.593
-Kansas City, Missouri	39.0997	-94.5786	9.39906
-Independence, Missouri	39.0911	-94.4155	365.058
-Blue Springs, Missouri	39.017	-94.2816	47.5724
-Lee's Summit, Missouri	38.9108	-94.3822	125.621
-Tulsa, Oklahoma	36.154	-95.9928	160.122
-Broken Arrow, Oklahoma	36.0609	-95.7975	80.7076
-Muskogee, Oklahoma	35.7479	-95.3697	4.14599
-Fort Smith, Arkansas	35.3859	-94.3985	13.7163
-Fayetteville, Arkansas	36.0626	-94.1574	49.7862
-Springdale, Arkansas	36.1867	-94.1288	5.79026
-Rogers, Arkansas	36.332	-94.1185	19.5766
-Bentonville, Arkansas	36.3729	-94.2088	13.0884
-Joplin, Missouri	37.0842	-94.5133	12.7098
-Springfield, Missouri	37.209	-93.2923	22.8351
-Abilene, Texas	32.4487	-99.7331	11.7696
-San Angelo, Texas	31.4638	-100.437	9.29742
-Midland, Texas	31.9973	-102.078	5.5705
-Odessa, Texas	31.8457	-102.368	2.85779
-Lubbock, Texas	33.5779	-101.855	2.43386
-Clovis, New Mexico	34.4048	-103.205	4.96762
-Roswell, New Mexico	33.3943	-104.523	8.08834
-Las Cruces, New Mexico	32.3199	-106.764	14.5932
-El Paso, Texas	31.7776	-106.442	7.5861
-Albuquerque, New Mexico	35.0853	-106.606	5.36298
-Rio Rancho, New Mexico	35.2328	-106.663	2.8976
-Farmington, New Mexico	36.7281	-108.219	24.6008
-Grand Junction, Colorado	39.0639	-108.551	8.87834
-Spanish Fork, Utah	40.115	-111.655	18.094
-Provo, Utah	40.2338	-111.659	8.81104
-Orem, Utah	40.2969	-111.695	308.312
-Lehi, Utah	40.3916	-111.851	8.48364
-Draper, Utah	40.5247	-111.864	36.3227
-Riverton, Utah	40.5219	-111.939	228.134
-South Jordan, Utah	40.5622	-111.93	69.5704
-West Jordan, Utah	40.6097	-111.939	26.663
-Taylorsville, Utah	40.6677	-111.939	6.39435
-Murray, Utah	40.6669	-111.888	31.1506
-Salt Lake City, Utah	40.7608	-111.891	43.6521
-Bountiful, Utah	40.8894	-111.881	11.5647
-Layton, Utah	41.0602	-111.971	517.245
-Roy, Utah	41.1616	-112.026	121.135
-Ogden, Utah	41.223	-111.974	25.33
-Logan, Utah	41.737	-111.834	13.7561
-Pocatello, Idaho	42.8713	-112.446	3.9752
-Twin Falls, Idaho	42.563	-114.461	8.49937
-Boise City, Idaho	43.6187	-116.215	6.8946
-Meridian, Idaho	43.6121	-116.392	107.01
-Nampa, Idaho	43.5407	-116.563	140.067
-Caldwell, Idaho	43.6629	-116.687	124.142
-Idaho Falls, Idaho	43.4917	-112.034	80.3583
-Bozeman, Montana	45.677	-111.043	160.837
-Great Falls, Montana	47.4942	-111.283	98.5953
-Missoula, Montana	46.8787	-113.997	67.949
-Coeur d'Alene, Idaho	47.6777	-116.78	3.34583
-Spokane Valley, Washington	47.6732	-117.239	119.145
-Spokane, Washington	47.6588	-117.426	1.57797
-Pasco, Washington	46.2396	-119.101	36.9666
-Kennewick, Washington	46.2112	-119.137	137.573
-Richland, Washington	46.2857	-119.284	111.494
-Yakima, Washington	46.6021	-120.506	14.6127
-Puyallup, Washington	47.1854	-122.293	5.49836
-Tacoma, Washington	47.2529	-122.444	124.615
-Lakewood, Washington	47.1718	-122.518	11.4806
-Lacey, Washington	47.0343	-122.823	19.5552
-Olympia, Washington	47.0379	-122.901	43.9607
-Vancouver, Washington	45.6387	-122.661	178.958
-Portland, Oregon	45.5231	-122.676	141.058
-Beaverton, Oregon	45.4871	-122.804	256.074
-Tigard, Oregon	45.4312	-122.771	160.35
-Keizer, Oregon	44.9901	-123.026	46.1612
-Salem, Oregon	44.9429	-123.035	37.0871
-Albany, Oregon	44.6365	-123.106	54.4779
-Corvallis, Oregon	44.5646	-123.262	34.6664
-Eugene, Oregon	44.0521	-123.087	47.7686
-Springfield, Oregon	44.0462	-123.022	7.82814
-Medford, Oregon	42.3265	-122.876	35.7227
-Redding, California	40.5865	-122.392	109.645
-Chico, California	39.7285	-121.837	118.558
-Yuba City, California	39.1404	-121.617	117.645
-Lincoln, California	38.8916	-121.293	90.3352
-Rocklin, California	38.7907	-121.236	39.903
-Roseville, California	38.7521	-121.288	24.88
-Citrus Heights, California	38.7071	-121.281	75.654
-Rancho Cordova, California	38.5891	-121.303	65.5342
-Elk Grove, California	38.4088	-121.372	52.6759
-Sacramento, California	38.5816	-121.494	75.3287
-West Sacramento, California	38.5805	-121.53	23.1795
-Davis, California	38.5449	-121.741	76.1438
-Woodland, California	38.6785	-121.773	20.4162
-Vacaville, California	38.3566	-121.988	102.765
-Fairfield, California	38.2494	-122.04	61.4744
-Napa, California	38.2975	-122.287	13.9777
-Vallejo, California	38.1041	-122.257	9.60346
-Martinez, California	38.0194	-122.134	35.8687
-Concord, California	37.978	-122.031	215.282
-Pittsburg, California	38.028	-121.885	76.14
-Antioch, California	38.0049	-121.806	83.7857
-Oakley, California	37.9974	-121.712	32.097
-Brentwood, California	37.9319	-121.696	78.0909
-Walnut Creek, California	37.9101	-122.065	265.357
-Danville, California	37.8216	-122	13.0023
-San Ramon, California	37.7799	-121.978	2.03189
-Dublin, California	37.7022	-121.936	26.7514
-Pleasanton, California	37.6624	-121.875	349.792
-Livermore, California	37.6819	-121.768	56.3022
-Tracy, California	37.7397	-121.425	91.1974
-Manteca, California	37.7974	-121.216	152.014
-Modesto, California	37.6391	-120.997	1.16005e-316
-Ceres, California	37.5949	-120.958	0
-Turlock, California	37.4947	-120.847	6.18111
-Merced, California	37.3022	-120.483	5.11158
-Madera, California	36.9613	-120.061	7.25662
-Fresno, California	36.7468	-119.773	7.84871
-Hanford, California	36.3275	-119.646	5.5793
-Tulare, California	36.2077	-119.347	13.7186
-Porterville, California	36.0652	-119.017	13.0731
-Delano, California	35.7688	-119.247	31.6854
-Bakersfield, California	35.3733	-119.019	9.84485
-Lancaster, California	34.6868	-118.154	15.2255
-Palmdale, California	34.5794	-118.116	13.8731
-Santa Clarita, California	34.3917	-118.543	48.019
-Burbank, California	34.1808	-118.309	9.03607
-Glendale, California	34.1425	-118.255	3.72476
-Los Angeles, California	34.0522	-118.244	17.6134
-Huntington Park, California	33.9817	-118.225	16.9397
-South Gate, California	33.9547	-118.212	16.2723
-Bell Gardens, California	33.9653	-118.151	12.7974
-Pico Rivera, California	33.9831	-118.097	2.52209
-Montebello, California	34.0165	-118.114	3.36608
-Monterey Park, California	34.0625	-118.123	21.773
-Alhambra, California	34.0953	-118.127	3.11324
-San Gabriel, California	34.0961	-118.106	31.8801
-Rosemead, California	34.0806	-118.073	24.5658
-Arcadia, California	34.1397	-118.035	157.393
-Monrovia, California	34.1443	-118.002	9.13074
-El Monte, California	34.0686	-118.028	26.24
-Baldwin Park, California	34.0853	-117.961	7.36145
-West Covina, California	34.0686	-117.939	66.9532
-La Puente, California	34.02	-117.95	7.0065
-Covina, California	34.09	-117.89	4.53466
-Azusa, California	34.1336	-117.908	19.7274
-Glendora, California	34.1361	-117.865	198.02
-Diamond Bar, California	34.0286	-117.81	5.45783
-Pomona, California	34.0551	-117.75	14.0805
-Montclair, California	34.0775	-117.69	47.5189
-Ontario, California	34.0633	-117.651	22.364
-Upland, California	34.0975	-117.648	357.07
-Rancho Cucamonga, California	34.1064	-117.593	115.026
-Chino, California	34.0122	-117.689	20.1384
-Eastvale, California	33.9525	-117.585	13.3595
-Jurupa Valley, California	33.9972	-117.485	5.47067
-Fontana, California	34.0922	-117.435	18.5201
-Rialto, California	34.1064	-117.37	8.25258
-Colton, California	34.0739	-117.314	69.9204
-San Bernardino, California	34.1083	-117.29	78.1306
-Highland, California	34.1283	-117.209	79.5691
-Redlands, California	34.0556	-117.183	74.5317
-Yucaipa, California	34.0336	-117.043	107.46
-Beaumont, California	33.9295	-116.977	137.5
-San Jacinto, California	33.7839	-116.959	17.5542
-Palm Springs, California	33.8303	-116.545	11.7301
-Cathedral City, California	33.7805	-116.467	10.6349
-Palm Desert, California	33.7222	-116.374	35.5731
-La Quinta, California	33.6634	-116.31	20.8464
-Indio, California	33.7206	-116.216	146.741
-Coachella, California	33.6803	-116.174	88.0017
-El Centro, California	32.792	-115.563	78.4643
-Calexico, California	32.6789	-115.499	144.548
-Yuma, Arizona	32.6927	-114.628	214.422
-Lake Havasu City, Arizona	34.4839	-114.322	61.248
-Bullhead City, Arizona	35.1359	-114.529	11.0471
-Henderson, Nevada	36.0395	-114.982	9.29346
-Las Vegas, Nevada	36.1699	-115.14	19.0022
-North Las Vegas, Nevada	36.1989	-115.118	27.2673
-St. George, Utah	37.0965	-113.568	187.638
-Prescott, Arizona	34.54	-112.469	69.3616
-Prescott Valley, Arizona	34.61	-112.316	7.57754
-Flagstaff, Arizona	35.1983	-111.651	8.13596
-Surprise, Arizona	33.6292	-112.368	14.5768
-Peoria, Arizona	33.5806	-112.237	20.8151
-Glendale, Arizona	33.5387	-112.186	11.0129
-Avondale, Arizona	33.4356	-112.35	3.34343
-Goodyear, Arizona	33.4353	-112.358	10.2091
-Buckeye, Arizona	33.3703	-112.584	11.742
-Phoenix, Arizona	33.4484	-112.074	71.7669
-Tempe, Arizona	33.4255	-111.94	68.6198
-Scottsdale, Arizona	33.4942	-111.926	10.0866
-Mesa, Arizona	33.4152	-111.831	15.2751
-Gilbert, Arizona	33.3528	-111.789	91.421
-Apache Junction, Arizona	33.415	-111.55	4.33964
-Chandler, Arizona	33.3062	-111.841	13.3005
-Maricopa, Arizona	33.0581	-112.048	30.4699
-Casa Grande, Arizona	32.8795	-111.757	3.90451
-Marana, Arizona	32.4364	-111.222	5.38677
-Oro Valley, Arizona	32.3909	-110.966	7.91194
-Tucson, Arizona	32.2217	-110.926	5.94761
-Sierra Vista, Arizona	31.5455	-110.277	16.1104
-Hemet, California	33.7475	-116.972	13.8567
-Moreno Valley, California	33.9425	-117.23	47.4029
-Perris, California	33.7825	-117.229	19.4263
-Menifee, California	33.6971	-117.185	171.106
-Lake Elsinore, California	33.6681	-117.327	9.70499
-Murrieta, California	33.5539	-117.214	3.44956
-Temecula, California	33.4936	-117.148	8.99938
-Hesperia, California	34.4264	-117.301	7.07897
-Victorville, California	34.5362	-117.293	24.0079
-Apple Valley, California	34.5008	-117.186	16.0312
-Riverside, California	33.9533	-117.396	7.97395
-Corona, California	33.8753	-117.566	18.2571
-Chino Hills, California	33.9898	-117.733	8.12932
-Pasadena, California	34.1478	-118.145	80.6673
-Whittier, California	33.9792	-118.033	29.0121
-Downey, California	33.9401	-118.133	123.515
-Lynwood, California	33.9303	-118.211	114.18
-Compton, California	33.8958	-118.22	93.2967
-Paramount, California	33.8895	-118.16	6.19095
-Bellflower, California	33.8817	-118.117	6.7922
-Lakewood, California	33.8536	-118.134	8.8612
-Norwalk, California	33.9022	-118.082	7.77403
-Cerritos, California	33.8583	-118.065	103.557
-Cypress, California	33.817	-118.037	77.2925
-Stanton, California	33.8025	-117.993	1.71494
-Westminster, California	33.7513	-117.994	308.542
-Fountain Valley, California	33.7092	-117.954	698.468
-Huntington Beach, California	33.6603	-117.999	5.51192
-Costa Mesa, California	33.6411	-117.919	220.411
-Newport Beach, California	33.6189	-117.929	7.45573
-Garden Grove, California	33.7739	-117.941	21.0875
-Santa Ana, California	33.7456	-117.868	272.814
-Tustin, California	33.7459	-117.826	4.31198
-Irvine, California	33.6839	-117.795	5.63991
-Lake Forest, California	33.647	-117.689	32.7047
-Mission Viejo, California	33.6	-117.672	9.7482
-Rancho Santa Margarita, California	33.6409	-117.603	69.5735
-Aliso Viejo, California	33.5677	-117.726	6.93935
-Laguna Niguel, California	33.5225	-117.708	55.9174
-San Clemente, California	33.427	-117.612	32.3537
-Oceanside, California	33.1959	-117.379	28.6037
-Carlsbad, California	33.1581	-117.351	222.682
-Encinitas, California	33.037	-117.292	26.8297
-Vista, California	33.2	-117.243	50.153
-San Marcos, California	33.1434	-117.166	89.3116
-Escondido, California	33.1192	-117.086	13.7741
-Poway, California	32.9628	-117.036	48.5217
-Santee, California	32.8384	-116.974	111.017
-El Cajon, California	32.7948	-116.963	130.006
-La Mesa, California	32.7678	-117.023	74.8431
-National City, California	32.6781	-117.099	14.4054
-Chula Vista, California	32.6401	-117.084	19.1411
-San Diego, California	32.7157	-117.161	15.2261
-Orange, California	33.7878	-117.853	66.9971
-Buena Park, California	33.8675	-117.998	100.031
-La Mirada, California	33.9172	-118.012	14.3265
-La Habra, California	33.932	-117.946	18.1572
-Brea, California	33.9167	-117.9	178.298
-Fullerton, California	33.8704	-117.924	3.28593
-Placentia, California	33.8722	-117.87	486.482
-Yorba Linda, California	33.8886	-117.813	73.7017
-Anaheim, California	33.8353	-117.915	127.953
-Gardena, California	33.8883	-118.309	20.1578
-Hawthorne, California	33.9164	-118.353	84.4879
-Inglewood, California	33.9617	-118.353	17.0792
-Culver City, California	34.0211	-118.396	88.3289
-Santa Monica, California	34.0195	-118.491	136.717
-Torrance, California	33.8358	-118.341	79.2422
-Rancho Palos Verdes, California	33.7445	-118.387	90.5256
-Redondo Beach, California	33.8492	-118.388	16.0094
-Carson, California	33.8317	-118.282	10.5538
-Long Beach, California	33.7701	-118.194	13.7018
-Simi Valley, California	34.2694	-118.781	61.878
-Thousand Oaks, California	34.1706	-118.838	75.6918
-Camarillo, California	34.2164	-119.038	104.111
-Oxnard, California	34.1975	-119.177	111.603
-San Buenaventura , California	34.2746	-119.229	17.6131
-Santa Barbara, California	34.4208	-119.698	8.41026
-Lompoc, California	34.6392	-120.458	28.3645
-Santa Maria, California	34.953	-120.436	14.794
-San Luis Obispo, California	35.2828	-120.66	11.3756
-Visalia, California	36.3302	-119.292	5.76141
-Clovis, California	36.8252	-119.703	6.30137
-Stockton, California	37.9577	-121.291	10.2081
-Lodi, California	38.1341	-121.272	11.6748
-Hayward, California	37.6688	-122.081	15.2004
-Union City, California	37.5934	-122.044	48.8339
-Fremont, California	37.5483	-121.989	8.45983
-Newark, California	37.5297	-122.04	7.08477
-Palo Alto, California	37.4419	-122.143	11.8975
-Mountain View, California	37.3861	-122.084	55.176
-Sunnyvale, California	37.3688	-122.036	103.849
-Cupertino, California	37.323	-122.032	269.886
-Santa Clara, California	37.3541	-121.955	148.069
-Campbell, California	37.2872	-121.95	111.1
-Milpitas, California	37.4323	-121.9	14.4914
-San Jose, California	37.3382	-121.886	23.7777
-Morgan Hill, California	37.1305	-121.654	79.8473
-Gilroy, California	37.0058	-121.568	66.5261
-Watsonville, California	36.9102	-121.757	97.6093
-Santa Cruz, California	36.9741	-122.031	40.3059
-Salinas, California	36.6777	-121.656	10.9216
-Redwood City, California	37.4852	-122.236	5.92603
-San Mateo, California	37.563	-122.326	75.0544
-San Bruno, California	37.6305	-122.411	12.7789
-Pacifica, California	37.6138	-122.487	142.673
-Honolulu, Hawaii	21.3069	-157.858	302.344
-South San Francisco, California	37.6547	-122.408	379.395
-Daly City, California	37.6879	-122.47	14.2012
-San Francisco, California	37.7749	-122.419	337.832
-San Leandro, California	37.7249	-122.156	51.9252
-Alameda, California	37.7652	-122.242	78.3257
-Oakland, California	37.8044	-122.271	16.1801
-Berkeley, California	37.8716	-122.273	83.6254
-Richmond, California	37.9358	-122.348	790.685
-San Rafael, California	37.9735	-122.531	166.138
-Novato, California	38.1074	-122.57	198.487
-Petaluma, California	38.2324	-122.637	165.582
-Rohnert Park, California	38.3396	-122.701	67.4794
-Santa Rosa, California	38.4404	-122.714	17.2054
-Folsom, California	38.678	-121.176	261.358
-Carson City, Nevada	39.1638	-119.767	13.2234
-Reno, Nevada	39.5296	-119.814	16.9112
-Sparks, Nevada	39.5349	-119.753	6.37043
-Bend, Oregon	44.0582	-121.315	5.34158
-Lake Oswego, Oregon	45.4207	-122.671	4.28852
-Hillsboro, Oregon	45.5229	-122.99	14.3269
-Gresham, Oregon	45.5001	-122.43	12.1881
-Federal Way, Washington	47.3223	-122.313	58.3297
-Auburn, Washington	47.3073	-122.228	168.173
-Kent, Washington	47.3809	-122.235	14.2605
-Renton, Washington	47.4829	-122.217	16.859
-Burien, Washington	47.4704	-122.347	255.354
-Bellevue, Washington	47.6104	-122.201	216.145
-Kirkland, Washington	47.6815	-122.209	34.3624
-Shoreline, Washington	47.7557	-122.342	202.621
-Edmonds, Washington	47.8107	-122.377	14.0247
-Everett, Washington	47.979	-122.202	150.477
-Marysville, Washington	48.0518	-122.177	10.6174
-Bellingham, Washington	48.7491	-122.478	5.88721
-Anchorage, Alaska	61.2181	-149.9	12.9143
-Redmond, Washington	47.674	-122.122	6.69773
-Sammamish, Washington	47.6163	-122.036	5.2972
-Seattle, Washington	47.6062	-122.332	14.7231
-Bremerton, Washington	47.5673	-122.633	5.21334
-Billings, Montana	45.7833	-108.501	197.634
-West Valley City, Utah	40.6916	-112.001	68.0763
-Sandy, Utah	40.565	-111.839	12.2585
-Boulder, Colorado	40.015	-105.271	5.03977
-Broomfield, Colorado	39.9205	-105.087	20.9227
-Northglenn, Colorado	39.8962	-104.981	3.11732
-Thornton, Colorado	39.868	-104.972	15.1272
-Commerce City, Colorado	39.8083	-104.934	12.7634
-Aurora, Colorado	39.7294	-104.832	21.6724
-Denver, Colorado	39.7392	-104.99	10.1355
-Lakewood, Colorado	39.7047	-105.081	7.37129
-Littleton, Colorado	39.6133	-105.017	7.43426
-Centennial, Colorado	39.5807	-104.877	11.3837
-Parker, Colorado	39.5186	-104.761	9.41149
-Castle Rock, Colorado	39.3722	-104.856	9.63409
-Colorado Springs, Colorado	38.8339	-104.821	19.4759
-Pueblo, Colorado	38.2544	-104.609	6.00163
-Westminster, Colorado	39.8367	-105.037	38.5997
-Arvada, Colorado	39.8028	-105.087	35.0152
-Longmont, Colorado	40.1672	-105.102	29.8772
-Loveland, Colorado	40.3978	-105.075	38.9385
-Greeley, Colorado	40.4233	-104.709	109.653
-Fort Collins, Colorado	40.5853	-105.084	44.2868
-Cheyenne, Wyoming	41.14	-104.82	6.53859
-Casper, Wyoming	42.8666	-106.313	8.0305
-Rapid City, South Dakota	44.0805	-103.231	5.70707
-Santa Fe, New Mexico	35.687	-105.938	4.03542
-Amarillo, Texas	35.222	-101.831	3.66472
-North Richland Hills, Texas	32.8343	-97.2289	3.49516
-Keller, Texas	32.9342	-97.2293	3.11456
-Haltom City, Texas	32.7996	-97.2692	6.41385
-Fort Worth, Texas	32.7555	-97.3308	5.49192
-Killeen, Texas	31.1171	-97.7278	5.10181
-Georgetown, Texas	30.6333	-97.678	12.982
-Round Rock, Texas	30.5083	-97.6789	6.08035
-Pflugerville, Texas	30.4394	-97.62	3.80602
-Austin, Texas	30.2672	-97.7431	13.6958
-San Marcos, Texas	29.8833	-97.9414	10.4223
-New Braunfels, Texas	29.703	-98.1245	6.1643
-Victoria, Texas	28.8053	-97.0036	4.41676
-Corpus Christi, Texas	27.8006	-97.3964	8.44192
-Harlingen, Texas	26.1906	-97.6961	13.077
-Weslaco, Texas	26.1595	-97.9908	38.537
-Pharr, Texas	26.1948	-98.1836	10.7197
-Edinburg, Texas	26.3017	-98.1633	10.8091
-McAllen, Texas	26.2034	-98.23	113.947
-Mission, Texas	26.2159	-98.3253	81.5459
-Laredo, Texas	27.5306	-99.4803	74.906
-Brownsville, Texas	25.9017	-97.4975	20.2992
-San Antonio, Texas	29.4241	-98.4936	170.473
-Cedar Park, Texas	30.5052	-97.8203	16.0079
-Missouri City, Texas	29.6186	-95.5377	186.442
-Sugar Land, Texas	29.6197	-95.6349	6.6654
-Jackson, Mississippi	32.2988	-90.1848	0.747962
-Montgomery, Alabama	32.3668	-86.3	48.1039
-Auburn, Alabama	32.6099	-85.4808	7.7436
-Phenix City, Alabama	32.471	-85.0008	7.97558
-Columbus, Georgia	32.461	-84.9877	29.6713
-Albany, Georgia	31.5785	-84.1557	33.5825
-Valdosta, Georgia	30.8327	-83.2785	24.5529
-Gainesville, Florida	29.6516	-82.3248	97.0119
-Ocala, Florida	29.1872	-82.1401	32.1918
-Apopka, Florida	28.6934	-81.5322	10.3047
-Ocoee, Florida	28.5692	-81.544	16.4713
-Winter Garden, Florida	28.5653	-81.5862	104.666
-Orlando, Florida	28.5383	-81.3792	10.5539
-Altamonte Springs, Florida	28.6611	-81.3656	17.9509
-Sanford, Florida	28.8029	-81.2695	41.8114
-Titusville, Florida	28.6122	-80.8076	10.2212
-Melbourne, Florida	28.0836	-80.6081	3.91154
-Palm Bay, Florida	28.0345	-80.5887	4.04251
-Fort Pierce, Florida	27.4467	-80.3256	7.24284
-Port St. Lucie, Florida	27.273	-80.3582	5.25663
-Jupiter, Florida	26.9342	-80.0942	5.69082
-Palm Beach Gardens, Florida	26.8234	-80.1387	6.87884
-West Palm Beach, Florida	26.7153	-80.0534	2.64782
-Greenacres, Florida	26.6276	-80.1354	7.49906
-Wellington, Florida	26.6618	-80.2684	7.47359
-Boynton Beach, Florida	26.5318	-80.0905	5.45797
-Delray Beach, Florida	26.4615	-80.0728	13.9612
-Boca Raton, Florida	26.3683	-80.1289	13.8365
-Deerfield Beach, Florida	26.3184	-80.0998	4.98734
-Pompano Beach, Florida	26.2379	-80.1248	18.706
-Oakland Park, Florida	26.1723	-80.132	7.89499
-Fort Lauderdale, Florida	26.1224	-80.1373	14.9972
-Coconut Creek, Florida	26.2517	-80.1789	6.40518
-Margate, Florida	26.2445	-80.2064	4.4584
-North Lauderdale, Florida	26.2173	-80.2259	135.466
-Tamarac, Florida	26.2129	-80.2498	5.67548
-Sunrise, Florida	26.167	-80.2566	4.58129
-Plantation, Florida	26.1276	-80.2331	4.98621
-Lauderhill, Florida	26.1404	-80.2134	11.0821
-Davie, Florida	26.0765	-80.2521	5.09236
-Pembroke Pines, Florida	26.0078	-80.2963	7.72335
-Weston, Florida	26.1004	-80.3998	24.6937
-Miramar, Florida	25.9861	-80.3036	11.6451
-Miami Gardens, Florida	25.942	-80.2456	10.6302
-North Miami, Florida	25.8901	-80.1867	12.1459
-North Miami Beach, Florida	25.9331	-80.1625	12.9946
-Aventura, Florida	25.9565	-80.1392	46.0366
-Hallandale Beach, Florida	25.9812	-80.1484	34.9612
-Hollywood, Florida	26.0112	-80.1495	169.629
-Miami Beach, Florida	25.7907	-80.13	188.503
-Miami, Florida	25.7617	-80.1918	87.8083
-Coral Gables, Florida	25.7215	-80.2684	6.99222
-Cutler Bay, Florida	25.5808	-80.3469	13.323
-Homestead, Florida	25.4687	-80.4776	4.61351
-Hialeah, Florida	25.8576	-80.2781	7.63169
-Doral, Florida	25.8195	-80.3553	16.745
-Coral Springs, Florida	26.2712	-80.2706	30.9038
-Deltona, Florida	28.9005	-81.2637	19.8435
-Port Orange, Florida	29.1383	-80.9956	46.9245
-Daytona Beach, Florida	29.2108	-81.0228	11.689
-Ormond Beach, Florida	29.2858	-81.0559	6.93134
-Palm Coast, Florida	29.5845	-81.2079	3850.74
-Jacksonville, Florida	30.3322	-81.6557	10.656
-Kissimmee, Florida	28.292	-81.4076	8.75508
-St. Cloud, Florida	28.2489	-81.2812	7.47689
-Lakeland, Florida	28.0395	-81.9498	16.6144
-Tampa, Florida	27.9506	-82.4572	15.081
-Pinellas Park, Florida	27.8428	-82.6995	11.2643
-Largo, Florida	27.9095	-82.7873	133.3
-Clearwater, Florida	27.9659	-82.8001	5.27396
-St. Petersburg, Florida	27.7731	-82.64	185.501
-Bradenton, Florida	27.4989	-82.5748	43.6802
-Sarasota, Florida	27.3364	-82.5307	6.56077
-North Port, Florida	27.0442	-82.2359	11.4143
-Fort Myers, Florida	26.6406	-81.8723	19.043
-Cape Coral, Florida	26.5629	-81.9495	12.9105
-Bonita Springs, Florida	26.3398	-81.7787	22.8281
-Tallahassee, Florida	30.4383	-84.2807	80.6605
-Dothan, Alabama	31.2232	-85.3905	2312.83
-Panama City, Florida	30.1588	-85.6602	22.2544
-Warner Robins, Georgia	32.613	-83.6242	1094.69
-Macon, Georgia	32.8407	-83.6324	19.6307
-Atlanta, Georgia	33.749	-84.388	18.865
-Brookhaven, Georgia	33.8651	-84.3366	3.22656
-Sandy Springs, Georgia	33.9304	-84.3733	12.364
-Dunwoody, Georgia	33.9462	-84.3346	8.68765
-Roswell, Georgia	34.0232	-84.3616	12.4874
-Alpharetta, Georgia	34.0754	-84.2941	18.1968
-Johns Creek, Georgia	34.0289	-84.1986	67.0215
-Peachtree Corners, Georgia	33.9699	-84.2215	5.71305
-Athens-Clarke County, Georgia	33.9519	-83.3576	25.7382
-Smyrna, Georgia	33.884	-84.5144	36.4838
-Marietta, Georgia	33.9526	-84.5499	228.196
-Chattanooga, Tennessee	35.0456	-85.3097	961.318
-Cleveland, Tennessee	35.1595	-84.8766	500.285
-Knoxville, Tennessee	35.9606	-83.9207	15.4251
-Franklin, Tennessee	35.9251	-86.8689	185.99
-Clarksville, Tennessee	36.5298	-87.3595	13.9004
-Evansville, Indiana	37.9716	-87.5711	22.4973
-Bloomington, Indiana	39.1653	-86.5264	26.7182
-Terre Haute, Indiana	39.4667	-87.4139	118.149
-Urbana, Illinois	40.1106	-88.2073	29.6148
-Champaign, Illinois	40.1164	-88.2434	12.0621
-Decatur, Illinois	39.8403	-88.9548	9.60651
-Bloomington, Illinois	40.4842	-88.9937	267.553
-Normal, Illinois	40.5142	-88.9906	136.593
-Peoria, Illinois	40.6936	-89.589	9.39906
-Moline, Illinois	41.5067	-90.5151	365.058
-Rock Island, Illinois	41.5095	-90.5787	47.5724
-Davenport, Iowa	41.5236	-90.5776	125.621
-Iowa City, Iowa	41.6611	-91.5302	160.122
-Cedar Rapids, Iowa	41.9779	-91.6656	80.7076
-Dubuque, Iowa	42.5006	-90.6646	4.14599
-Waterloo, Iowa	42.4928	-92.3426	13.7163
-Cedar Falls, Iowa	42.5349	-92.4453	49.7862
-Ames, Iowa	42.0347	-93.62	5.79026
-Ankeny, Iowa	41.7318	-93.6001	19.5766
-Des Moines, Iowa	41.6005	-93.6091	13.0884
-West Des Moines, Iowa	41.5772	-93.7113	12.7098
-Urbandale, Iowa	41.6267	-93.7122	22.8351
-Springfield, Illinois	39.7817	-89.6501	11.7696
-Florissant, Missouri	38.7892	-90.3226	9.29742
-St. Charles, Missouri	38.7881	-90.4974	5.5705
-St. Peters, Missouri	38.7875	-90.6299	2.85779
-Chesterfield, Missouri	38.6631	-90.5771	2.43386
-O'Fallon, Missouri	38.8106	-90.6998	4.96762
-Jefferson City, Missouri	38.5767	-92.1735	8.08834
-Columbia, Missouri	38.9517	-92.3341	14.5932
-Quincy, Illinois	39.9356	-91.4099	7.5861
-St. Louis, Missouri	38.627	-90.1994	5.36298
-Belleville, Illinois	38.5201	-89.984	2.8976
-Cape Girardeau, Missouri	37.3059	-89.5181	24.6008
-Carmel, Indiana	39.9784	-86.118	8.87834
-Dublin, Ohio	40.0992	-83.1141	18.094
-Westerville, Ohio	40.1262	-82.9291	8.81104
-Lorain, Ohio	41.4528	-82.1824	308.312
-Reading, Pennsylvania	40.3356	-75.9269	8.48364
-Lancaster, Pennsylvania	40.0379	-76.3055	36.3227
-York, Pennsylvania	39.9626	-76.7277	228.134
-Harrisburg, Pennsylvania	40.2732	-76.8867	69.5704
-State College, Pennsylvania	40.7934	-77.86	26.663
-Altoona, Pennsylvania	40.5187	-78.3947	6.39435
-Baltimore, Maryland	39.2904	-76.6122	31.1506
-Bowie, Maryland	39.0068	-76.7791	43.6521
-Annapolis, Maryland	38.9784	-76.4922	11.5647
-Washington, District of Columbia	38.9072	-77.0369	517.245
-Rockville, Maryland	39.084	-77.1528	121.135
-Gaithersburg, Maryland	39.1434	-77.2014	25.33
-Leesburg, Virginia	39.1157	-77.5636	13.7561
-Frederick, Maryland	39.4143	-77.4105	3.9752
-Hagerstown, Maryland	39.6418	-77.72	8.49937
-Alexandria, Virginia	38.8048	-77.0469	6.8946
-Manassas, Virginia	38.7509	-77.4753	107.01
-Charlottesville, Virginia	38.0293	-78.4767	140.067
-Harrisonburg, Virginia	38.4496	-78.8689	124.142
-Lynchburg, Virginia	37.4138	-79.1422	80.3583
-Roanoke, Virginia	37.271	-79.9414	160.837
-Danville, Virginia	36.586	-79.395	98.5953
-Burlington, North Carolina	36.0957	-79.4378	67.949
-Chapel Hill, North Carolina	35.9132	-79.0558	3.34583
-Durham, North Carolina	35.994	-78.8986	119.145
-Cary, North Carolina	35.7915	-78.7811	1.57797
-Apex, North Carolina	35.7327	-78.8503	36.9666
-Fayetteville, North Carolina	35.0527	-78.8784	137.573
-Raleigh, North Carolina	35.7796	-78.6382	111.494
-Wilson, North Carolina	35.7213	-77.9155	14.6127
-Rocky Mount, North Carolina	35.9382	-77.7905	5.49836
-Greenville, North Carolina	35.6127	-77.3664	124.615
-Jacksonville, North Carolina	34.7541	-77.4302	11.4806
-Wilmington, North Carolina	34.2257	-77.9447	19.5552
-Greensboro, North Carolina	36.0726	-79.792	43.9607
-High Point, North Carolina	35.9557	-80.0053	178.958
-Winston-Salem, North Carolina	36.0999	-80.2442	141.058
-Kannapolis, North Carolina	35.4874	-80.6217	256.074
-Huntersville, North Carolina	35.4107	-80.8429	160.35
-Charlotte, North Carolina	35.2271	-80.8431	46.1612
-Rock Hill, South Carolina	34.9249	-81.0251	37.0871
-Columbia, South Carolina	34.0007	-81.0348	54.4779
-Sumter, South Carolina	33.9204	-80.3415	34.6664
-Florence, South Carolina	34.1954	-79.7626	47.7686
-Summerville, South Carolina	33.0185	-80.1756	7.82814
-Goose Creek, South Carolina	32.981	-80.0326	35.7227
-North Charleston, South Carolina	32.8546	-79.9748	109.645
-Charleston, South Carolina	32.7765	-79.9311	118.558
-Hilton Head Island, South Carolina	32.2163	-80.7526	117.645
-Savannah, Georgia	32.0835	-81.0998	90.3352
-Mount Pleasant, South Carolina	32.8323	-79.8284	39.903
-Augusta-Richmond County, Georgia	33.4735	-82.0105	24.88
-Gastonia, North Carolina	35.2621	-81.1873	75.654
-Spartanburg, South Carolina	34.9496	-81.932	65.5342
-Greenville, South Carolina	34.8526	-82.394	52.6759
-Asheville, North Carolina	35.5951	-82.5515	75.3287
-Johnson City, Tennessee	36.3134	-82.3535	23.1795
-Kingsport, Tennessee	36.5484	-82.5618	76.1438
-Hickory, North Carolina	35.7345	-81.3445	20.4162
-Concord, North Carolina	35.4088	-80.5795	102.765
-Blacksburg, Virginia	37.2296	-80.4139	61.4744
-Richmond, Virginia	37.5407	-77.436	13.9777
-Newport News, Virginia	37.0871	-76.473	9.60346
-Hampton, Virginia	37.0299	-76.3452	35.8687
-Norfolk, Virginia	36.8508	-76.2859	215.282
-Portsmouth, Virginia	36.8354	-76.2983	76.14
-Chesapeake, Virginia	36.7682	-76.2875	83.7857
-Suffolk, Virginia	36.7282	-76.5836	32.097
-Virginia Beach, Virginia	36.8529	-75.978	78.0909
-Camden, New Jersey	39.9259	-75.1196	265.357
-Vineland, New Jersey	39.4864	-75.026	13.0023
-Dover, Delaware	39.1582	-75.5244	2.03189
-Atlantic City, New Jersey	39.3643	-74.4229	26.7514
-Philadelphia, Pennsylvania	39.9526	-75.1652	349.792
-Wilmington, Delaware	39.7391	-75.5398	56.3022
-Union City, New Jersey	40.6976	-74.2632	91.1974
-New York, New York	40.7128	-74.0059	152.014
+New York	New York	40.7128	-74.0059	0
+Valley Stream	New York	40.6643	-73.7085	6.18111
+Hempstead	New York	40.7062	-73.6187	5.11158
+Freeport	New York	40.6576	-73.5832	7.25662
+Hoboken	New Jersey	40.744	-74.0324	7.84871
+West New York	New Jersey	40.7879	-74.0143	5.5793
+Jersey City	New Jersey	40.7282	-74.0776	13.7186
+Kearny	New Jersey	40.7684	-74.1454	13.0731
+Passaic	New Jersey	40.8568	-74.1285	31.6854
+Hackensack	New Jersey	40.8859	-74.0435	9.84485
+Yonkers	New York	40.9312	-73.8987	15.2255
+Mount Vernon	New York	40.9126	-73.8371	13.8731
+New Rochelle	New York	40.9115	-73.7824	48.019
+White Plains	New York	41.034	-73.7629	9.03607
+Stamford	Connecticut	41.0534	-73.5387	3.72476
+Norwalk	Connecticut	41.1177	-73.4082	17.6134
+Danbury	Connecticut	41.3948	-73.454	16.9397
+Bridgeport	Connecticut	41.1865	-73.1952	16.2723
+Milford	Connecticut	41.2307	-73.064	12.7974
+Shelton	Connecticut	41.3165	-73.0932	2.52209
+Waterbury	Connecticut	41.5582	-73.0515	3.36608
+Bristol	Connecticut	41.6718	-72.9493	21.773
+New Britain	Connecticut	41.6612	-72.7795	3.11324
+Meriden	Connecticut	41.5382	-72.807	31.8801
+Middletown	Connecticut	41.5623	-72.6506	24.5658
+Norwich	Connecticut	41.5243	-72.0759	157.393
+Warwick	Rhode Island	41.7001	-71.4162	9.13074
+Cranston	Rhode Island	41.7798	-71.4373	26.24
+Providence	Rhode Island	41.824	-71.4128	7.36145
+East Providence	Rhode Island	41.8137	-71.3701	66.9532
+Pawtucket	Rhode Island	41.8787	-71.3826	7.0065
+Woonsocket	Rhode Island	42.0029	-71.5148	4.53466
+Attleboro	Massachusetts	41.9445	-71.2856	19.7274
+Taunton	Massachusetts	41.9001	-71.0898	198.02
+Brockton	Massachusetts	42.0834	-71.0184	5.45783
+Weymouth Town	Massachusetts	42.2181	-70.941	14.0805
+Quincy	Massachusetts	42.2529	-71.0023	47.5189
+Boston	Massachusetts	42.3601	-71.0589	22.364
+Chelsea	Massachusetts	42.3918	-71.0328	357.07
+Everett	Massachusetts	42.4084	-71.0537	115.026
+Malden	Massachusetts	42.4251	-71.0662	20.1384
+Medford	Massachusetts	42.4184	-71.1062	13.3595
+Woburn	Massachusetts	42.4793	-71.1523	5.47067
+Lowell	Massachusetts	42.6334	-71.3162	18.5201
+Methuen	Massachusetts	42.7262	-71.1909	8.25258
+Lawrence	Massachusetts	42.707	-71.1631	69.9204
+Haverhill	Massachusetts	42.7762	-71.0773	78.1306
+Nashua	New Hampshire	42.7654	-71.4676	79.5691
+Manchester	New Hampshire	42.9956	-71.4548	74.5317
+Concord	New Hampshire	43.2081	-71.5376	107.46
+Portland	Maine	43.6615	-70.2553	137.5
+Somerville	Massachusetts	42.3876	-71.0995	17.5542
+Cambridge	Massachusetts	42.3736	-71.1097	11.7301
+Newton	Massachusetts	42.337	-71.2092	10.6349
+Waltham	Massachusetts	42.3765	-71.2356	35.5731
+Marlborough	Massachusetts	42.3459	-71.5523	20.8464
+Leominster	Massachusetts	42.5251	-71.7598	146.741
+Fitchburg	Massachusetts	42.5834	-71.8023	88.0017
+Worcester	Massachusetts	42.2626	-71.8023	78.4643
+Revere	Massachusetts	42.4084	-71.012	144.548
+Lynn	Massachusetts	42.4668	-70.9495	214.422
+Peabody	Massachusetts	42.5279	-70.9287	61.248
+Salem	Massachusetts	42.5195	-70.8967	11.0471
+Beverly	Massachusetts	42.5584	-70.88	9.29346
+Fall River	Massachusetts	41.7015	-71.155	19.0022
+New Bedford	Massachusetts	41.6362	-70.9342	27.2673
+Barnstable Town	Massachusetts	41.7003	-70.3002	187.638
+Hartford	Connecticut	41.7637	-72.6851	69.3616
+Springfield	Massachusetts	42.1015	-72.5898	7.57754
+Chicopee	Massachusetts	42.1487	-72.6079	8.13596
+Holyoke	Massachusetts	42.2043	-72.6162	14.5768
+Westfield	Massachusetts	42.1251	-72.7495	20.8151
+Pittsfield	Massachusetts	42.4501	-73.2454	11.0129
+Albany	New York	42.6526	-73.7562	3.34343
+Troy	New York	42.7284	-73.6918	10.2091
+Schenectady	New York	42.8142	-73.9396	11.742
+Burlington	Vermont	44.4759	-73.2121	71.7669
+West Haven	Connecticut	41.2705	-72.947	68.6198
+New Haven	Connecticut	41.3083	-72.9279	10.0866
+Clifton	New Jersey	40.8584	-74.1638	15.2751
+Paterson	New Jersey	40.9168	-74.1718	91.421
+Newark	New Jersey	40.7357	-74.1724	4.33964
+East Orange	New Jersey	40.7673	-74.2049	13.3005
+Bayonne	New Jersey	40.6687	-74.1143	30.4699
+Elizabeth	New Jersey	40.664	-74.2107	3.90451
+Linden	New Jersey	40.622	-74.2446	5.38677
+Plainfield	New Jersey	40.6337	-74.4074	7.91194
+Perth Amboy	New Jersey	40.5068	-74.2654	5.94761
+Sayreville	New Jersey	40.4594	-74.3608	16.1104
+New Brunswick	New Jersey	40.4862	-74.4518	13.8567
+Trenton	New Jersey	40.2171	-74.7429	47.4029
+Bethlehem	Pennsylvania	40.6259	-75.3705	19.4263
+Allentown	Pennsylvania	40.6084	-75.4902	171.106
+Wilkes-Barre	Pennsylvania	41.2459	-75.8813	9.70499
+Scranton	Pennsylvania	41.409	-75.6624	3.44956
+Binghamton	New York	42.0987	-75.918	8.99938
+Syracuse	New York	43.0481	-76.1474	7.07897
+Utica	New York	43.1009	-75.2327	24.0079
+Rochester	New York	43.161	-77.6109	16.0312
+Buffalo	New York	42.8864	-78.8784	7.97395
+Niagara Falls	New York	43.0962	-79.0377	18.2571
+Erie	Pennsylvania	42.1292	-80.0851	8.12932
+Mentor	Ohio	41.6662	-81.3396	80.6673
+Euclid	Ohio	41.5931	-81.5268	29.0121
+Cleveland Heights	Ohio	41.5201	-81.5562	123.515
+Cleveland	Ohio	41.4993	-81.6944	114.18
+Lakewood	Ohio	41.482	-81.7982	93.2967
+Parma	Ohio	41.4048	-81.7229	6.19095
+Strongsville	Ohio	41.3145	-81.8357	6.7922
+Cuyahoga Falls	Ohio	41.1339	-81.4846	8.8612
+Warren	Ohio	41.2376	-80.8184	7.77403
+Youngstown	Ohio	41.0998	-80.6495	103.557
+Pittsburgh	Pennsylvania	40.4406	-79.9959	77.2925
+Akron	Ohio	41.0814	-81.519	1.71494
+Canton	Ohio	40.7989	-81.3784	308.542
+Elyria	Ohio	41.3684	-82.1076	698.468
+Mansfield	Ohio	40.7584	-82.5154	5.51192
+Newark	Ohio	40.0581	-82.4013	220.411
+Lancaster	Ohio	39.7137	-82.5993	7.45573
+Huntington	West Virginia	38.4192	-82.4452	21.0875
+Charleston	West Virginia	38.3498	-81.6326	272.814
+Columbus	Ohio	39.9612	-82.9988	4.31198
+Grove City	Ohio	39.8815	-83.093	5.63991
+Springfield	Ohio	39.9242	-83.8088	32.7047
+Huber Heights	Ohio	39.8439	-84.1247	9.7482
+Dayton	Ohio	39.7589	-84.1916	69.5735
+Kettering	Ohio	39.6895	-84.1688	6.93935
+Beavercreek	Ohio	39.7092	-84.0633	55.9174
+Middletown	Ohio	39.5151	-84.3983	32.3537
+Hamilton	Ohio	39.3995	-84.5613	28.6037
+Fairfield	Ohio	39.3455	-84.5603	222.682
+Cincinnati	Ohio	39.1031	-84.512	26.8297
+Covington	Kentucky	39.0837	-84.5086	50.153
+Lima	Ohio	40.7426	-84.1052	89.3116
+Findlay	Ohio	41.0442	-83.6499	13.7741
+Toledo	Ohio	41.6639	-83.5552	48.5217
+Taylor	Michigan	42.2409	-83.2697	111.017
+Lincoln Park	Michigan	42.2506	-83.1785	130.006
+Dearborn	Michigan	42.3223	-83.1763	74.8431
+Dearborn Heights	Michigan	42.337	-83.2733	14.4054
+Livonia	Michigan	42.3684	-83.3527	19.1411
+Farmington Hills	Michigan	42.499	-83.3677	15.2261
+Novi	Michigan	42.4806	-83.4755	66.9971
+Southfield	Michigan	42.4734	-83.2219	100.031
+Royal Oak	Michigan	42.4895	-83.1446	14.3265
+Warren	Michigan	42.5145	-83.0147	18.1572
+Roseville	Michigan	42.4973	-82.9371	178.298
+St. Clair Shores	Michigan	42.4974	-82.8964	3.28593
+Sterling Heights	Michigan	42.5803	-83.0302	486.482
+Troy	Michigan	42.6064	-83.1498	73.7017
+Rochester Hills	Michigan	42.6584	-83.1499	127.953
+Pontiac	Michigan	42.6389	-83.291	20.1578
+Flint	Michigan	43.0125	-83.6875	84.4879
+East Lansing	Michigan	42.737	-84.4839	17.0792
+Lansing	Michigan	42.7325	-84.5555	88.3289
+Battle Creek	Michigan	42.3212	-85.1797	136.717
+Kalamazoo	Michigan	42.2917	-85.5872	79.2422
+Portage	Michigan	42.2012	-85.58	90.5256
+Elkhart	Indiana	41.682	-85.9767	16.0094
+Mishawaka	Indiana	41.662	-86.1586	10.5538
+South Bend	Indiana	41.6764	-86.252	13.7018
+Gary	Indiana	41.5934	-87.3464	61.878
+Hammond	Indiana	41.5834	-87.5	75.6918
+Calumet City	Illinois	41.6156	-87.5295	104.111
+Oak Lawn	Illinois	41.72	-87.748	111.603
+Orland Park	Illinois	41.6303	-87.8539	17.6131
+Tinley Park	Illinois	41.5731	-87.7933	8.41026
+Cicero	Illinois	41.8456	-87.7539	28.3645
+Berwyn	Illinois	41.8506	-87.7937	14.794
+Oak Park	Illinois	41.885	-87.7845	11.3756
+Elmhurst	Illinois	41.8995	-87.9403	5.76141
+Addison	Illinois	41.9317	-87.989	6.30137
+Lombard	Illinois	41.88	-88.0078	10.2081
+Downers Grove	Illinois	41.8089	-88.0112	11.6748
+Bolingbrook	Illinois	41.6986	-88.0684	15.2004
+Romeoville	Illinois	41.6475	-88.0895	48.8339
+Plainfield	Illinois	41.6322	-88.212	8.45983
+Joliet	Illinois	41.525	-88.0817	7.08477
+Naperville	Illinois	41.7508	-88.1535	11.8975
+Aurora	Illinois	41.7606	-88.3201	55.176
+DeKalb	Illinois	41.9295	-88.7504	103.849
+Rockford	Illinois	42.2711	-89.094	269.886
+Beloit	Wisconsin	42.5083	-89.0318	148.069
+Janesville	Wisconsin	42.6828	-89.0187	111.1
+Madison	Wisconsin	43.0731	-89.4012	14.4914
+Wheaton	Illinois	41.8661	-88.107	23.7777
+Carol Stream	Illinois	41.9125	-88.1348	79.8473
+Hanover Park	Illinois	41.9995	-88.1451	66.5261
+Bartlett	Illinois	41.995	-88.1856	97.6093
+Streamwood	Illinois	42.0256	-88.1784	40.3059
+Hoffman Estates	Illinois	42.063	-88.1227	10.9216
+Palatine	Illinois	42.1103	-88.0342	5.92603
+Arlington Heights	Illinois	42.0884	-87.9806	75.0544
+Wheeling	Illinois	42.1392	-87.929	12.7789
+Buffalo Grove	Illinois	42.1663	-87.9631	142.673
+Waukegan	Illinois	42.3636	-87.8448	302.344
+Kenosha	Wisconsin	42.5847	-87.8212	379.395
+Racine	Wisconsin	42.7261	-87.7829	14.2012
+Greenfield	Wisconsin	42.9614	-88.0126	337.832
+New Berlin	Wisconsin	42.9764	-88.1084	51.9252
+Waukesha	Wisconsin	43.0117	-88.2315	78.3257
+West Allis	Wisconsin	43.0167	-88.007	16.1801
+Wauwatosa	Wisconsin	43.0495	-88.0076	83.6254
+Brookfield	Wisconsin	43.0606	-88.1065	790.685
+Milwaukee	Wisconsin	43.0389	-87.9065	166.138
+Sheboygan	Wisconsin	43.7508	-87.7145	198.487
+Fond du Lac	Wisconsin	43.773	-88.4471	165.582
+Oshkosh	Wisconsin	44.0247	-88.5426	67.4794
+Appleton	Wisconsin	44.2619	-88.4154	17.2054
+Wausau	Wisconsin	44.9591	-89.6301	261.358
+Eau Claire	Wisconsin	44.8113	-91.4985	13.2234
+La Crosse	Wisconsin	43.8014	-91.2396	16.9112
+Rochester	Minnesota	44.0121	-92.4802	6.37043
+Lakeville	Minnesota	44.6497	-93.2427	5.34158
+Apple Valley	Minnesota	44.7319	-93.2177	4.28852
+Burnsville	Minnesota	44.7677	-93.2777	14.3269
+Bloomington	Minnesota	44.8408	-93.2983	12.1881
+Edina	Minnesota	44.8897	-93.3499	58.3297
+St. Louis Park	Minnesota	44.9597	-93.3702	168.173
+Minnetonka	Minnesota	44.9212	-93.4687	14.2605
+Eden Prairie	Minnesota	44.8547	-93.4708	16.859
+Shakopee	Minnesota	44.7974	-93.5273	255.354
+Mankato	Minnesota	44.1636	-93.9994	216.145
+Plymouth	Minnesota	45.0105	-93.4555	34.3624
+Maple Grove	Minnesota	45.0725	-93.4558	202.621
+St. Cloud	Minnesota	45.5579	-94.1632	14.0247
+Moorhead	Minnesota	46.8738	-96.7678	150.477
+Fargo	North Dakota	46.8772	-96.7898	10.6174
+Grand Forks	North Dakota	47.9253	-97.0329	5.88721
+Bismarck	North Dakota	46.8083	-100.784	12.9143
+Minot	North Dakota	48.233	-101.292	6.69773
+Brooklyn Park	Minnesota	45.0941	-93.3563	5.2972
+Coon Rapids	Minnesota	45.1732	-93.303	14.7231
+Blaine	Minnesota	45.1608	-93.2349	5.21334
+Duluth	Minnesota	46.7867	-92.1005	197.634
+Minneapolis	Minnesota	44.9778	-93.265	68.0763
+St. Paul	Minnesota	44.9537	-93.09	12.2585
+Maplewood	Minnesota	44.953	-92.9952	5.03977
+Woodbury	Minnesota	44.9239	-92.9594	20.9227
+Eagan	Minnesota	44.8041	-93.1669	3.11732
+Green Bay	Wisconsin	44.5192	-88.0198	15.1272
+Mount Prospect	Illinois	42.0664	-87.9373	12.7634
+Des Plaines	Illinois	42.0334	-87.8834	21.6724
+Park Ridge	Illinois	42.0111	-87.8406	10.1355
+Glenview	Illinois	42.0698	-87.7878	7.37129
+Skokie	Illinois	42.0324	-87.7416	7.43426
+Evanston	Illinois	42.0451	-87.6877	11.3837
+Schaumburg	Illinois	42.0334	-88.0834	9.41149
+Elgin	Illinois	42.0354	-88.2826	9.63409
+Carpentersville	Illinois	42.1211	-88.2579	19.4759
+Crystal Lake	Illinois	42.2411	-88.3162	6.00163
+Chicago	Illinois	41.8781	-87.6298	38.5997
+Kentwood	Michigan	42.8695	-85.6447	35.0152
+Wyoming	Michigan	42.9134	-85.7053	29.8772
+Grand Rapids	Michigan	42.9634	-85.6681	38.9385
+Muskegon	Michigan	43.2342	-86.2484	109.653
+Saginaw	Michigan	43.4195	-83.9508	44.2868
+Midland	Michigan	43.6156	-84.2472	6.53859
+Westland	Michigan	42.3242	-83.4002	8.0305
+Ann Arbor	Michigan	42.2808	-83.743	5.70707
+Detroit	Michigan	42.3314	-83.0458	4.03542
+Fort Wayne	Indiana	41.0793	-85.1394	3.66472
+Muncie	Indiana	40.1934	-85.3864	3.49516
+Anderson	Indiana	40.1053	-85.6803	3.11456
+Noblesville	Indiana	40.0456	-86.0086	6.41385
+Kokomo	Indiana	40.4864	-86.1336	5.49192
+Lafayette	Indiana	40.4167	-86.8753	5.10181
+Fishers	Indiana	39.9568	-86.0134	12.982
+Lawrence	Indiana	39.8387	-86.0253	6.08035
+Indianapolis	Indiana	39.7684	-86.1581	3.80602
+Greenwood	Indiana	39.6137	-86.1067	13.6958
+Columbus	Indiana	39.2014	-85.9214	10.4223
+Jeffersonville	Indiana	38.2776	-85.7372	6.1643
+Lexington-Fayette	Kentucky	38.0406	-84.5037	4.41676
+Louisville	Kentucky	38.2527	-85.7585	8.44192
+Owensboro	Kentucky	37.7719	-87.1112	13.077
+Bowling Green	Kentucky	36.9685	-86.4808	38.537
+Hendersonville	Tennessee	36.3048	-86.62	10.7197
+Nashville-Davidson	Tennessee	36.1627	-86.7816	10.8091
+Brentwood	Tennessee	36.0331	-86.7828	113.947
+Smyrna	Tennessee	35.9828	-86.5186	81.5459
+Murfreesboro	Tennessee	35.8456	-86.3903	74.906
+Huntsville	Alabama	34.7304	-86.5861	20.2992
+Madison	Alabama	34.6993	-86.7483	170.473
+Decatur	Alabama	34.6059	-86.9833	16.0079
+Florence	Alabama	34.7998	-87.6773	186.442
+Jackson	Tennessee	35.6145	-88.8139	6.6654
+Collierville	Tennessee	35.042	-89.6645	0.747962
+Germantown	Tennessee	35.0868	-89.8101	48.1039
+Bartlett	Tennessee	35.2045	-89.874	7.7436
+Memphis	Tennessee	35.1495	-90.049	7.97558
+Southaven	Mississippi	34.989	-90.0126	29.6713
+Jonesboro	Arkansas	35.8423	-90.7043	33.5825
+Conway	Arkansas	35.0887	-92.4421	24.5529
+North Little Rock	Arkansas	34.7695	-92.2671	97.0119
+Little Rock	Arkansas	34.7465	-92.2896	32.1918
+Pine Bluff	Arkansas	34.2284	-92.0032	10.3047
+Birmingham	Alabama	33.5207	-86.8025	16.4713
+Hoover	Alabama	33.4054	-86.8114	104.666
+Tuscaloosa	Alabama	33.2098	-87.5692	10.5539
+Meridian	Mississippi	32.3643	-88.7037	17.9509
+Hattiesburg	Mississippi	31.3271	-89.2903	41.8114
+Gulfport	Mississippi	30.3674	-89.0928	10.2212
+Biloxi	Mississippi	30.396	-88.8853	3.91154
+Mobile	Alabama	30.6954	-88.0399	4.04251
+Pensacola	Florida	30.4213	-87.2169	7.24284
+New Orleans	Louisiana	29.9511	-90.0715	5.25663
+Kenner	Louisiana	29.9941	-90.2417	5.69082
+Baton Rouge	Louisiana	30.4583	-91.1403	6.87884
+Lafayette	Louisiana	30.2241	-92.0198	2.64782
+Alexandria	Louisiana	31.3113	-92.4451	7.49906
+Monroe	Louisiana	32.5093	-92.1193	7.47359
+Lake Charles	Louisiana	30.2266	-93.2174	5.45797
+Port Arthur	Texas	29.885	-93.9399	13.9612
+Beaumont	Texas	30.0802	-94.1266	13.8365
+Baytown	Texas	29.7355	-94.9774	4.98734
+Pasadena	Texas	29.6911	-95.2091	18.706
+Pearland	Texas	29.5636	-95.286	7.89499
+Friendswood	Texas	29.5294	-95.201	14.9972
+League City	Texas	29.5075	-95.0949	6.40518
+Texas City	Texas	29.3838	-94.9027	4.4584
+Galveston	Texas	29.3013	-94.7977	135.466
+Houston	Texas	29.7604	-95.3698	5.67548
+Conroe	Texas	30.3119	-95.4561	4.58129
+Huntsville	Texas	30.7235	-95.5508	4.98621
+College Station	Texas	30.628	-96.3344	11.0821
+Bryan	Texas	30.6744	-96.37	5.09236
+Temple	Texas	31.0982	-97.3428	7.72335
+Waco	Texas	31.5493	-97.1467	24.6937
+Burleson	Texas	32.5421	-97.3208	11.6451
+Mansfield	Texas	32.5632	-97.1417	10.6302
+Cedar Hill	Texas	32.5885	-96.9561	12.1459
+Duncanville	Texas	32.6518	-96.9083	12.9946
+DeSoto	Texas	32.5897	-96.8571	46.0366
+Lancaster	Texas	32.5921	-96.7561	34.9612
+Grand Prairie	Texas	32.746	-96.9978	169.629
+Irving	Texas	32.814	-96.9489	188.503
+Dallas	Texas	32.7767	-96.797	87.8083
+Arlington	Texas	32.7357	-97.1081	6.99222
+Hurst	Texas	32.8235	-97.1706	13.323
+Bedford	Texas	32.844	-97.1431	4.61351
+Euless	Texas	32.8371	-97.082	7.63169
+Grapevine	Texas	32.9343	-97.0781	16.745
+Coppell	Texas	32.9546	-97.015	30.9038
+Flower Mound	Texas	33.0146	-97.097	19.8435
+Lewisville	Texas	33.0462	-96.9942	46.9245
+The Colony	Texas	33.0806	-96.8928	11.689
+Carrollton	Texas	32.9756	-96.89	6.93134
+Frisco	Texas	33.1507	-96.8236	3850.74
+Allen	Texas	33.1032	-96.6706	10.656
+McKinney	Texas	33.1972	-96.6398	8.75508
+Sherman	Texas	33.6357	-96.6089	7.47689
+Plano	Texas	33.0198	-96.6989	16.6144
+Richardson	Texas	32.9483	-96.7299	15.081
+Garland	Texas	32.9126	-96.6389	11.2643
+Rowlett	Texas	32.9029	-96.5639	133.3
+Rockwall	Texas	32.9312	-96.4597	5.27396
+Wylie	Texas	33.0151	-96.5389	185.501
+Tyler	Texas	32.3513	-95.3011	43.6802
+Longview	Texas	32.5007	-94.7405	6.56077
+Shreveport	Louisiana	32.5252	-93.7502	11.4143
+Texarkana	Texas	33.4251	-94.0477	19.043
+Bossier City	Louisiana	32.516	-93.7321	12.9105
+Mesquite	Texas	32.7668	-96.5992	22.8281
+Denton	Texas	33.2148	-97.1331	80.6605
+Wichita Falls	Texas	33.9137	-98.4934	2312.83
+Lawton	Oklahoma	34.6036	-98.3959	22.2544
+Norman	Oklahoma	35.2226	-97.4395	1094.69
+Moore	Oklahoma	35.3395	-97.4867	19.6307
+Oklahoma City	Oklahoma	35.4676	-97.5164	18.865
+Midwest City	Oklahoma	35.4495	-97.3967	3.22656
+Edmond	Oklahoma	35.6528	-97.4781	12.364
+Stillwater	Oklahoma	36.1156	-97.0584	8.68765
+Enid	Oklahoma	36.3956	-97.8784	12.4874
+Wichita	Kansas	37.6889	-97.3361	18.1968
+Hutchinson	Kansas	38.0608	-97.9298	67.0215
+Salina	Kansas	38.8403	-97.6114	5.71305
+Manhattan	Kansas	39.1836	-96.5717	25.7382
+Topeka	Kansas	39.0558	-95.689	36.4838
+Lawrence	Kansas	38.9717	-95.2353	228.196
+Olathe	Kansas	38.8814	-94.8191	961.318
+Lenexa	Kansas	38.9536	-94.7336	500.285
+Overland Park	Kansas	38.9822	-94.6708	15.4251
+Shawnee	Kansas	39.0228	-94.7152	185.99
+Kansas City	Kansas	39.1141	-94.6275	13.9004
+St. Joseph	Missouri	39.7675	-94.8467	22.4973
+Bellevue	Nebraska	41.1544	-95.9146	26.7182
+Council Bluffs	Iowa	41.2619	-95.8608	118.149
+Omaha	Nebraska	41.2524	-95.998	29.6148
+Sioux City	Iowa	42.5	-96.4003	12.0621
+Sioux Falls	South Dakota	43.5446	-96.7311	9.60651
+Lincoln	Nebraska	40.8258	-96.6852	267.553
+Grand Island	Nebraska	40.9264	-98.342	136.593
+Kansas City	Missouri	39.0997	-94.5786	9.39906
+Independence	Missouri	39.0911	-94.4155	365.058
+Blue Springs	Missouri	39.017	-94.2816	47.5724
+Lee's Summit	Missouri	38.9108	-94.3822	125.621
+Tulsa	Oklahoma	36.154	-95.9928	160.122
+Broken Arrow	Oklahoma	36.0609	-95.7975	80.7076
+Muskogee	Oklahoma	35.7479	-95.3697	4.14599
+Fort Smith	Arkansas	35.3859	-94.3985	13.7163
+Fayetteville	Arkansas	36.0626	-94.1574	49.7862
+Springdale	Arkansas	36.1867	-94.1288	5.79026
+Rogers	Arkansas	36.332	-94.1185	19.5766
+Bentonville	Arkansas	36.3729	-94.2088	13.0884
+Joplin	Missouri	37.0842	-94.5133	12.7098
+Springfield	Missouri	37.209	-93.2923	22.8351
+Abilene	Texas	32.4487	-99.7331	11.7696
+San Angelo	Texas	31.4638	-100.437	9.29742
+Midland	Texas	31.9973	-102.078	5.5705
+Odessa	Texas	31.8457	-102.368	2.85779
+Lubbock	Texas	33.5779	-101.855	2.43386
+Clovis	New Mexico	34.4048	-103.205	4.96762
+Roswell	New Mexico	33.3943	-104.523	8.08834
+Las Cruces	New Mexico	32.3199	-106.764	14.5932
+El Paso	Texas	31.7776	-106.442	7.5861
+Albuquerque	New Mexico	35.0853	-106.606	5.36298
+Rio Rancho	New Mexico	35.2328	-106.663	2.8976
+Farmington	New Mexico	36.7281	-108.219	24.6008
+Grand Junction	Colorado	39.0639	-108.551	8.87834
+Spanish Fork	Utah	40.115	-111.655	18.094
+Provo	Utah	40.2338	-111.659	8.81104
+Orem	Utah	40.2969	-111.695	308.312
+Lehi	Utah	40.3916	-111.851	8.48364
+Draper	Utah	40.5247	-111.864	36.3227
+Riverton	Utah	40.5219	-111.939	228.134
+South Jordan	Utah	40.5622	-111.93	69.5704
+West Jordan	Utah	40.6097	-111.939	26.663
+Taylorsville	Utah	40.6677	-111.939	6.39435
+Murray	Utah	40.6669	-111.888	31.1506
+Salt Lake City	Utah	40.7608	-111.891	43.6521
+Bountiful	Utah	40.8894	-111.881	11.5647
+Layton	Utah	41.0602	-111.971	517.245
+Roy	Utah	41.1616	-112.026	121.135
+Ogden	Utah	41.223	-111.974	25.33
+Logan	Utah	41.737	-111.834	13.7561
+Pocatello	Idaho	42.8713	-112.446	3.9752
+Twin Falls	Idaho	42.563	-114.461	8.49937
+Boise City	Idaho	43.6187	-116.215	6.8946
+Meridian	Idaho	43.6121	-116.392	107.01
+Nampa	Idaho	43.5407	-116.563	140.067
+Caldwell	Idaho	43.6629	-116.687	124.142
+Idaho Falls	Idaho	43.4917	-112.034	80.3583
+Bozeman	Montana	45.677	-111.043	160.837
+Great Falls	Montana	47.4942	-111.283	98.5953
+Missoula	Montana	46.8787	-113.997	67.949
+Coeur d'Alene	Idaho	47.6777	-116.78	3.34583
+Spokane Valley	Washington	47.6732	-117.239	119.145
+Spokane	Washington	47.6588	-117.426	1.57797
+Pasco	Washington	46.2396	-119.101	36.9666
+Kennewick	Washington	46.2112	-119.137	137.573
+Richland	Washington	46.2857	-119.284	111.494
+Yakima	Washington	46.6021	-120.506	14.6127
+Puyallup	Washington	47.1854	-122.293	5.49836
+Tacoma	Washington	47.2529	-122.444	124.615
+Lakewood	Washington	47.1718	-122.518	11.4806
+Lacey	Washington	47.0343	-122.823	19.5552
+Olympia	Washington	47.0379	-122.901	43.9607
+Vancouver	Washington	45.6387	-122.661	178.958
+Portland	Oregon	45.5231	-122.676	141.058
+Beaverton	Oregon	45.4871	-122.804	256.074
+Tigard	Oregon	45.4312	-122.771	160.35
+Keizer	Oregon	44.9901	-123.026	46.1612
+Salem	Oregon	44.9429	-123.035	37.0871
+Albany	Oregon	44.6365	-123.106	54.4779
+Corvallis	Oregon	44.5646	-123.262	34.6664
+Eugene	Oregon	44.0521	-123.087	47.7686
+Springfield	Oregon	44.0462	-123.022	7.82814
+Medford	Oregon	42.3265	-122.876	35.7227
+Redding	California	40.5865	-122.392	109.645
+Chico	California	39.7285	-121.837	118.558
+Yuba City	California	39.1404	-121.617	117.645
+Lincoln	California	38.8916	-121.293	90.3352
+Rocklin	California	38.7907	-121.236	39.903
+Roseville	California	38.7521	-121.288	24.88
+Citrus Heights	California	38.7071	-121.281	75.654
+Rancho Cordova	California	38.5891	-121.303	65.5342
+Elk Grove	California	38.4088	-121.372	52.6759
+Sacramento	California	38.5816	-121.494	75.3287
+West Sacramento	California	38.5805	-121.53	23.1795
+Davis	California	38.5449	-121.741	76.1438
+Woodland	California	38.6785	-121.773	20.4162
+Vacaville	California	38.3566	-121.988	102.765
+Fairfield	California	38.2494	-122.04	61.4744
+Napa	California	38.2975	-122.287	13.9777
+Vallejo	California	38.1041	-122.257	9.60346
+Martinez	California	38.0194	-122.134	35.8687
+Concord	California	37.978	-122.031	215.282
+Pittsburg	California	38.028	-121.885	76.14
+Antioch	California	38.0049	-121.806	83.7857
+Oakley	California	37.9974	-121.712	32.097
+Brentwood	California	37.9319	-121.696	78.0909
+Walnut Creek	California	37.9101	-122.065	265.357
+Danville	California	37.8216	-122	13.0023
+San Ramon	California	37.7799	-121.978	2.03189
+Dublin	California	37.7022	-121.936	26.7514
+Pleasanton	California	37.6624	-121.875	349.792
+Livermore	California	37.6819	-121.768	56.3022
+Tracy	California	37.7397	-121.425	91.1974
+Manteca	California	37.7974	-121.216	152.014
+Modesto	California	37.6391	-120.997	1.67025e-316
+Ceres	California	37.5949	-120.958	0
+Turlock	California	37.4947	-120.847	6.18111
+Merced	California	37.3022	-120.483	5.11158
+Madera	California	36.9613	-120.061	7.25662
+Fresno	California	36.7468	-119.773	7.84871
+Hanford	California	36.3275	-119.646	5.5793
+Tulare	California	36.2077	-119.347	13.7186
+Porterville	California	36.0652	-119.017	13.0731
+Delano	California	35.7688	-119.247	31.6854
+Bakersfield	California	35.3733	-119.019	9.84485
+Lancaster	California	34.6868	-118.154	15.2255
+Palmdale	California	34.5794	-118.116	13.8731
+Santa Clarita	California	34.3917	-118.543	48.019
+Burbank	California	34.1808	-118.309	9.03607
+Glendale	California	34.1425	-118.255	3.72476
+Los Angeles	California	34.0522	-118.244	17.6134
+Huntington Park	California	33.9817	-118.225	16.9397
+South Gate	California	33.9547	-118.212	16.2723
+Bell Gardens	California	33.9653	-118.151	12.7974
+Pico Rivera	California	33.9831	-118.097	2.52209
+Montebello	California	34.0165	-118.114	3.36608
+Monterey Park	California	34.0625	-118.123	21.773
+Alhambra	California	34.0953	-118.127	3.11324
+San Gabriel	California	34.0961	-118.106	31.8801
+Rosemead	California	34.0806	-118.073	24.5658
+Arcadia	California	34.1397	-118.035	157.393
+Monrovia	California	34.1443	-118.002	9.13074
+El Monte	California	34.0686	-118.028	26.24
+Baldwin Park	California	34.0853	-117.961	7.36145
+West Covina	California	34.0686	-117.939	66.9532
+La Puente	California	34.02	-117.95	7.0065
+Covina	California	34.09	-117.89	4.53466
+Azusa	California	34.1336	-117.908	19.7274
+Glendora	California	34.1361	-117.865	198.02
+Diamond Bar	California	34.0286	-117.81	5.45783
+Pomona	California	34.0551	-117.75	14.0805
+Montclair	California	34.0775	-117.69	47.5189
+Ontario	California	34.0633	-117.651	22.364
+Upland	California	34.0975	-117.648	357.07
+Rancho Cucamonga	California	34.1064	-117.593	115.026
+Chino	California	34.0122	-117.689	20.1384
+Eastvale	California	33.9525	-117.585	13.3595
+Jurupa Valley	California	33.9972	-117.485	5.47067
+Fontana	California	34.0922	-117.435	18.5201
+Rialto	California	34.1064	-117.37	8.25258
+Colton	California	34.0739	-117.314	69.9204
+San Bernardino	California	34.1083	-117.29	78.1306
+Highland	California	34.1283	-117.209	79.5691
+Redlands	California	34.0556	-117.183	74.5317
+Yucaipa	California	34.0336	-117.043	107.46
+Beaumont	California	33.9295	-116.977	137.5
+San Jacinto	California	33.7839	-116.959	17.5542
+Palm Springs	California	33.8303	-116.545	11.7301
+Cathedral City	California	33.7805	-116.467	10.6349
+Palm Desert	California	33.7222	-116.374	35.5731
+La Quinta	California	33.6634	-116.31	20.8464
+Indio	California	33.7206	-116.216	146.741
+Coachella	California	33.6803	-116.174	88.0017
+El Centro	California	32.792	-115.563	78.4643
+Calexico	California	32.6789	-115.499	144.548
+Yuma	Arizona	32.6927	-114.628	214.422
+Lake Havasu City	Arizona	34.4839	-114.322	61.248
+Bullhead City	Arizona	35.1359	-114.529	11.0471
+Henderson	Nevada	36.0395	-114.982	9.29346
+Las Vegas	Nevada	36.1699	-115.14	19.0022
+North Las Vegas	Nevada	36.1989	-115.118	27.2673
+St. George	Utah	37.0965	-113.568	187.638
+Prescott	Arizona	34.54	-112.469	69.3616
+Prescott Valley	Arizona	34.61	-112.316	7.57754
+Flagstaff	Arizona	35.1983	-111.651	8.13596
+Surprise	Arizona	33.6292	-112.368	14.5768
+Peoria	Arizona	33.5806	-112.237	20.8151
+Glendale	Arizona	33.5387	-112.186	11.0129
+Avondale	Arizona	33.4356	-112.35	3.34343
+Goodyear	Arizona	33.4353	-112.358	10.2091
+Buckeye	Arizona	33.3703	-112.584	11.742
+Phoenix	Arizona	33.4484	-112.074	71.7669
+Tempe	Arizona	33.4255	-111.94	68.6198
+Scottsdale	Arizona	33.4942	-111.926	10.0866
+Mesa	Arizona	33.4152	-111.831	15.2751
+Gilbert	Arizona	33.3528	-111.789	91.421
+Apache Junction	Arizona	33.415	-111.55	4.33964
+Chandler	Arizona	33.3062	-111.841	13.3005
+Maricopa	Arizona	33.0581	-112.048	30.4699
+Casa Grande	Arizona	32.8795	-111.757	3.90451
+Marana	Arizona	32.4364	-111.222	5.38677
+Oro Valley	Arizona	32.3909	-110.966	7.91194
+Tucson	Arizona	32.2217	-110.926	5.94761
+Sierra Vista	Arizona	31.5455	-110.277	16.1104
+Hemet	California	33.7475	-116.972	13.8567
+Moreno Valley	California	33.9425	-117.23	47.4029
+Perris	California	33.7825	-117.229	19.4263
+Menifee	California	33.6971	-117.185	171.106
+Lake Elsinore	California	33.6681	-117.327	9.70499
+Murrieta	California	33.5539	-117.214	3.44956
+Temecula	California	33.4936	-117.148	8.99938
+Hesperia	California	34.4264	-117.301	7.07897
+Victorville	California	34.5362	-117.293	24.0079
+Apple Valley	California	34.5008	-117.186	16.0312
+Riverside	California	33.9533	-117.396	7.97395
+Corona	California	33.8753	-117.566	18.2571
+Chino Hills	California	33.9898	-117.733	8.12932
+Pasadena	California	34.1478	-118.145	80.6673
+Whittier	California	33.9792	-118.033	29.0121
+Downey	California	33.9401	-118.133	123.515
+Lynwood	California	33.9303	-118.211	114.18
+Compton	California	33.8958	-118.22	93.2967
+Paramount	California	33.8895	-118.16	6.19095
+Bellflower	California	33.8817	-118.117	6.7922
+Lakewood	California	33.8536	-118.134	8.8612
+Norwalk	California	33.9022	-118.082	7.77403
+Cerritos	California	33.8583	-118.065	103.557
+Cypress	California	33.817	-118.037	77.2925
+Stanton	California	33.8025	-117.993	1.71494
+Westminster	California	33.7513	-117.994	308.542
+Fountain Valley	California	33.7092	-117.954	698.468
+Huntington Beach	California	33.6603	-117.999	5.51192
+Costa Mesa	California	33.6411	-117.919	220.411
+Newport Beach	California	33.6189	-117.929	7.45573
+Garden Grove	California	33.7739	-117.941	21.0875
+Santa Ana	California	33.7456	-117.868	272.814
+Tustin	California	33.7459	-117.826	4.31198
+Irvine	California	33.6839	-117.795	5.63991
+Lake Forest	California	33.647	-117.689	32.7047
+Mission Viejo	California	33.6	-117.672	9.7482
+Rancho Santa Margarita	California	33.6409	-117.603	69.5735
+Aliso Viejo	California	33.5677	-117.726	6.93935
+Laguna Niguel	California	33.5225	-117.708	55.9174
+San Clemente	California	33.427	-117.612	32.3537
+Oceanside	California	33.1959	-117.379	28.6037
+Carlsbad	California	33.1581	-117.351	222.682
+Encinitas	California	33.037	-117.292	26.8297
+Vista	California	33.2	-117.243	50.153
+San Marcos	California	33.1434	-117.166	89.3116
+Escondido	California	33.1192	-117.086	13.7741
+Poway	California	32.9628	-117.036	48.5217
+Santee	California	32.8384	-116.974	111.017
+El Cajon	California	32.7948	-116.963	130.006
+La Mesa	California	32.7678	-117.023	74.8431
+National City	California	32.6781	-117.099	14.4054
+Chula Vista	California	32.6401	-117.084	19.1411
+San Diego	California	32.7157	-117.161	15.2261
+Orange	California	33.7878	-117.853	66.9971
+Buena Park	California	33.8675	-117.998	100.031
+La Mirada	California	33.9172	-118.012	14.3265
+La Habra	California	33.932	-117.946	18.1572
+Brea	California	33.9167	-117.9	178.298
+Fullerton	California	33.8704	-117.924	3.28593
+Placentia	California	33.8722	-117.87	486.482
+Yorba Linda	California	33.8886	-117.813	73.7017
+Anaheim	California	33.8353	-117.915	127.953
+Gardena	California	33.8883	-118.309	20.1578
+Hawthorne	California	33.9164	-118.353	84.4879
+Inglewood	California	33.9617	-118.353	17.0792
+Culver City	California	34.0211	-118.396	88.3289
+Santa Monica	California	34.0195	-118.491	136.717
+Torrance	California	33.8358	-118.341	79.2422
+Rancho Palos Verdes	California	33.7445	-118.387	90.5256
+Redondo Beach	California	33.8492	-118.388	16.0094
+Carson	California	33.8317	-118.282	10.5538
+Long Beach	California	33.7701	-118.194	13.7018
+Simi Valley	California	34.2694	-118.781	61.878
+Thousand Oaks	California	34.1706	-118.838	75.6918
+Camarillo	California	34.2164	-119.038	104.111
+Oxnard	California	34.1975	-119.177	111.603
+San Buenaventura 	California	34.2746	-119.229	17.6131
+Santa Barbara	California	34.4208	-119.698	8.41026
+Lompoc	California	34.6392	-120.458	28.3645
+Santa Maria	California	34.953	-120.436	14.794
+San Luis Obispo	California	35.2828	-120.66	11.3756
+Visalia	California	36.3302	-119.292	5.76141
+Clovis	California	36.8252	-119.703	6.30137
+Stockton	California	37.9577	-121.291	10.2081
+Lodi	California	38.1341	-121.272	11.6748
+Hayward	California	37.6688	-122.081	15.2004
+Union City	California	37.5934	-122.044	48.8339
+Fremont	California	37.5483	-121.989	8.45983
+Newark	California	37.5297	-122.04	7.08477
+Palo Alto	California	37.4419	-122.143	11.8975
+Mountain View	California	37.3861	-122.084	55.176
+Sunnyvale	California	37.3688	-122.036	103.849
+Cupertino	California	37.323	-122.032	269.886
+Santa Clara	California	37.3541	-121.955	148.069
+Campbell	California	37.2872	-121.95	111.1
+Milpitas	California	37.4323	-121.9	14.4914
+San Jose	California	37.3382	-121.886	23.7777
+Morgan Hill	California	37.1305	-121.654	79.8473
+Gilroy	California	37.0058	-121.568	66.5261
+Watsonville	California	36.9102	-121.757	97.6093
+Santa Cruz	California	36.9741	-122.031	40.3059
+Salinas	California	36.6777	-121.656	10.9216
+Redwood City	California	37.4852	-122.236	5.92603
+San Mateo	California	37.563	-122.326	75.0544
+San Bruno	California	37.6305	-122.411	12.7789
+Pacifica	California	37.6138	-122.487	142.673
+Honolulu	Hawaii	21.3069	-157.858	302.344
+South San Francisco	California	37.6547	-122.408	379.395
+Daly City	California	37.6879	-122.47	14.2012
+San Francisco	California	37.7749	-122.419	337.832
+San Leandro	California	37.7249	-122.156	51.9252
+Alameda	California	37.7652	-122.242	78.3257
+Oakland	California	37.8044	-122.271	16.1801
+Berkeley	California	37.8716	-122.273	83.6254
+Richmond	California	37.9358	-122.348	790.685
+San Rafael	California	37.9735	-122.531	166.138
+Novato	California	38.1074	-122.57	198.487
+Petaluma	California	38.2324	-122.637	165.582
+Rohnert Park	California	38.3396	-122.701	67.4794
+Santa Rosa	California	38.4404	-122.714	17.2054
+Folsom	California	38.678	-121.176	261.358
+Carson City	Nevada	39.1638	-119.767	13.2234
+Reno	Nevada	39.5296	-119.814	16.9112
+Sparks	Nevada	39.5349	-119.753	6.37043
+Bend	Oregon	44.0582	-121.315	5.34158
+Lake Oswego	Oregon	45.4207	-122.671	4.28852
+Hillsboro	Oregon	45.5229	-122.99	14.3269
+Gresham	Oregon	45.5001	-122.43	12.1881
+Federal Way	Washington	47.3223	-122.313	58.3297
+Auburn	Washington	47.3073	-122.228	168.173
+Kent	Washington	47.3809	-122.235	14.2605
+Renton	Washington	47.4829	-122.217	16.859
+Burien	Washington	47.4704	-122.347	255.354
+Bellevue	Washington	47.6104	-122.201	216.145
+Kirkland	Washington	47.6815	-122.209	34.3624
+Shoreline	Washington	47.7557	-122.342	202.621
+Edmonds	Washington	47.8107	-122.377	14.0247
+Everett	Washington	47.979	-122.202	150.477
+Marysville	Washington	48.0518	-122.177	10.6174
+Bellingham	Washington	48.7491	-122.478	5.88721
+Anchorage	Alaska	61.2181	-149.9	12.9143
+Redmond	Washington	47.674	-122.122	6.69773
+Sammamish	Washington	47.6163	-122.036	5.2972
+Seattle	Washington	47.6062	-122.332	14.7231
+Bremerton	Washington	47.5673	-122.633	5.21334
+Billings	Montana	45.7833	-108.501	197.634
+West Valley City	Utah	40.6916	-112.001	68.0763
+Sandy	Utah	40.565	-111.839	12.2585
+Boulder	Colorado	40.015	-105.271	5.03977
+Broomfield	Colorado	39.9205	-105.087	20.9227
+Northglenn	Colorado	39.8962	-104.981	3.11732
+Thornton	Colorado	39.868	-104.972	15.1272
+Commerce City	Colorado	39.8083	-104.934	12.7634
+Aurora	Colorado	39.7294	-104.832	21.6724
+Denver	Colorado	39.7392	-104.99	10.1355
+Lakewood	Colorado	39.7047	-105.081	7.37129
+Littleton	Colorado	39.6133	-105.017	7.43426
+Centennial	Colorado	39.5807	-104.877	11.3837
+Parker	Colorado	39.5186	-104.761	9.41149
+Castle Rock	Colorado	39.3722	-104.856	9.63409
+Colorado Springs	Colorado	38.8339	-104.821	19.4759
+Pueblo	Colorado	38.2544	-104.609	6.00163
+Westminster	Colorado	39.8367	-105.037	38.5997
+Arvada	Colorado	39.8028	-105.087	35.0152
+Longmont	Colorado	40.1672	-105.102	29.8772
+Loveland	Colorado	40.3978	-105.075	38.9385
+Greeley	Colorado	40.4233	-104.709	109.653
+Fort Collins	Colorado	40.5853	-105.084	44.2868
+Cheyenne	Wyoming	41.14	-104.82	6.53859
+Casper	Wyoming	42.8666	-106.313	8.0305
+Rapid City	South Dakota	44.0805	-103.231	5.70707
+Santa Fe	New Mexico	35.687	-105.938	4.03542
+Amarillo	Texas	35.222	-101.831	3.66472
+North Richland Hills	Texas	32.8343	-97.2289	3.49516
+Keller	Texas	32.9342	-97.2293	3.11456
+Haltom City	Texas	32.7996	-97.2692	6.41385
+Fort Worth	Texas	32.7555	-97.3308	5.49192
+Killeen	Texas	31.1171	-97.7278	5.10181
+Georgetown	Texas	30.6333	-97.678	12.982
+Round Rock	Texas	30.5083	-97.6789	6.08035
+Pflugerville	Texas	30.4394	-97.62	3.80602
+Austin	Texas	30.2672	-97.7431	13.6958
+San Marcos	Texas	29.8833	-97.9414	10.4223
+New Braunfels	Texas	29.703	-98.1245	6.1643
+Victoria	Texas	28.8053	-97.0036	4.41676
+Corpus Christi	Texas	27.8006	-97.3964	8.44192
+Harlingen	Texas	26.1906	-97.6961	13.077
+Weslaco	Texas	26.1595	-97.9908	38.537
+Pharr	Texas	26.1948	-98.1836	10.7197
+Edinburg	Texas	26.3017	-98.1633	10.8091
+McAllen	Texas	26.2034	-98.23	113.947
+Mission	Texas	26.2159	-98.3253	81.5459
+Laredo	Texas	27.5306	-99.4803	74.906
+Brownsville	Texas	25.9017	-97.4975	20.2992
+San Antonio	Texas	29.4241	-98.4936	170.473
+Cedar Park	Texas	30.5052	-97.8203	16.0079
+Missouri City	Texas	29.6186	-95.5377	186.442
+Sugar Land	Texas	29.6197	-95.6349	6.6654
+Jackson	Mississippi	32.2988	-90.1848	0.747962
+Montgomery	Alabama	32.3668	-86.3	48.1039
+Auburn	Alabama	32.6099	-85.4808	7.7436
+Phenix City	Alabama	32.471	-85.0008	7.97558
+Columbus	Georgia	32.461	-84.9877	29.6713
+Albany	Georgia	31.5785	-84.1557	33.5825
+Valdosta	Georgia	30.8327	-83.2785	24.5529
+Gainesville	Florida	29.6516	-82.3248	97.0119
+Ocala	Florida	29.1872	-82.1401	32.1918
+Apopka	Florida	28.6934	-81.5322	10.3047
+Ocoee	Florida	28.5692	-81.544	16.4713
+Winter Garden	Florida	28.5653	-81.5862	104.666
+Orlando	Florida	28.5383	-81.3792	10.5539
+Altamonte Springs	Florida	28.6611	-81.3656	17.9509
+Sanford	Florida	28.8029	-81.2695	41.8114
+Titusville	Florida	28.6122	-80.8076	10.2212
+Melbourne	Florida	28.0836	-80.6081	3.91154
+Palm Bay	Florida	28.0345	-80.5887	4.04251
+Fort Pierce	Florida	27.4467	-80.3256	7.24284
+Port St. Lucie	Florida	27.273	-80.3582	5.25663
+Jupiter	Florida	26.9342	-80.0942	5.69082
+Palm Beach Gardens	Florida	26.8234	-80.1387	6.87884
+West Palm Beach	Florida	26.7153	-80.0534	2.64782
+Greenacres	Florida	26.6276	-80.1354	7.49906
+Wellington	Florida	26.6618	-80.2684	7.47359
+Boynton Beach	Florida	26.5318	-80.0905	5.45797
+Delray Beach	Florida	26.4615	-80.0728	13.9612
+Boca Raton	Florida	26.3683	-80.1289	13.8365
+Deerfield Beach	Florida	26.3184	-80.0998	4.98734
+Pompano Beach	Florida	26.2379	-80.1248	18.706
+Oakland Park	Florida	26.1723	-80.132	7.89499
+Fort Lauderdale	Florida	26.1224	-80.1373	14.9972
+Coconut Creek	Florida	26.2517	-80.1789	6.40518
+Margate	Florida	26.2445	-80.2064	4.4584
+North Lauderdale	Florida	26.2173	-80.2259	135.466
+Tamarac	Florida	26.2129	-80.2498	5.67548
+Sunrise	Florida	26.167	-80.2566	4.58129
+Plantation	Florida	26.1276	-80.2331	4.98621
+Lauderhill	Florida	26.1404	-80.2134	11.0821
+Davie	Florida	26.0765	-80.2521	5.09236
+Pembroke Pines	Florida	26.0078	-80.2963	7.72335
+Weston	Florida	26.1004	-80.3998	24.6937
+Miramar	Florida	25.9861	-80.3036	11.6451
+Miami Gardens	Florida	25.942	-80.2456	10.6302
+North Miami	Florida	25.8901	-80.1867	12.1459
+North Miami Beach	Florida	25.9331	-80.1625	12.9946
+Aventura	Florida	25.9565	-80.1392	46.0366
+Hallandale Beach	Florida	25.9812	-80.1484	34.9612
+Hollywood	Florida	26.0112	-80.1495	169.629
+Miami Beach	Florida	25.7907	-80.13	188.503
+Miami	Florida	25.7617	-80.1918	87.8083
+Coral Gables	Florida	25.7215	-80.2684	6.99222
+Cutler Bay	Florida	25.5808	-80.3469	13.323
+Homestead	Florida	25.4687	-80.4776	4.61351
+Hialeah	Florida	25.8576	-80.2781	7.63169
+Doral	Florida	25.8195	-80.3553	16.745
+Coral Springs	Florida	26.2712	-80.2706	30.9038
+Deltona	Florida	28.9005	-81.2637	19.8435
+Port Orange	Florida	29.1383	-80.9956	46.9245
+Daytona Beach	Florida	29.2108	-81.0228	11.689
+Ormond Beach	Florida	29.2858	-81.0559	6.93134
+Palm Coast	Florida	29.5845	-81.2079	3850.74
+Jacksonville	Florida	30.3322	-81.6557	10.656
+Kissimmee	Florida	28.292	-81.4076	8.75508
+St. Cloud	Florida	28.2489	-81.2812	7.47689
+Lakeland	Florida	28.0395	-81.9498	16.6144
+Tampa	Florida	27.9506	-82.4572	15.081
+Pinellas Park	Florida	27.8428	-82.6995	11.2643
+Largo	Florida	27.9095	-82.7873	133.3
+Clearwater	Florida	27.9659	-82.8001	5.27396
+St. Petersburg	Florida	27.7731	-82.64	185.501
+Bradenton	Florida	27.4989	-82.5748	43.6802
+Sarasota	Florida	27.3364	-82.5307	6.56077
+North Port	Florida	27.0442	-82.2359	11.4143
+Fort Myers	Florida	26.6406	-81.8723	19.043
+Cape Coral	Florida	26.5629	-81.9495	12.9105
+Bonita Springs	Florida	26.3398	-81.7787	22.8281
+Tallahassee	Florida	30.4383	-84.2807	80.6605
+Dothan	Alabama	31.2232	-85.3905	2312.83
+Panama City	Florida	30.1588	-85.6602	22.2544
+Warner Robins	Georgia	32.613	-83.6242	1094.69
+Macon	Georgia	32.8407	-83.6324	19.6307
+Atlanta	Georgia	33.749	-84.388	18.865
+Brookhaven	Georgia	33.8651	-84.3366	3.22656
+Sandy Springs	Georgia	33.9304	-84.3733	12.364
+Dunwoody	Georgia	33.9462	-84.3346	8.68765
+Roswell	Georgia	34.0232	-84.3616	12.4874
+Alpharetta	Georgia	34.0754	-84.2941	18.1968
+Johns Creek	Georgia	34.0289	-84.1986	67.0215
+Peachtree Corners	Georgia	33.9699	-84.2215	5.71305
+Athens-Clarke County	Georgia	33.9519	-83.3576	25.7382
+Smyrna	Georgia	33.884	-84.5144	36.4838
+Marietta	Georgia	33.9526	-84.5499	228.196
+Chattanooga	Tennessee	35.0456	-85.3097	961.318
+Cleveland	Tennessee	35.1595	-84.8766	500.285
+Knoxville	Tennessee	35.9606	-83.9207	15.4251
+Franklin	Tennessee	35.9251	-86.8689	185.99
+Clarksville	Tennessee	36.5298	-87.3595	13.9004
+Evansville	Indiana	37.9716	-87.5711	22.4973
+Bloomington	Indiana	39.1653	-86.5264	26.7182
+Terre Haute	Indiana	39.4667	-87.4139	118.149
+Urbana	Illinois	40.1106	-88.2073	29.6148
+Champaign	Illinois	40.1164	-88.2434	12.0621
+Decatur	Illinois	39.8403	-88.9548	9.60651
+Bloomington	Illinois	40.4842	-88.9937	267.553
+Normal	Illinois	40.5142	-88.9906	136.593
+Peoria	Illinois	40.6936	-89.589	9.39906
+Moline	Illinois	41.5067	-90.5151	365.058
+Rock Island	Illinois	41.5095	-90.5787	47.5724
+Davenport	Iowa	41.5236	-90.5776	125.621
+Iowa City	Iowa	41.6611	-91.5302	160.122
+Cedar Rapids	Iowa	41.9779	-91.6656	80.7076
+Dubuque	Iowa	42.5006	-90.6646	4.14599
+Waterloo	Iowa	42.4928	-92.3426	13.7163
+Cedar Falls	Iowa	42.5349	-92.4453	49.7862
+Ames	Iowa	42.0347	-93.62	5.79026
+Ankeny	Iowa	41.7318	-93.6001	19.5766
+Des Moines	Iowa	41.6005	-93.6091	13.0884
+West Des Moines	Iowa	41.5772	-93.7113	12.7098
+Urbandale	Iowa	41.6267	-93.7122	22.8351
+Springfield	Illinois	39.7817	-89.6501	11.7696
+Florissant	Missouri	38.7892	-90.3226	9.29742
+St. Charles	Missouri	38.7881	-90.4974	5.5705
+St. Peters	Missouri	38.7875	-90.6299	2.85779
+Chesterfield	Missouri	38.6631	-90.5771	2.43386
+O'Fallon	Missouri	38.8106	-90.6998	4.96762
+Jefferson City	Missouri	38.5767	-92.1735	8.08834
+Columbia	Missouri	38.9517	-92.3341	14.5932
+Quincy	Illinois	39.9356	-91.4099	7.5861
+St. Louis	Missouri	38.627	-90.1994	5.36298
+Belleville	Illinois	38.5201	-89.984	2.8976
+Cape Girardeau	Missouri	37.3059	-89.5181	24.6008
+Carmel	Indiana	39.9784	-86.118	8.87834
+Dublin	Ohio	40.0992	-83.1141	18.094
+Westerville	Ohio	40.1262	-82.9291	8.81104
+Lorain	Ohio	41.4528	-82.1824	308.312
+Reading	Pennsylvania	40.3356	-75.9269	8.48364
+Lancaster	Pennsylvania	40.0379	-76.3055	36.3227
+York	Pennsylvania	39.9626	-76.7277	228.134
+Harrisburg	Pennsylvania	40.2732	-76.8867	69.5704
+State College	Pennsylvania	40.7934	-77.86	26.663
+Altoona	Pennsylvania	40.5187	-78.3947	6.39435
+Baltimore	Maryland	39.2904	-76.6122	31.1506
+Bowie	Maryland	39.0068	-76.7791	43.6521
+Annapolis	Maryland	38.9784	-76.4922	11.5647
+Washington	District of Columbia	38.9072	-77.0369	517.245
+Rockville	Maryland	39.084	-77.1528	121.135
+Gaithersburg	Maryland	39.1434	-77.2014	25.33
+Leesburg	Virginia	39.1157	-77.5636	13.7561
+Frederick	Maryland	39.4143	-77.4105	3.9752
+Hagerstown	Maryland	39.6418	-77.72	8.49937
+Alexandria	Virginia	38.8048	-77.0469	6.8946
+Manassas	Virginia	38.7509	-77.4753	107.01
+Charlottesville	Virginia	38.0293	-78.4767	140.067
+Harrisonburg	Virginia	38.4496	-78.8689	124.142
+Lynchburg	Virginia	37.4138	-79.1422	80.3583
+Roanoke	Virginia	37.271	-79.9414	160.837
+Danville	Virginia	36.586	-79.395	98.5953
+Burlington	North Carolina	36.0957	-79.4378	67.949
+Chapel Hill	North Carolina	35.9132	-79.0558	3.34583
+Durham	North Carolina	35.994	-78.8986	119.145
+Cary	North Carolina	35.7915	-78.7811	1.57797
+Apex	North Carolina	35.7327	-78.8503	36.9666
+Fayetteville	North Carolina	35.0527	-78.8784	137.573
+Raleigh	North Carolina	35.7796	-78.6382	111.494
+Wilson	North Carolina	35.7213	-77.9155	14.6127
+Rocky Mount	North Carolina	35.9382	-77.7905	5.49836
+Greenville	North Carolina	35.6127	-77.3664	124.615
+Jacksonville	North Carolina	34.7541	-77.4302	11.4806
+Wilmington	North Carolina	34.2257	-77.9447	19.5552
+Greensboro	North Carolina	36.0726	-79.792	43.9607
+High Point	North Carolina	35.9557	-80.0053	178.958
+Winston-Salem	North Carolina	36.0999	-80.2442	141.058
+Kannapolis	North Carolina	35.4874	-80.6217	256.074
+Huntersville	North Carolina	35.4107	-80.8429	160.35
+Charlotte	North Carolina	35.2271	-80.8431	46.1612
+Rock Hill	South Carolina	34.9249	-81.0251	37.0871
+Columbia	South Carolina	34.0007	-81.0348	54.4779
+Sumter	South Carolina	33.9204	-80.3415	34.6664
+Florence	South Carolina	34.1954	-79.7626	47.7686
+Summerville	South Carolina	33.0185	-80.1756	7.82814
+Goose Creek	South Carolina	32.981	-80.0326	35.7227
+North Charleston	South Carolina	32.8546	-79.9748	109.645
+Charleston	South Carolina	32.7765	-79.9311	118.558
+Hilton Head Island	South Carolina	32.2163	-80.7526	117.645
+Savannah	Georgia	32.0835	-81.0998	90.3352
+Mount Pleasant	South Carolina	32.8323	-79.8284	39.903
+Augusta-Richmond County	Georgia	33.4735	-82.0105	24.88
+Gastonia	North Carolina	35.2621	-81.1873	75.654
+Spartanburg	South Carolina	34.9496	-81.932	65.5342
+Greenville	South Carolina	34.8526	-82.394	52.6759
+Asheville	North Carolina	35.5951	-82.5515	75.3287
+Johnson City	Tennessee	36.3134	-82.3535	23.1795
+Kingsport	Tennessee	36.5484	-82.5618	76.1438
+Hickory	North Carolina	35.7345	-81.3445	20.4162
+Concord	North Carolina	35.4088	-80.5795	102.765
+Blacksburg	Virginia	37.2296	-80.4139	61.4744
+Richmond	Virginia	37.5407	-77.436	13.9777
+Newport News	Virginia	37.0871	-76.473	9.60346
+Hampton	Virginia	37.0299	-76.3452	35.8687
+Norfolk	Virginia	36.8508	-76.2859	215.282
+Portsmouth	Virginia	36.8354	-76.2983	76.14
+Chesapeake	Virginia	36.7682	-76.2875	83.7857
+Suffolk	Virginia	36.7282	-76.5836	32.097
+Virginia Beach	Virginia	36.8529	-75.978	78.0909
+Camden	New Jersey	39.9259	-75.1196	265.357
+Vineland	New Jersey	39.4864	-75.026	13.0023
+Dover	Delaware	39.1582	-75.5244	2.03189
+Atlantic City	New Jersey	39.3643	-74.4229	26.7514
+Philadelphia	Pennsylvania	39.9526	-75.1652	349.792
+Wilmington	Delaware	39.7391	-75.5398	56.3022
+Union City	New Jersey	40.6976	-74.2632	91.1974
+New York	New York	40.7128	-74.0059	152.014

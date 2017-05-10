@@ -11,6 +11,9 @@
 
 void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weights) {
 
+   path.clear();
+   weights.clear();
+
    UGraph& ug = myGraph.getGraphRef();
    auto cities = myGraph.getCityNodes();
    int graphSize = num_vertices(ug);
@@ -27,6 +30,7 @@ void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weight
    std::vector<VertexT> v_path;
    Traversals::compute_euler<MultiGraph>(mst,v_path);
 
+   // clean up output for writer class
    for (auto it = v_path.begin(); it != v_path.end(); ++it) {
       path.push_back(cities.at(*it));
       if (it != v_path.begin()) {

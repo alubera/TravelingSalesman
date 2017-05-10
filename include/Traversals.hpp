@@ -59,32 +59,6 @@ void bfs_example(Graph myGraph, std::ofstream& myFile) {
 
 }
 
-void mst_example(Graph myGraph) {
-
-   UGraph& ug = myGraph.getGraphRef();
-   auto cities = myGraph.getCityNames();
-
-   int graphSize = num_vertices(ug);
-
-   std::vector<Vertex> p(graphSize);
-
-   prim_minimum_spanning_tree(ug, &p[0]);
-
-   for(auto ii = 0; ii < p.size(); ++ii) {
-      if(p[ii] != ii) {
-         std::cout << "parent of " << cities[ii] << " ==> " << cities[p[ii]] << std::endl;
-      } else {
-         std::cout << "parent of " << cities[ii] << " ==> no parent" << std::endl;
-      }
-   }
-/*      if(p[ii] != ii) {
-         std::cout << "parent[" << ii << "] = " << p[ii] << std::endl;
-      } else {
-         std::cout << "parent[" << ii << "] = no parent" << std::endl;
-      }
-   }*/
-}
-
 // function computes minimum spanning tree of ug
 // then builds a new graph out of it (could be templated)
 void compute_mst(UGraph& ug, MultiGraph& mst) {
@@ -125,16 +99,6 @@ void dup_edges(GraphT& g) {
    for (auto it = all_edges.begin(); it != all_edges.end(); ++it) {
       add_edge(target(*it,g),source(*it,g),g);
    }
-}
-
-template <typename GraphT, typename EdgeT = typename graph_traits<GraphT>::edge_descriptor, typename VertexT = typename graph_traits<GraphT>::vertex_descriptor>
-EdgeT check_edge(const VertexT& u, const VertexT& v, const GraphT& g) {
-
-   EdgeT e;
-   bool exists;
-   tie(e,exists) = edge(u,v,g);
-   if (!exists) throw "Error: tried to use an edge that doesn't exist";
-   return e;
 }
 
 // function will compute a Eulerian Tour in graph g
@@ -185,6 +149,7 @@ void compute_euler(const GraphT& g, std::vector<VertexT>& path) {
    // push start vertex to complete circuit
    path.push_back(start_vertex);
 }
+
 
 /*
 void edge_iterators(Graph myGraph) {
