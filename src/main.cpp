@@ -8,9 +8,11 @@
 #include "../include/Writer.hpp"
 #include "../include/Traversals.hpp"
 #include "../include/TwoApprox.hpp"
+#include "../include/NearestNeighbors.hpp"
 
 int main() {
 
+<<<<<<< HEAD
    /*****************************************
    *  MOST OF THIS IS NOW DEPRECATED FOR NOW
    *////////////////////////////////////////
@@ -40,6 +42,10 @@ int main() {
 
 
    /**
+=======
+   // TODO: try to figure out this env var thing
+/*
+>>>>>>> c95f32695337afd67673fb6ea2e13ce936716ef2
    std::string gitPath;
    gitPath = getenv("GIT_DIR");
   
@@ -53,26 +59,26 @@ int main() {
    **/
 
 
+   // read json and set up graph
    Reader myReader("../../data/cities.json");
    auto res = myReader.getCities();
-
    Graph myGraph(res);
+   std::cout << "STATUS: json file read" << std::endl;
 
-   // toy function to play with edge iterators
-   //Traversals::edge_iterators(myGraph);
-
-   // check out mst heuristic
-   Writer myWriter("../../output/dmst.txt");
+   // some reusable data structures
    std::list<Node> path;
    std::list<double> weights;
+
+   // output for nearest neighbors heuristic
+   Writer nnWriter("../../output/nn.txt");
+   nearest_neighbors(myGraph,path,weights);
+   nnWriter.writePath(path,weights);
+   std::cout << "STATUS: nearest neighbors output" << std::endl;
+
+   // output for mst heuristic
+   Writer dmstWriter("../../output/dmst.txt");
    two_approx(myGraph,path,weights);
-   myWriter.writePath(path,weights);
+   dmstWriter.writePath(path,weights);
+   std::cout << "STATUS: double minimun spanning tree output" << std::endl;
 
-   // try out bfs
-   //std::ofstream myFile;
-   //myFile.open("../../output/bfs/bfs.txt");
-   //bfs_example(myGraph, myFile);
-
-   // try out mst
-   //mst_example(myGraph);
 }
