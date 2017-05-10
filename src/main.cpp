@@ -39,13 +39,19 @@ int main() {
    *///////////////////////////////////// 
 
 
-   // TODO: try to figure out this env var thing
-/*
+   /**
    std::string gitPath;
    gitPath = getenv("GIT_DIR");
   
    std::cout << gitPath << std::endl;
- */
+   **/
+
+   /**
+   std::string file_path = __FILE__;
+   std::string dir_path = file_path.substr(0, file_path.rfind("\\"));
+   std::cout << dir_path << std::endl;
+   **/
+
 
    Reader myReader("../../data/cities.json");
    auto res = myReader.getCities();
