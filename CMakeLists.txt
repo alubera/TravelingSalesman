@@ -42,6 +42,7 @@ find_package(Boost REQUIRED
 				unit_test_framework )
 
 INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
+INCLUDE_DIRECTORIES(./include)
 LINK_DIRECTORIES(${Boost_LIBRARY_DIRS} ${CMAKE_BINARY_DIR}/lib)
 
 set(TEST_SOURCES

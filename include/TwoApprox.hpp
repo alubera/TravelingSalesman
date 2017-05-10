@@ -9,6 +9,9 @@
 
 #include "Traversals.hpp"
 
+typedef property<edge_weight_t, double> Weight;
+typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
+
 namespace heuristics {
 
 void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& totalDist) {

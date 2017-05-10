@@ -3,14 +3,14 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
-#include "../include/Graph.hpp"
-#include "../include/Reader.hpp"
-#include "../include/Writer.hpp"
-#include "../include/Traversals.hpp"
-#include "../include/TwoApprox.hpp"
-#include "../include/NearestNeighbors.hpp"
+#include "Graph.hpp"
+#include "Reader.hpp"
+#include "Writer.hpp"
+#include "Traversals.hpp"
+#include "TwoApprox.hpp"
+#include "NearestNeighbors.hpp"
 
-int main() {
+int main(int argc, char** argv) {
 /*
    // TODO: try to figure out this env var thing
    std::string gitPath;
@@ -23,10 +23,16 @@ int main() {
    std::string dir_path = file_path.substr(0, file_path.rfind("\\"));
    std::cout << dir_path << std::endl;
    **/
-
+   
+   std::string dir_name;
+   if (argc < 2) {   // assume user is in bin
+      dir_name = "../..";
+   } else {
+      dir_name = argv[1];
+   }
 
    // read json and set up graph
-   Reader myReader("../../data/cities.json");
+   Reader myReader(dir_name+"/data/cities.json");
    auto res = myReader.getCities();
    Graph myGraph(res);
    std::cout << "STATUS: json file read" << std::endl;
@@ -37,13 +43,13 @@ int main() {
    double totalDist;
 
    // output for nearest neighbors heuristic
-   Writer nnWriter("../../output/nn.txt");
+   Writer nnWriter(dir_name+"/output/nn.txt");
    heuristics::nearest_neighbors(myGraph,path,weights,totalDist);
    nnWriter.writePath(path,weights);
    std::cout << "STATUS: nearest neighbors output" << std::endl;
 
    // output for mst heuristic
-   Writer dmstWriter("../../output/dmst.txt");
+   Writer dmstWriter(dir_name+"/output/dmst.txt");
    heuristics::two_approx(myGraph,path,weights,totalDist);
    dmstWriter.writePath(path,weights);
    std::cout << "STATUS: double minimun spanning tree output" << std::endl;

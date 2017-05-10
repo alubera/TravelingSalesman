@@ -14,7 +14,7 @@
 #include <boost/property_map/property_map.hpp>
 
 using namespace boost;
-
+/*
 typedef property<edge_weight_t, double> Weight;
 typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
 typedef property_map<UGraph,edge_weight_t>::type WeightMap;
@@ -26,5 +26,5 @@ typedef std::vector<Vertex>::iterator Piter;
 typedef std::vector<Size>::iterator Iiter;
 
 typedef adjacency_list<listS,vecS,undirectedS> MultiGraph;
-
+*/
 #endif

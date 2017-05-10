@@ -43,7 +43,7 @@ void Writer::writePath(std::list<Node>& path, std::list<double>& weights) {
    auto weights_it = weights.begin();
    while (path_it != path.end()) {
       fp << path_it->getName() << ',' << path_it->getState() << ',' << path_it->getLat() << ',' << path_it->getLon() << ',';
-      if (weights_it++ == weights.begin()) {
+      if (path_it == path.begin()) {
          fp << 0 << "\n";
       } else {
          fp << *(weights_it++) << "\n";

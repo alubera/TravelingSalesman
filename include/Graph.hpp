@@ -21,6 +21,9 @@
 
 #include "Node.hpp"
 
+typedef property<edge_weight_t, double> Weight;
+typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
+
 class Graph {
 
    public:

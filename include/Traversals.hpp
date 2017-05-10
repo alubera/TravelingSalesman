@@ -18,6 +18,14 @@
 #include "Graph.hpp"
 #include "bfs_time_visitor.hpp"
 
+typedef property<edge_weight_t, double> Weight;
+typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
+typedef graph_traits<UGraph>::vertex_descriptor Vertex;
+typedef graph_traits<UGraph>::vertices_size_type Size;
+
+typedef adjacency_list<listS,vecS,undirectedS> MultiGraph;
+typedef graph_traits<MultiGraph>::vertex_descriptor VertexM;
+
 // use namespace to clarify functions
 namespace Traversals {
 
@@ -70,8 +78,8 @@ void compute_mst(UGraph& ug, MultiGraph& mst) {
 
    for (auto ii = 0; ii < p.size(); ++ii) {
       if (p[ii] != ii) {
-         Vertex u = vertex(ii,mst);
-         Vertex v = vertex(p[ii],mst);
+         VertexM u = vertex(ii,mst);
+         VertexM v = vertex(p[ii],mst);
          add_edge(u,v,mst);
       }
    }

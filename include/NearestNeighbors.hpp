@@ -12,6 +12,10 @@
 
 #include "Traversals.hpp"
 
+typedef property<edge_weight_t, double> Weight;
+typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
+typedef graph_traits<UGraph>::vertex_descriptor Vertex;
+
 namespace heuristics {
 
 // function to run nearest neighbors algorithm
