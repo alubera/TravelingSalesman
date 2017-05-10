@@ -9,10 +9,11 @@
 
 #include "Traversals.hpp"
 
-void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weights) {
+void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& totalDist) {
 
    path.clear();
    weights.clear();
+   totalDist = 0;
 
    UGraph& ug = myGraph.getGraphRef();
    auto cities = myGraph.getCityNodes();
@@ -26,17 +27,22 @@ void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weight
    Traversals::dup_edges<MultiGraph>(mst);
 
    // compute Eulerian Tour of double mst
-   typedef typename graph_traits<MultiGraph>::vertex_descriptor VertexT;
-   std::vector<VertexT> v_path;
-   Traversals::compute_euler<MultiGraph>(mst,v_path);
+   // mst can be reused, compute euler function needs to be looped
+   // weights loop needs to be looped as well since there are never any weight accesses
+   //    in compute euler function
+   //for () {
+      typedef typename graph_traits<MultiGraph>::vertex_descriptor VertexT;
+      std::vector<VertexT> v_path;
+      Traversals::compute_euler<MultiGraph>(mst,v_path);
 
-   // clean up output for writer class
-   for (auto it = v_path.begin(); it != v_path.end(); ++it) {
-      path.push_back(cities.at(*it));
-      if (it != v_path.begin()) {
-         weights.push_back(myGraph.getEdgeWeight(edge(*(it-1),*it,ug).first));
+      // clean up output for writer class
+      for (auto it = v_path.begin(); it != v_path.end(); ++it) {
+         path.push_back(cities.at(*it));
+         if (it != v_path.begin()) {
+            weights.push_back(myGraph.getEdgeWeight(edge(*(it-1),*it,ug).first));
+         }
       }
-   }
+   //}
 }
 
 #endif

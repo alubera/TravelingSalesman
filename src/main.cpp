@@ -34,16 +34,17 @@ int main() {
    // some reusable data structures
    std::list<Node> path;
    std::list<double> weights;
+   double totalDist;
 
    // output for nearest neighbors heuristic
    Writer nnWriter("../../output/nn.txt");
-   nearest_neighbors(myGraph,path,weights);
+   nearest_neighbors(myGraph,path,weights,totalDist);
    nnWriter.writePath(path,weights);
    std::cout << "STATUS: nearest neighbors output" << std::endl;
 
    // output for mst heuristic
    Writer dmstWriter("../../output/dmst.txt");
-   two_approx(myGraph,path,weights);
+   two_approx(myGraph,path,weights,totalDist);
    dmstWriter.writePath(path,weights);
    std::cout << "STATUS: double minimun spanning tree output" << std::endl;
 
