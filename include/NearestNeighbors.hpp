@@ -12,6 +12,7 @@
 
 #include "Traversals.hpp"
 
+namespace heuristics {
 
 // function to run nearest neighbors algorithm
 // TODO: fill in params info
@@ -24,12 +25,11 @@ void nearest_neighbors(Graph& myGraph, std::list<Node>& path, std::list<double>&
    auto cities = myGraph.getCityNodes();
    std::list<Vertex> remaining_cities;
    std::vector<Vertex> v_path, min_v_path;
-   double minTotalDist = 0;
+   double minTotalDist = 0.0;
 
    // start from every city and see what path is shortest
    for (int i = 0; i < num_vertices(ug); ++i) {
-      std::cout << "NN: " << i << std::endl;
-      totalDist = 0;
+      totalDist = 0.0;
       v_path.clear();
       v_path.push_back(vertex(i,ug));
 
@@ -64,13 +64,16 @@ void nearest_neighbors(Graph& myGraph, std::list<Node>& path, std::list<double>&
       totalDist += myGraph.getEdgeWeight(edge(v_path.back(),v,ug).first);
       v_path.push_back(v);
       
+      std::cout << "NN: " << i << "\tdistance: " << totalDist << std::endl;
       // keep path with minimum total distance
       if (totalDist < minTotalDist || min_v_path.empty()) {
+         std::cout << "\t\tNEW MIN FOUND" << std::endl;
          min_v_path = v_path;    // vector assignment operator is pretty cool :P
          minTotalDist = totalDist;
       }
    }
 
+   totalDist = minTotalDist;
    // fill path and weight lists
    for (auto it = min_v_path.begin(); it != min_v_path.end(); ++it) {
       path.push_back(cities.at(*it));
@@ -79,5 +82,7 @@ void nearest_neighbors(Graph& myGraph, std::list<Node>& path, std::list<double>&
       }
    }
 }
+
+}  // end namespace
 
 #endif

@@ -498,7 +498,7 @@ Dayton,Ohio,39.7589,-84.1916,248.103
 Kettering,Ohio,39.6895,-84.1688,405.086
 Beavercreek,Ohio,39.7092,-84.0633,5.27396
 Middletown,Ohio,39.5151,-84.3983,4121.05
-Hamilton,Ohio,39.3995,-84.5613,1.3922e-316
+Hamilton,Ohio,39.3995,-84.5613,1.75788e-316
 Fairfield,Ohio,39.3455,-84.5603,0
 Cincinnati,Ohio,39.1031,-84.512,8.3035
 Covington,Kentucky,39.0837,-84.5086,6.67611

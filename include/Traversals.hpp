@@ -106,16 +106,16 @@ void dup_edges(GraphT& g) {
 // it is assumed that every edge will have an even degree, so the tour will be a circuit
 // this function is also special because vertices already in the path will be skipped
 template <typename GraphT, typename VertexT = typename graph_traits<GraphT>::vertex_descriptor>
-void compute_euler(const GraphT& g, std::vector<VertexT>& path) {
+void compute_euler(const GraphT& g, std::vector<VertexT>& path, int start) {
 
    typedef typename graph_traits<GraphT>::edge_descriptor EdgeT;
 
-   // TODO: try every vertex as start
-   VertexT start_vertex = vertex(0,g);
+   VertexT start_vertex = vertex(start,g);
    
    std::set<EdgeT> visited_edges;
    std::set<VertexT> used_vs;
    std::vector<VertexT> tmp;
+   path.clear();
 
    tmp.push_back(start_vertex);
    while (!tmp.empty() && (used_vs.size() < num_vertices(g))) {
