@@ -1,4 +1,5 @@
-/* Travelling Salesman Project
+/** \file Node.hpp
+ * Travelling Salesman Project
  * ACMS 60212
  * Node.hpp
  * class contains info for each city used as point in travelling salesman simulations

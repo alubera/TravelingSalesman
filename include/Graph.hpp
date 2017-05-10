@@ -1,4 +1,6 @@
-/* Travelling Salesman Project
+
+/** \file Graph.hpp 
+ * Travelling Salesman Project
  * ACMS 60212
  * Graph.hpp
  * class will act as data structure to hold all points that travelling salesman will hit
