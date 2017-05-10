@@ -29,6 +29,7 @@ If you are using a windows machine, you will need to visit https://cmake.org/dow
 ## Running
 After you build the project, you will still be in the build/ directory. To run the executable, do the following:
 ```
+mkdir ../output
 cd bin
 ./main.out
 ```
