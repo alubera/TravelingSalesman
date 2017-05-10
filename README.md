@@ -42,3 +42,11 @@ cd bin
 ## Data
 The data that we use in this project comes from https://gist.github.com/Miserlou/c5cd8364bf9b2420bb29 and is in JSON format. It contains information, including latitude and longitude coordinates, for the 1,000 most populous cities in the continental United States. 
 
+## Documentation
+The code was documented according to the Doxygen style. In order to generate the documentation, do the following:
+```
+mkdir docs
+doxygen Doxyfile
+```
+Doxygen offers documenation in both html and latex format. These are available as folders in docs.
+
