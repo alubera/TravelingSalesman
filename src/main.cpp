@@ -57,7 +57,7 @@ int main(int argc, char** argv) {
       start = std::chrono::system_clock::now();
       heuristics::nearest_neighbors(myGraph,path,weights,totalDist);
       end = std::chrono::system_clock::now();
-      nn_time += double(end - start);
+      nn_time += std::chrono::duration<double, std::milli>(end - start).count();
    }
 
    nn_time /= 5;
@@ -73,7 +73,7 @@ int main(int argc, char** argv) {
       start = std::chrono::system_clock::now();
       heuristics::nearest_neighbors_parallel(myGraph,path,weights,totalDist);
       end = std::chrono::system_clock::now();
-      nnpara_time += double(end - start);
+      nnpara_time += std::chrono::duration<double, std::milli>(end - start).count();
 
    }
    nnpara_time /= 5;
@@ -89,7 +89,7 @@ int main(int argc, char** argv) {
       start = std::chrono::system_clock::now();
       heuristics::two_approx(myGraph,path,weights,totalDist);
       end = std::chrono::system_clock::now();
-      dmst_time += double(end - start);
+      dmst_time += std::chrono::duration<double, std::milli>(end - start).count();
    }
    dmst_time /= 5;
    dmstWriter.writePath(path,weights);
