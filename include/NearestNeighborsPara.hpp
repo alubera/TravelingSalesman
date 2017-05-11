@@ -21,7 +21,7 @@ namespace heuristics {
 
 // function to run nearest neighbors algorithm
 // TODO: fill in params info
-void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& totalDist) {
+void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& pathDist) {
 
    path.clear();
    weights.clear();
@@ -35,6 +35,7 @@ void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list
    #pragma omp parallel
    {
 
+   double totalDist;
    std::list<Vertex> remaining_cities;
    std::vector<Vertex> v_path;
    
@@ -87,8 +88,9 @@ void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list
       }
    }
    }
-   totalDist = minTotalDist;
+   pathDist = minTotalDist;
    // fill path and weight lists
+   #pragma omp critical
    for (auto it = min_v_path.begin(); it != min_v_path.end(); ++it) {
       path.push_back(cities.at(*it));
       if (it != min_v_path.begin()) {
