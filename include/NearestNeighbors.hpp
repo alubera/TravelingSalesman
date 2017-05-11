@@ -68,10 +68,10 @@ void nearest_neighbors(Graph& myGraph, std::list<Node>& path, std::list<double>&
       totalDist += myGraph.getEdgeWeight(edge(v_path.back(),v,ug).first);
       v_path.push_back(v);
       
-      std::cout << "NN: " << i << "\tdistance: " << totalDist << std::endl;
+//      std::cout << "NN: " << i << "\tdistance: " << totalDist << std::endl;
       // keep path with minimum total distance
       if (totalDist < minTotalDist || min_v_path.empty()) {
-         std::cout << "\t\tNEW MIN FOUND" << std::endl;
+//         std::cout << "\t\tNEW MIN FOUND" << std::endl;
          min_v_path = v_path;    // vector assignment operator is pretty cool :P
          minTotalDist = totalDist;
       }

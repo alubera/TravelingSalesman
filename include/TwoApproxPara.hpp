@@ -1,11 +1,12 @@
 /* Travelling Salesman Project
  * ACMS 60212
- * TwoApprox.hpp
+ * TwoApproxPara.hpp
  * compute the two-approximation (Double Minimum Spanning Tree) heuristic for TSP
+ * PARALLEL VERSION
  */
 
-#ifndef TWOAPPROX_HPP
-#define TWOAPPROX_HPP
+#ifndef TWOAPPROXPARA_HPP
+#define TWOAPPROXPARA_HPP
 
 #include "Traversals.hpp"
 
@@ -14,7 +15,7 @@ typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
 
 namespace heuristics {
 
-void two_approx(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& totalDist) {
+void two_approx_parallel(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& totalDist) {
 
    path.clear();
    weights.clear();
