@@ -21,10 +21,13 @@
 typedef property<edge_weight_t, double> Weight;
 typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
 typedef graph_traits<UGraph>::vertex_descriptor Vertex;
+typedef graph_traits<UGraph>::edge_descriptor Edge;
+typedef graph_traits<UGraph>::edge_iterator EdgeIterator;
 typedef graph_traits<UGraph>::vertices_size_type Size;
 
 typedef adjacency_list<listS,vecS,undirectedS> MultiGraph;
 typedef graph_traits<MultiGraph>::vertex_descriptor VertexM;
+typedef graph_traits<MultiGraph>::edge_iterator EdgeIteratorM;
 
 // use namespace to clarify functions
 namespace Traversals {
@@ -84,6 +87,74 @@ void compute_mst(UGraph& ug, MultiGraph& mst) {
       }
    }
 }
+
+// function goes through all vertices in g and fills in list with those with odd degree
+// g can be a generic boost graph type
+// v_map will map new vertex number to original vertex number and will be used when
+//    merging the graphs together again
+template <typename GraphT, typename VertexT = typename graph_traits<GraphT>::vertex_descriptor>
+void get_odd_vertices(const GraphT& g, std::list<VertexT>& odd_vertices, std::map<int,int>& v_map) {
+
+   typedef typename graph_traits<GraphT>::vertex_iterator VertexIteratorT;
+   VertexIteratorT vi, vi_end;
+
+   // if edges are added here then loop will be infinite
+   int v_count = 0;
+   for (std::tie(vi,vi_end) = vertices(g); vi != vi_end; ++vi) {
+      // add vertex if it has an odd degree
+      if (out_degree(*vi,g)%2) {
+         v_map[odd_vertices.size()] = v_count;
+         odd_vertices.push_back(*vi);
+      }
+      ++v_count;
+   }
+}
+
+// function computes perfect matching on graph ug 
+// and builds a new graph out of it
+// perfect matching will be approximate, not minimum
+void perfect_matching(Graph& myGraph, MultiGraph& perfect) {
+   
+   auto ug = myGraph.getGraphRef();
+
+   // we need a mapof edge weights to edge iterators
+   std::map<double,EdgeIterator> all_edges;
+   // also a set of vertices that have already been used
+   std::set<Vertex> used_vertices;
+
+   // iterate over all edges and put them into the mapping
+   EdgeIterator ei, ei_end;
+   for (tie(ei,ei_end) = edges(ug); ei != ei_end; ++ei) {
+      all_edges[myGraph.getEdgeWeight(*ei)] = ei;
+   }
+
+   // traverse edges in order, trying to add smallest to graph first
+   // ONLY add edge if neither vertex has been added yet
+   for (auto it = all_edges.begin(); it != all_edges.end(); ++it) {
+      Vertex u = source(*(it->second),ug);
+      Vertex v = target(*(it->second),ug);
+      if (used_vertices.find(u) == used_vertices.end() &&
+          used_vertices.find(v) == used_vertices.end()) {
+         add_edge(u,v,perfect);
+         used_vertices.insert(u);
+         used_vertices.insert(v);
+         if (used_vertices.size() == num_vertices(ug)) break;
+      }
+   }
+}
+
+// function combines two graphs of the same type
+// g2 will be added to g1
+template <typename GraphT>
+void combine(GraphT& g1, GraphT& g2, std::map<int,int>& v_map) {
+   
+   // got through edges in g2 and add them to g1
+   typename graph_traits<GraphT>::edge_iterator ei, ei_end;
+   for (std::tie(ei,ei_end) = edges(g2); ei != ei_end; ++ei) {
+      add_edge(v_map[source(*ei,g2)],v_map[target(*ei,g2)],g1);
+   }
+}
+
 
 // function duplicates all edges in g
 // g can be a generic boost graph type

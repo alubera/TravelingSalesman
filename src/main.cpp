@@ -13,6 +13,8 @@
 #include "TwoApproxPara.hpp"
 #include "NearestNeighbors.hpp"
 #include "NearestNeighborsPara.hpp"
+#include "Christo.hpp"
+#include "ChristoPara.hpp"
 
 int main(int argc, char** argv) {
   
@@ -93,11 +95,42 @@ int main(int argc, char** argv) {
       start = std::chrono::system_clock::now();
       heuristics::two_approx_parallel(myGraph,path,weights,totalDist);
       end = std::chrono::system_clock::now();
-      dmst_time += std::chrono::duration<double, std::milli>(end - start).count();
+      dmstpara_time += std::chrono::duration<double, std::milli>(end - start).count();
    }
-   dmst_time /= 5;
+   dmstpara_time /= 5;
    dmstparaWriter.writePath(path,weights);
    std::cout << "STATUS: parallel double minimun spanning tree output" << std::endl;
-   std::cout << "MEAN EXECUTION TIME: " << dmst_time << std::endl;
+   std::cout << "MEAN EXECUTION TIME: " << dmstpara_time << std::endl;
+
+   // output for chrisofides heuristic
+   Writer christoWriter(dir_name+"/output/christo.csv");
+   double christo_time(0);
+   for(int ii{0}; ii < 5; ++ii)
+   {
+      start = std::chrono::system_clock::now();
+      heuristics::christofides(myGraph,path,weights,totalDist);
+      end = std::chrono::system_clock::now();
+      christo_time += std::chrono::duration<double, std::milli>(end - start).count();
+   }
+   christo_time /= 5;
+   christoWriter.writePath(path,weights);
+   std::cout << "STATUS: chritofides algorithm output" << std::endl;
+   std::cout << "MEAN EXECUTION TIME: " << christo_time << std::endl;
+
+
+   // output for parallelized chrisofides heuristic
+   Writer christoparaWriter(dir_name+"/output/christopara.csv");
+   double christopara_time(0);
+   for(int ii{0}; ii < 5; ++ii)
+   {
+      start = std::chrono::system_clock::now();
+      heuristics::christofides_parallel(myGraph,path,weights,totalDist);
+      end = std::chrono::system_clock::now();
+      christopara_time += std::chrono::duration<double, std::milli>(end - start).count();
+   }
+   christopara_time /= 5;
+   christoparaWriter.writePath(path,weights);
+   std::cout << "STATUS: parallel christofides algorithm output" << std::endl;
+   std::cout << "MEAN EXECUTION TIME: " << christopara_time << std::endl;
 
 }
