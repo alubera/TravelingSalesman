@@ -14,14 +14,6 @@ set(CMAKE_CXX_FLAGS "-g -fopenmp -I$BOOST_ROOT/include -Wno-unused-local-typedef
 # configure a header file to pass some of the CMake settings
 # to the source code
 
-include_directories (include)
-
-set(TRAVELINGSALESMAN_HEADERS
-		include/Graph.hpp
-		include/Node.hpp
-		include/Reader.hpp
-		)
-
 set(TRAVELINGSALESMAN_SOURCES
 		src/main.cpp
 		)
