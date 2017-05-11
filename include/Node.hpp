@@ -19,50 +19,65 @@ class Node {
       * @param newCity is the name of the city
       * @param newState is the name of the state
       * @param newLat is the latitude
-      * @param newLon is the longitude 
+      * @param newLon is the longitude
       */
-      Node(std::string,std::string,double,double);
+      Node(std::string newCity, std::string newState, double newLat, double newLon);
 
       /**
       * Function that returns the name of a node
-      * @returns the name of the city of the node
+      * @return the name of the city of the node
       */
       std::string getName() const;
 
       /**
       * Function that returns the name of the state
-      * @returns the name of the state of the node
+      * @return the name of the state of the node
       */
       std::string getState() const;
 
       /**
       * Function that returns the latitude
-      * @returns latitude of node
+      * @return latitude of node
       */
       double getLat() const;
 
       /**
       * Function that returns the longitude
-      * @returns longitude of node
+      * @return longitude of node
       */
       double getLon() const;
 
       /**
       * Overridden boolean operator
       * @param other is the Node that is the point of comparison
-      * @returns boolean value whether the two nodes are the same
+      * @return boolean value whether the two nodes are the same
       */
       bool operator==(const Node &) const;
 
    private:
+      /**
+      * string for name of city
+      */
       std::string cityName;
+
+      /**
+      * string for name of state
+      */
       std::string stateName;
+
+      /**
+      * latitude coordinate of city
+      */
       double lat;
+
+      /**
+      * longitude coordinate of city
+      */
       double lon;
 
 };
 
-Node::Node(std::string newCity, std::string newState, double newLat, double newLon) 
+Node::Node(std::string newCity, std::string newState, double newLat, double newLon)
       : cityName(newCity),
          stateName(newState),
          lat(newLat),

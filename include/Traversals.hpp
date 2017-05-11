@@ -32,6 +32,11 @@ typedef graph_traits<MultiGraph>::edge_iterator EdgeIteratorM;
 // use namespace to clarify functions
 namespace Traversals {
 
+/**
+* function for breadth-first search
+* @param myGraph is Graph object
+* @param myFile is output file
+*/
 void bfs_example(Graph myGraph, std::ofstream& myFile) {
 
    UGraph& ug = myGraph.getGraphRef();
@@ -66,12 +71,15 @@ void bfs_example(Graph myGraph, std::ofstream& myFile) {
    for (auto it = discover_order.begin(); it != discover_order.end(); ++it) {
       myFile << lats[*it] << " " << lons[*it] << '\n';
    }
-   // write lat lon to text file 
+   // write lat lon to text file
 
 }
-
-// function computes minimum spanning tree of ug
-// then builds a new graph out of it (could be templated)
+/**
+* function computes minimum spanning tree of ug
+* then builds a new graph out of it (could be templated)
+* @param ug is boost graph object
+* @param mst is minimum spanning tree object
+*/
 void compute_mst(UGraph& ug, MultiGraph& mst) {
 
    int graphSize = num_vertices(ug);
@@ -155,9 +163,10 @@ void combine(GraphT& g1, GraphT& g2, std::map<int,int>& v_map) {
    }
 }
 
-
-// function duplicates all edges in g
-// g can be a generic boost graph type
+/**
+* function duplicates all edges in g
+* @param g can be a generic boost graph type
+*/
 template <typename GraphT>
 void dup_edges(GraphT& g) {
 
@@ -180,17 +189,22 @@ void dup_edges(GraphT& g) {
    }
 }
 
-// function will compute a Eulerian Tour in graph g
-// a Eulerian Tour is a path that visits every edge exactly once
-// it is assumed that every edge will have an even degree, so the tour will be a circuit
-// this function is also special because vertices already in the path will be skipped
+/**
+* function will compute a Eulerian Tour in graph g
+* a Eulerian Tour is a path that visits every edge exactly once
+* it is assumed that every edge will have an even degree, so the tour will be a circuit
+* this function is also special because vertices already in the path will be skipped
+* @param g is generic boost graph type
+* @param path is vector to hold traveled path
+* @param start is the starting city
+*/
 template <typename GraphT, typename VertexT = typename graph_traits<GraphT>::vertex_descriptor>
 void compute_euler(const GraphT& g, std::vector<VertexT>& path, int start) {
 
    typedef typename graph_traits<GraphT>::edge_descriptor EdgeT;
 
    VertexT start_vertex = vertex(start,g);
-   
+
    std::set<EdgeT> visited_edges;
    std::set<VertexT> used_vs;
    std::vector<VertexT> tmp;
@@ -228,31 +242,6 @@ void compute_euler(const GraphT& g, std::vector<VertexT>& path, int start) {
    // push start vertex to complete circuit
    path.push_back(start_vertex);
 }
-
-
-/*
-void edge_iterators(Graph myGraph) {
-
-   UGraph& ug = myGraph.getGraphRef();
-   auto cities = myGraph.getCityNames();
-   UGraph::adjacency_iterator vit, vend;
-   std::tie(vit,vend) = boost::adjacent_vertices(0,ug);
-   std::copy(vit,vend,std::ostream_iterator<Vertex>{std::cout,"\n"});
-
-   int startingCity = 0;
-   Vertex v = vertex(startingCity,ug);
-
-   UGraph::out_edge_iterator eit, eend;
-   std::tie(eit,eend) = out_edges(startingCity,ug);
-
-   for (eit; eit != eend; ++eit) {
-      std::cout << cities[target(*eit,ug)] << " --> " << myGraph.getEdgeWeight(eit) << std::endl;
-   }
-
-   std::for_each(eit,eend,
-      [&ug](Edge it)
-         {std::cout << get(weights,ug) << '\n';});
-}*/
 
 } // end namespace
 

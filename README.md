@@ -39,6 +39,10 @@ We have included the option to run Boost unit tests on our code. We believe that
 cd bin
 ./test.out
 ```
+
+## Visualization
+In order to generate maps, we have provided an R script in the vis/ folder. This script requires the installation of the 'maps' package in R. We recommend running the R script on your local machine rather than on the cluster. 
+
 ## Data
 The data that we use in this project comes from https://gist.github.com/Miserlou/c5cd8364bf9b2420bb29 and is in JSON format. It contains information, including latitude and longitude coordinates, for the 1,000 most populous cities in the continental United States. 
 
