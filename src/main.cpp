@@ -93,7 +93,7 @@ int main(int argc, char** argv) {
       start = std::chrono::system_clock::now();
       heuristics::two_approx_parallel(myGraph,path,weights,totalDist);
       end = std::chrono::system_clock::now();
-      dmst_time += double(end - start);
+      dmst_time += std::chrono::duration<double, std::milli>(end - start).count();
    }
    dmst_time /= 5;
    dmstWriter.writePath(path,weights);
