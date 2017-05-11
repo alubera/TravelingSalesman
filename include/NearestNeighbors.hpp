@@ -18,8 +18,13 @@ typedef graph_traits<UGraph>::vertex_descriptor Vertex;
 
 namespace heuristics {
 
-// function to run nearest neighbors algorithm
-// TODO: fill in params info
+/**
+* function to run nearest neighbors algorithm
+* @param myGraph is graph object
+* @param path is list of Nodes corresponding to NN path
+* @param weights is a list to hold edge weights
+* @param totalDist will hold total distance traveled
+*/
 void nearest_neighbors(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& totalDist) {
 
    path.clear();
@@ -67,7 +72,7 @@ void nearest_neighbors(Graph& myGraph, std::list<Node>& path, std::list<double>&
       Vertex v = vertex(i,ug);
       totalDist += myGraph.getEdgeWeight(edge(v_path.back(),v,ug).first);
       v_path.push_back(v);
-      
+
 //      std::cout << "NN: " << i << "\tdistance: " << totalDist << std::endl;
       // keep path with minimum total distance
       if (totalDist < minTotalDist || min_v_path.empty()) {

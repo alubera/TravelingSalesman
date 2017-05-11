@@ -19,19 +19,35 @@
 #include "Node.hpp"
 
 class Reader {
- 
+
    public:
+
+      /**
+      * empty default constructor
+      */
       Reader();
-      Reader(const std::string &);
+
+      /**
+      * non-default constructor will take a file name and read it
+      * @param filename is input data file
+      */
+      Reader(const std::string &filename);
+
+      /**
+      * function to return city Nodes
+      * @return vector of Nodes for city info
+      */
       std::vector<Node> getCities();
 
    private:
+      /**
+      * input file
+      */
       std::ifstream fp;
 };
 
 Reader::Reader() {};
 
-// non-default constructor will take a file name and read it
 Reader::Reader(const std::string &filename) {
 
    fp.open(filename);
@@ -39,7 +55,7 @@ Reader::Reader(const std::string &filename) {
 }
 
 std::vector<Node> Reader::getCities() {
-   // return vector of Nodes for city info
+
    // not necessary to hold info as a member var, hold it in Graph class
    std::vector<Node> cities;
    std::string line, key, value;
