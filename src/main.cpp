@@ -96,7 +96,7 @@ int main(int argc, char** argv) {
       dmst_time += std::chrono::duration<double, std::milli>(end - start).count();
    }
    dmst_time /= 5;
-   dmstWriter.writePath(path,weights);
+   dmstparaWriter.writePath(path,weights);
    std::cout << "STATUS: parallel double minimun spanning tree output" << std::endl;
    std::cout << "MEAN EXECUTION TIME: " << dmst_time << std::endl;
 
