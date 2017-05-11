@@ -1,7 +1,8 @@
 /* Travelling Salesman Project
  * ACMS 60212
- * nearest_neighbors.hpp
+ * NearestNeighborsPara.hpp
  * nearest neighbors heuristic
+ * PARALLEL VERSION
  */
 
 
