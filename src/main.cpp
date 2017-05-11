@@ -3,12 +3,15 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include <chrono>
+
 #include "Graph.hpp"
 #include "Reader.hpp"
 #include "Writer.hpp"
 #include "Traversals.hpp"
 #include "TwoApprox.hpp"
 #include "NearestNeighbors.hpp"
+#include "NearestNeighborsPara.hpp"
 
 int main(int argc, char** argv) {
 /*
@@ -42,16 +45,55 @@ int main(int argc, char** argv) {
    std::list<double> weights;
    double totalDist;
 
+   // declare timers 
+   auto start = std::chrono::system_clock::now();
+   auto end = std::chrono::system_clock::now();
+
    // output for nearest neighbors heuristic
    Writer nnWriter(dir_name+"/output/nn.txt");
-   heuristics::nearest_neighbors(myGraph,path,weights,totalDist);
+   double nn_time(0);
+   for(int ii{0}; ii < 5; ++ii)
+   {
+      start = std::chrono::system_clock::now();
+      heuristics::nearest_neighbors(myGraph,path,weights,totalDist);
+      end = std::chrono::system_clock::now();
+      nn_time += double(end - start);
+   }
+
+   nn_time /= 5;
    nnWriter.writePath(path,weights);
    std::cout << "STATUS: nearest neighbors output" << std::endl;
+   std::cout << "MEAN EXECUTION TIME: " << nn_time << std::endl;
+
+   // output for parallelized nearest neighbors heuristic
+   Writer nnparaWriter(dir_name+"/output/nnpara.txt");
+   double nnpara_time(0);
+   for(int ii{0}; ii < 5; ++ii)
+   {
+      start = std::chrono::system_clock::now();
+      heuristics::nearest_neighbors_parallel(myGraph,path,weights,totalDist);
+      end = std::chrono::system_clock::now();
+      nnpara_time += double(end - start);
+
+   }
+   nnpara_time /= 5;
+   nnparaWriter.writePath(path,weights);
+   std::cout << "STATUS: nearest neighbors output" << std::endl;   
+   std::cout << "MEAN EXECUTION TIME: " << nnpara_time << std::endl;
 
    // output for mst heuristic
    Writer dmstWriter(dir_name+"/output/dmst.txt");
-   heuristics::two_approx(myGraph,path,weights,totalDist);
+   double dmst_time(0);
+   for(int ii{0}; ii < 5; ++ii)
+   {
+      start = std::chrono::system_clock::now();
+      heuristics::two_approx(myGraph,path,weights,totalDist);
+      end = std::chrono::system_clock::now();
+      dmst_time += double(end - start);
+   }
+   dmst_time /= 5;
    dmstWriter.writePath(path,weights);
    std::cout << "STATUS: double minimun spanning tree output" << std::endl;
+   std::cout << "MEAN EXECUTION TIME: " << dmst_time << std::endl;
 
 }
