@@ -20,8 +20,13 @@ typedef graph_traits<UGraph>::vertex_descriptor Vertex;
 
 namespace heuristics {
 
-// function to run nearest neighbors algorithm
-// TODO: fill in params info
+/**
+* function to run nearest neighbors algorithm in parallel
+* @param myGraph is graph object
+* @param path is list of Nodes corresponding to NN path
+* @param weights is a list to hold edge weights
+* @param totalDist will hold total distance traveled
+*/
 void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& pathDist) {
 
    path.clear();
@@ -39,7 +44,7 @@ void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list
    double totalDist;
    std::list<Vertex> remaining_cities;
    std::vector<Vertex> v_path;
-   
+
 
    // start from every city and see what path is shortest
    #pragma omp for
@@ -78,10 +83,10 @@ void nearest_neighbors_parallel(Graph& myGraph, std::list<Node>& path, std::list
       Vertex v = vertex(i,ug);
       totalDist += myGraph.getEdgeWeight(edge(v_path.back(),v,ug).first);
       v_path.push_back(v);
-      
+
 //      std::cout << "NN: " << i << "\tdistance: " << totalDist << std::endl;
       // keep path with minimum total distance
-      #pragma omp critical 
+      #pragma omp critical
       if (totalDist < minTotalDist || min_v_path.empty()) {
 //         std::cout << "\t\tNEW MIN FOUND" << std::endl;
          min_v_path = v_path;    // vector assignment operator is pretty cool :P

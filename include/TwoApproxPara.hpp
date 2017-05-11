@@ -17,6 +17,13 @@ typedef adjacency_matrix<undirectedS,no_property,Weight> UGraph;
 
 namespace heuristics {
 
+/**
+* function to compute two-approximation in parallel
+* @param myGraph is graph object
+* @param path is list of Nodes corresponding to the path taken
+* @param weights is a list of the edge weights
+* @param totalDist holds the total distance traveled
+*/
 void two_approx_parallel(Graph& myGraph, std::list<Node>& path, std::list<double>& weights, double& pathDist) {
 
    path.clear();
